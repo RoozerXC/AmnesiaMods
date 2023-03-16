@@ -45,4 +45,4 @@ For full conversion mods:
 3. Click on the `bat` (Windows) or `sh` (Linux) file to launch the mod(s)
 
 # License information
-This repo is licensed under WTFPL. For more details, please see `LICENSE` ;)
+Literally everything in here is licensed under WTFPL. For more details, please see `LICENSE` ;)

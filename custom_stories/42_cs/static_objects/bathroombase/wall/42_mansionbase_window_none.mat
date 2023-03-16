@@ -1,0 +1,6 @@
+<Material>
+    <Main DepthTest="True" HeightMapScale="0.05" PhysicsMaterial="Glass" Type="SolidDiffuse" />
+    <TextureUnits>
+        <Diffuse AnimFrameTime="" AnimMode="" File="42_mansionbase_window_none.png" Mipmaps="true" Type="2D" Wrap="Repeat" />
+    </TextureUnits>
+</Material>

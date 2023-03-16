@@ -1,0 +1,9 @@
+void OnEnter()
+{
+	AddEntityCollideCallback("Player", "WIN", "WeHaveAWinner", true, 0);
+}
+
+void WeHaveAWinner(string &in asParent, string &in asChild, int alState)
+{
+	ChangeMap("start.map","PlayerStartArea_1", "", "");
+}

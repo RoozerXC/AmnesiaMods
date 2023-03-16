@@ -1,0 +1,9 @@
+<LANGUAGE>
+  <RESOURCES>
+    <Directory Path="fonts/eng" />
+    <Directory Path="lang/eng" />
+  </RESOURCES>
+  <CATEGORY Name="PreMenu">
+    <Entry Name="WelcomeMessage01">Adjust the gamma until the square at the right is barely visible.</Entry>
+  </CATEGORY>
+</LANGUAGE>

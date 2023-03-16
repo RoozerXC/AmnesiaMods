@@ -1,0 +1,219 @@
+void OnStart()
+{
+	SetGlobalVarInt("42_Songs", 1);
+	SetGlobalVarInt("MonsterStatus", 1);
+	SetGlobalVarInt("GodLmao", 1);
+	SetGlobalVarInt("SpeedChanger", 1);
+}
+
+void OnEnter()
+{
+	SetSanityDrainDisabled(true);
+	SetEnemySanityDecreaseActive("*", false);
+
+	SetEntityPlayerInteractCallback("MusicChanger", "ChangeMusic", false);
+	SetEntityPlayerInteractCallback("MonsterEnabler", "EnableOrDisableMonsters", false);
+	SetEntityPlayerInteractCallback("GodMode", "GodMode", false);
+	SetEntityPlayerInteractCallback("FastSpeed", "FastSpeed", false);
+
+	switch(GetGlobalVarInt("42_Songs"))
+	{
+		case 1:
+			StopMusic(1, 1); 
+			PlayMusic("none.ogg", true, 1, 1, 252, false);
+			SetGlobalVarInt("42_Songs", 2);
+			SetMessage("Messages", "MUSIC_None", 4.0f);
+			break;
+
+		case 2:
+			StopMusic(1, 2); 
+			PlayMusic("42_thetowers_ambience.ogg", true, 1, 1, 256, false);
+			SetGlobalVarInt("42_Songs", 3);
+			SetMessage("Messages", "MUSIC_TheTowers", 4.0f);
+			break;
+
+		case 3:
+			StopMusic(1, 3); 
+			PlayMusic("heretic2_ambience_01.ogg", true, 1, 1, 256, false);
+			SetGlobalVarInt("42_Songs", 4);
+			SetMessage("Messages", "MUSIC_H2CD_Track02", 4.0f);
+			break;
+
+		case 4:
+			StopMusic(1, 4); 
+			PlayMusic("heretic2_ambience_02.ogg", true, 1, 1, 256, false);
+			SetGlobalVarInt("42_Songs", 1);
+			SetMessage("Messages", "MUSIC_H2CD_Track04", 4.0f);
+			break;
+	}
+
+	// NODE ADDITION -- Gatherers (Grunt and Brute)
+
+	AddEnemyPatrolNode("servant_*", "PathNodeArea_1", 0, "");
+	AddEnemyPatrolNode("servant_*", "PathNodeArea_5", 0.001f, "");
+	AddEnemyPatrolNode("servant_*", "PathNodeArea_6", 0.001f, "");
+	AddEnemyPatrolNode("servant_*", "PathNodeArea_7", 0.001f, "");
+	AddEnemyPatrolNode("servant_*", "PathNodeArea_8", 0.001f, "");
+	AddEnemyPatrolNode("servant_*", "PathNodeArea_10", 0.001f, "");
+	AddEnemyPatrolNode("servant_*", "PathNodeArea_11", 0.001f, "");
+	AddEnemyPatrolNode("servant_*", "PathNodeArea_12", 0.001f, "");
+	AddEnemyPatrolNode("servant_*", "PathNodeArea_13", 0.001f, "");
+
+	// NODE ADDITION -- Suitor, or various custom enemies
+
+	AddEnemyPatrolNode("enemy_*", "PathNodeArea_1", 0, "");
+	AddEnemyPatrolNode("enemy_*", "PathNodeArea_5", 0.001f, "");
+	AddEnemyPatrolNode("enemy_*", "PathNodeArea_6", 0.001f, "");
+	AddEnemyPatrolNode("enemy_*", "PathNodeArea_7", 0.001f, "");
+	AddEnemyPatrolNode("enemy_*", "PathNodeArea_8", 0.001f, "");
+	AddEnemyPatrolNode("enemy_*", "PathNodeArea_10", 0.001f, "");
+	AddEnemyPatrolNode("enemy_*", "PathNodeArea_11", 0.001f, "");
+	AddEnemyPatrolNode("enemy_*", "PathNodeArea_12", 0.001f, "");
+	AddEnemyPatrolNode("enemy_*", "PathNodeArea_13", 0.001f, "");
+
+	AddEnemyPatrolNode("fp_*", "PathNodeArea_1", 0, "");
+	AddEnemyPatrolNode("fp_*", "PathNodeArea_5", 0.001f, "");
+	AddEnemyPatrolNode("fp_*", "PathNodeArea_6", 0.001f, "");
+	AddEnemyPatrolNode("fp_*", "PathNodeArea_7", 0.001f, "");
+	AddEnemyPatrolNode("fp_*", "PathNodeArea_8", 0.001f, "");
+	AddEnemyPatrolNode("fp_*", "PathNodeArea_10", 0.001f, "");
+	AddEnemyPatrolNode("fp_*", "PathNodeArea_11", 0.001f, "");
+	AddEnemyPatrolNode("fp_*", "PathNodeArea_12", 0.001f, "");
+	AddEnemyPatrolNode("fp_*", "PathNodeArea_13", 0.001f, "");
+
+}
+
+void ChangeMusic(string &in asEntity)
+{
+	switch(GetGlobalVarInt("42_Songs"))
+	{
+		case 1:
+			StopMusic(1, 1); 
+			PlayMusic("none.ogg", true, 1, 1, 256, false);
+			SetGlobalVarInt("42_Songs", 2);
+			SetMessage("Messages", "MUSIC_None", 4.0f);
+			break;
+
+		case 2:
+			StopMusic(1, 2); 
+			PlayMusic("42_thetowers_ambience.ogg", true, 1, 1, 256, false);
+			SetGlobalVarInt("42_Songs", 3);
+			SetMessage("Messages", "MUSIC_TheTowers", 4.0f);
+			break;
+
+		case 3:
+			StopMusic(1, 3); 
+			PlayMusic("heretic2_ambience_01.ogg", true, 1, 1, 256, false);
+			SetGlobalVarInt("42_Songs", 4);
+			SetMessage("Messages", "MUSIC_H2CD_Track02", 4.0f);
+			break;
+
+		case 4:
+			StopMusic(1, 4); 
+			PlayMusic("heretic2_ambience_02.ogg", true, 1, 1, 256, false);
+			SetGlobalVarInt("42_Songs", 1);
+			SetMessage("Messages", "MUSIC_H2CD_Track04", 4.0f);
+			break;
+	}
+}
+
+void EnableOrDisableMonsters(string &in asEntity)
+{
+	switch(GetGlobalVarInt("MonsterStatus"))
+	{
+		case 1:
+			SetEntityActive("servant_*", true);
+			SetEntityActive("enemy_*", true);
+			SetEntityActive("fp_*", true);
+
+			SetGlobalVarInt("MonsterStatus", 2);
+			SetMessage("Messages", "MONSTERS_Enabled", 4.0f);
+			break;
+
+		case 2:
+			SetEntityActive("servant_*", false);
+			SetEntityActive("enemy_*", false);
+			SetEntityActive("fp_*", false);
+
+			SetGlobalVarInt("MonsterStatus", 1);
+			SetMessage("Messages", "MONSTERS_Disabled", 4.0f);
+			break;
+	}
+}
+
+void GodMode(string &in asEntity)
+{
+	switch(GetGlobalVarInt("GodLmao"))
+	{
+		case 1:
+			AddTimer("GodTimer", 0.001f, "GodTimer");
+
+			SetGlobalVarInt("GodLmao", 2);
+			SetMessage("Messages", "GODMODE_Enabled", 4.0f);
+			break;
+		case 2:
+			RemoveTimer("GodTimer");
+
+			SetPlayerHealth(100.000f);
+			SetPlayerSanity(100.000f);
+
+			SetGlobalVarInt("GodLmao", 1);
+			SetMessage("Messages", "GODMODE_Disabled", 4.0f);
+			break;
+	}
+}
+
+void FastSpeed(string &in asEntity)
+{
+	switch(GetGlobalVarInt("SpeedChanger"))
+	{
+		case 1:
+			SetPlayerMoveSpeedMul(2);
+			SetPlayerRunSpeedMul(2);
+
+			SetGlobalVarInt("SpeedChanger", 2);
+			SetMessage("Messages", "SPEED_2xFast", 4.0f);
+			break;
+
+		case 2:
+			SetPlayerMoveSpeedMul(4);
+			SetPlayerRunSpeedMul(4);
+
+			SetGlobalVarInt("SpeedChanger", 3);
+			SetMessage("Messages", "SPEED_4xFast", 4.0f);
+			break;
+
+		case 3:
+			SetPlayerMoveSpeedMul(8);
+			SetPlayerRunSpeedMul(8);
+
+			SetGlobalVarInt("SpeedChanger", 4);
+			SetMessage("Messages", "SPEED_8xFast", 4.0f);
+			break;
+
+		case 4:
+			SetPlayerMoveSpeedMul(1);
+			SetPlayerRunSpeedMul(1);
+
+			SetGlobalVarInt("SpeedChanger", 1);
+			SetMessage("Messages", "SPEED_Normal", 4.0f);
+			break;
+	}
+}
+
+void GodTimer(string &in asTimer)
+{
+	SetPlayerHealth(10000.000f);
+	SetPlayerSanity(10000.000f);
+
+	AddTimer("GodTimer", 0.001f, "GodTimer");
+}
+
+void OnLeave() { }
+
+function Bleh("42_thetowers_ambience.ogg","heretic2_ambience_01.ogg","heretic2_ambience_02.ogg","none.ogg") {
+    StopMusic(1,a);
+    PlayMusic(b,true,1,1,256,false);
+    SetGlobalVarInt("42_Songs", c);
+    SetMessage("Messages", d, 4.0f);
+}

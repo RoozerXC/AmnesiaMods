@@ -1,0 +1,64 @@
+void OnEnter()
+{
+	AddEntityCollideCallback("HATER", "AddNewPathNodes", "AddTheNewPathNodes", false, 0);
+	AddEntityCollideCallback("HATER", "WIN", "AWESOMEWIN", false, 0);
+	AddUseItemCallback("", "TheKey", "TheDoor", "KeyOnDoor", true);
+	AddEntityCollideCallback("Player", "WIN", "WeHaveAWinner", true, 0);
+	AddEntityCollideCallback("Player", "FALL", "FallsDown", true, 0);
+}
+
+void AddTheNewPathNodes(string &in asParent, string &in asChild, int alState)
+{
+	AddEnemyPatrolNode("HATER", "PathNodeArea_1", 0.0f, "");
+	AddEnemyPatrolNode("HATER", "PathNodeArea_2", 0.0f, "");
+	AddEnemyPatrolNode("HATER", "PathNodeArea_3", 0.0f, "");
+	AddEnemyPatrolNode("HATER", "PathNodeArea_4", 0.0f, "");
+	AddEnemyPatrolNode("HATER", "PathNodeArea_5", 0.0f, "");
+	AddEnemyPatrolNode("HATER", "PathNodeArea_6", 0.0f, "");
+	AddEnemyPatrolNode("HATER", "PathNodeArea_7", 0.0f, "");
+	AddEnemyPatrolNode("HATER", "PathNodeArea_8", 0.0f, "");
+	AddEnemyPatrolNode("HATER", "PathNodeArea_9", 0.0f, "");
+	AddEnemyPatrolNode("HATER", "PathNodeArea_10", 0.0f, "");
+	AddEnemyPatrolNode("HATER", "PathNodeArea_11", 0.0f, "");
+	AddEnemyPatrolNode("HATER", "PathNodeArea_12", 0.0f, "");
+	AddEnemyPatrolNode("HATER", "PathNodeArea_13", 0.0f, "");
+	AddEnemyPatrolNode("HATER", "PathNodeArea_14", 0.0f, "");
+	AddEnemyPatrolNode("HATER", "PathNodeArea_15", 0.0f, "");
+}
+
+void KeyOnDoor(string &in asItem, string &in asEntity)
+{
+	SetSwingDoorLocked("TheDoor", false, true);
+	PlaySoundAtEntity("", "unlock_door.snt", "TheDoor", 0.0f, true);
+	GiveSanityBoostSmall();
+	PlayMusic("amb_guardian.ogg", true, 2.0f, 0, 10, true);
+	RemoveItem("TheKey");
+}
+
+void WeHaveAWinner(string &in asParent, string &in asChild, int alState)
+{
+	ChangeMap("Dream3.map","PlayerStartArea_1", "", "");
+	FadeOut(0.0f);
+	StopMusic(1.0f, 10);
+}
+
+void AWESOMEWIN(string &in asParent, string &in asChild, int alState)
+{
+	SetMessage("Message", "HintBONUSKEY", 3);
+	SetEntityActive("BONUSKEY", true);
+	GiveSanityBoostSmall();
+	PlayMusic("15_puzzle_hole.ogg", false, 1.0f, 0, 10, false);
+}
+
+void FallsDown(string &in asParent, string &in asChild, int alState)
+{
+	PlaySoundAtEntity("", "general_wind_whirl.snt", "Player", 1.0f, true);
+}
+
+void EscapeDoorMessage(string &in asEntity)
+{
+	if(GetSwingDoorLocked("TheDoor") == true)
+	{
+		SetMessage("Message", "HintCH3", 1);
+	}
+}

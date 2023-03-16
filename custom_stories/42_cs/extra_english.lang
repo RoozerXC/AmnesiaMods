@@ -1,0 +1,39 @@
+<LANGUAGE>
+  <RESOURCES />
+  <CATEGORY Name="CustomStoryMain">
+    <Entry Name="Description">Warning: The mod's custom executable (42_cs.exe) is required for new game features and script functions to work! The Steam version of Amnesia: The Dark Descent is HIGHLY recommended for this mod to work properly, as you may experience bugs, glitches, or crashes with cracked clients.</Entry>
+  </CATEGORY>
+  <CATEGORY Name="MainMenu">
+    <Entry Name="Back To Game">Return</Entry>
+    <Entry Name="ExitAndSave">Save and Exit</Entry>
+    <Entry Name="ExitToMainMenu">Exit</Entry>
+    <Entry Name="Options">Settings</Entry>
+  </CATEGORY>
+  <CATEGORY Name="General">
+    <Entry Name="Loading">
+    </Entry>
+  </CATEGORY>
+  <CATEGORY Name="Levels">
+    <Entry Name="Bedroom">Bedroom</Entry>
+  </CATEGORY>
+  <CATEGORY Name="Signs">
+    <Entry Name="MusicChanger">Music Changer</Entry>
+    <Entry Name="MonsterEnabler">Monster Enabler/Disabler</Entry>
+    <Entry Name="GodMode">God Mode</Entry>
+    <Entry Name="SpeedChanger">Speed Changer</Entry>
+  </CATEGORY>
+  <CATEGORY Name="Messages">
+    <Entry Name="MUSIC_None">[br]</Entry>
+    <Entry Name="MUSIC_TheTowers">"The Towers" by Phantasm42</Entry>
+    <Entry Name="MUSIC_H2CD_Track02">Track02 - from the Heretic II CD Soundtrack</Entry>
+    <Entry Name="MUSIC_H2CD_Track04">Track04 - from the Heretic II CD Soundtrack</Entry>
+    <Entry Name="MONSTERS_Disabled">Monsters Off</Entry>
+    <Entry Name="MONSTERS_Enabled">Monsters On</Entry>
+    <Entry Name="GODMODE_Disabled">Degreelessness Mode Off</Entry>
+    <Entry Name="GODMODE_Enabled">Degreelessness Mode On</Entry>
+    <Entry Name="SPEED_Normal">Normal Speed</Entry>
+    <Entry Name="SPEED_2xFast">2x Normal Speed</Entry>
+    <Entry Name="SPEED_4xFast">4x Normal Speed</Entry>
+    <Entry Name="SPEED_8xFast">8x Normal Speed</Entry>
+  </CATEGORY>
+</LANGUAGE>

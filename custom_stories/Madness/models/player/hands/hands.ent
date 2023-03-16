@@ -1,0 +1,53 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 20" CameraTarget="0 0 0" CameraZoom="0.916291" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="20 0 0" CameraTarget="0 0 0" CameraZoom="0.916291" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="0 20 0" CameraTarget="0 0 0" CameraZoom="0.916291" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="0.353865 0.612754 0.177867" CameraTarget="-0.220334 0.049336 -0.228084" CameraZoom="4.01619" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="models/player/hands/hands.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="hand" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones>
+            <Bone ID="1" Name="gameCamera" />
+            <Bone ID="2" Name="hand" />
+            <Bone ID="3" Name="shoulder" />
+            <Bone ID="4" Name="elbow" />
+            <Bone ID="5" Name="elbow_hand" />
+            <Bone ID="6" Name="little" />
+            <Bone ID="7" Name="little2" />
+            <Bone ID="8" Name="little3" />
+            <Bone ID="9" Name="little4" />
+            <Bone ID="10" Name="ring" />
+            <Bone ID="11" Name="ring2" />
+            <Bone ID="12" Name="ring3" />
+            <Bone ID="13" Name="ring4" />
+            <Bone ID="14" Name="middle" />
+            <Bone ID="15" Name="middle2" />
+            <Bone ID="16" Name="middle3" />
+            <Bone ID="17" Name="middle4" />
+            <Bone ID="18" Name="index" />
+            <Bone ID="19" Name="index2" />
+            <Bone ID="20" Name="index3" />
+            <Bone ID="21" Name="index4" />
+            <Bone ID="22" Name="thumb" />
+            <Bone ID="23" Name="thumb2" />
+            <Bone ID="24" Name="thumb3" />
+            <Bone ID="25" Name="attachpoint" />
+        </Bones>
+        <Shapes />
+        <Bodies />
+        <Joints />
+        <Animations>
+            <Animation File="animations/hands_lantern_idle.dae_anim" Name="Lantern_Idle" SpecialEventTime="0" Speed="1" />
+            <Animation File="animations/hands_lantern_draw.dae_anim" Name="Lantern_Draw" SpecialEventTime="0" Speed="1" />
+            <Animation File="animations/hands_lantern_holster.dae_anim" Name="Lantern_Holster" SpecialEventTime="0" Speed="1" />
+        </Animations>
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="PlayerHands" />
+</Entity>

@@ -1,0 +1,18 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="corrridor_loop_start_01.wav" />
+  		<Sound File="corrridor_loop_start_02.wav" />
+  		<Sound File="corrridor_loop_start_03.wav" />
+  		<Sound File="corrridor_loop_start_04.wav" />
+  		<Sound File="corrridor_loop_start_05.wav" />
+  		<Sound File="corrridor_loop_start_06.wav" />
+  		<Sound File="corrridor_loop_start_07.wav" />
+  		<Sound File="corrridor_loop_start_08.wav" />
+  		<Sound File="corrridor_loop_start_09.wav" />
+  		<Sound File="corrridor_loop_start_10.wav" />
+  		<Sound File="corrridor_loop_start_11.wav" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="1" MinDistance="1" MaxDistance="10" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="False" Loop="False" Use3D="True" Blockable="True" BlockVolumeMul="0.7" Priority="0" />
+</SOUNDENTITY>

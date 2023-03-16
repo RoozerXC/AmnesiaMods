@@ -1,0 +1,35 @@
+void OnStart()
+{
+	ShowPlayerCrossHairIcons(true);
+	SetPlayerFallDamageDisabled(true);
+
+	AddTimer("InfiniteHealthAndSanity", 0.001f, "InfiniteHealthAndSanity");
+
+	SetEnemySanityDecreaseActive("*", false);
+	SetSanityDrainDisabled(true);
+
+	SetLocalVarInt("amount", 1);
+	SetLocalVarInt("number", 1);
+}
+
+void InfiniteHealthAndSanity(string &in asTimer)
+{
+	SetPlayerHealth(100000.0f);
+	SetPlayerSanity(100000.0f);
+
+	AddTimer("InfiniteHealthAndSanity", 0.001f, "InfiniteHealthAndSanity");
+}
+
+void AddBox(string &in asEntity)
+{
+	CreateEntityAtArea("boxinger"+GetLocalVarInt("amount"), "barrel01.ent", "ScriptArea_1", false);
+	AddTimer("PushBox", 0.001f, "PushBox");
+}
+
+void PushBox(string &in asTimer)
+{
+    AddPropForce("boxinger"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+	SetLocalVarInt("amount", GetLocalVarInt("amount")+GetLocalVarInt("number"));
+}
+
+void OnLeave() { }

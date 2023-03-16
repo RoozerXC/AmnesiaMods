@@ -1,0 +1,35 @@
+<LANGUAGE>
+  <RESOURCES>
+  </RESOURCES>
+ 
+ <CATEGORY Name="CustomStoryMain">
+    <Entry Name="Description">This story takes back somewhere around the mid 2000s in a ruined castle figure out the history of the castle in question...</Entry>
+  </CATEGORY>
+  
+  <CATEGORY Name="Inventory">
+    <Entry Name="ItemName_key1">Storage Key</Entry>
+    <Entry Name="ItemDesc_key1">This key is to open the Storage room somewhere around here.</Entry>
+     </CATEGORY>
+
+	 	 <CATEGORY Name="Journal">
+	 <Entry Name="Note_*SubName1*_Name">*NameOfNote*</Entry>
+     <Entry Name="Note_*SubName1*_Text">*NoteContents*</Entry>
+</CATEGORY>
+
+<CATEGORY Name="Message2">
+		<Entry Name ="*MessageScriptName*">*Your Message*</Entry>
+	</CATEGORY>
+	
+	<CATEGORY Name="Levels">
+		<Entry Name ="levelo">Outside</Entry>
+	</CATEGORY>
+	
+	<CATEGORY Name="Levels">
+		<Entry Name ="levelb">Hidden Underground Area</Entry>
+	</CATEGORY>
+	
+	<CATEGORY Name="CustomCatLevels">
+		<Entry Name ="CustomEntryLevel">I shouldn't go back outside i should explore instead.</Entry>
+	</CATEGORY>
+
+</LANGUAGE>	 

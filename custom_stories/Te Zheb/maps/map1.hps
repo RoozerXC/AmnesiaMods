@@ -1,0 +1,25 @@
+void OnEnter()
+{
+   SetEntityPlayerInteractCallback("key1", "ActivateMonster", true);
+   AddUseItemCallback("", "key1", "storagedoor", "openstoragedoor", true);   
+   PlayMusic("04_amb.ogg", true, 3, 3, 1, true);
+}
+
+void openstoragedoor(string &in asItem, string &in asEntity)
+{
+    SetSwingDoorLocked("storagedoor", false, true);
+	PlaySoundAtEntity("", "unlock_door", "Player", 0, false);
+	RemoveItem("key1"); 
+}
+
+void ActivateMonster(string &in item)
+{
+   SetEntityActive("infected", true);
+}
+////////////////////////////
+// Run when leaving map
+void OnLeave()
+{
+ 
+}
+

@@ -1,0 +1,93 @@
+<Level>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="false" GPointLight="false" GridSnap="true" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="-0.988531 3.82232 -6.4742" CameraTarget="2.46662 -1.66893e-006 3.93015" CameraZoom="1.46013" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+        </ViewportConfig>
+        <Groups>
+            <Group ID="0" Name="None" Visible="true" />
+        </Groups>
+    </EditorSession>
+    <MapData FogActive="false" FogColor="1 1 1 1" FogCulling="true" FogEnd="20" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="false" SkyBoxColor="1 1 1 1" SkyBoxTexture="../../../../../../">
+        <MapContents>
+            <FileIndex_StaticObjects NumOfFiles="6">
+                <File Id="0" Path="static_objects/mansionbase/wall/default_extension.dae" />
+                <File Id="1" Path="static_objects/mansionbase/wall/door_frame.dae" />
+                <File Id="2" Path="static_objects/mansionbase/wall/default02.dae" />
+                <File Id="3" Path="static_objects/mansionbase/wall/door_way02.dae" />
+                <File Id="4" Path="static_objects/mansionbase/wall/window02_large_blue.dae" />
+                <File Id="5" Path="static_objects/mansionbase/wall/short02.dae" />
+            </FileIndex_StaticObjects>
+            <FileIndex_Entities NumOfFiles="0" />
+            <FileIndex_Decals NumOfFiles="0" />
+            <StaticObjects>
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="2" Name="wall_default_extension_1" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-4 4 -6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="3" Name="wall_default_extension_2" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="0 4 -6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="5" Name="wall_default_extension_3" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="4 4 -6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="6" Name="wall_default_extension_4" Rotation="-3.14159 -1.5708 -3.14159" Scale="1 1 1" Tag="" WorldPos="6 4 -4" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="7" Name="wall_default_extension_5" Rotation="-3.14159 -1.5708 -3.14159" Scale="1 1 1" Tag="" WorldPos="6 4 0" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="8" Name="wall_default_extension_6" Rotation="-3.14159 -1.5708 -3.14159" Scale="1 1 1" Tag="" WorldPos="6 4 4" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="9" Name="wall_default_extension_7" Rotation="-3.14159 8.74228e-008 -3.14159" Scale="1 1 1" Tag="" WorldPos="4 4 6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="10" Name="wall_default_extension_8" Rotation="-3.14159 8.74228e-008 -3.14159" Scale="1 1 1" Tag="" WorldPos="0 4 6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="11" Name="wall_default_extension_9" Rotation="-3.14159 8.74228e-008 -3.14159" Scale="1 1 1" Tag="" WorldPos="-4 4 6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="15" Name="wall_door_frame_1" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="-6 0 0" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="16" Name="wall_default02_1" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="-6 0 -4" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="17" Name="wall_default02_2" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="-6 0 4" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="21" Name="wall_default_extension_10" Rotation="3.12211 1.5708 3.12211" Scale="1 1 1" Tag="" WorldPos="-6.00002 4 4" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="22" Name="wall_default_extension_11" Rotation="3.12211 1.5708 3.12211" Scale="1 1 1" Tag="" WorldPos="-6 4 -6.58449e-013" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="23" Name="wall_default_extension_12" Rotation="3.12211 1.5708 3.12211" Scale="1 1 1" Tag="" WorldPos="-5.99998 4 -4" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="25" Name="wall_door_way02_1" Rotation="3.14159 1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="-6 0 0" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="26" Name="wall_default02_3" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="4 0 -6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="27" Name="wall_default02_4" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="-4 0 -6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="29" Name="wall_window02_large_blue_1" Rotation="0 -1.74846e-007 0" Scale="1 1 1" Tag="" WorldPos="0 0 -6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="32" Name="wall_default02_5" Rotation="-3.14159 -1.5708 -3.14159" Scale="1 1 1" Tag="" WorldPos="6 0 -4" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="33" Name="wall_window02_large_blue_2" Rotation="-3.14159 -1.5708 -3.14159" Scale="1 1 1" Tag="" WorldPos="6 0 0" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="34" Name="wall_default02_6" Rotation="-3.14159 -1.5708 -3.14159" Scale="1 1 1" Tag="" WorldPos="6 0 4" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="37" Name="wall_default02_7" Rotation="-3.14159 -4.52995e-006 -3.14159" Scale="1 1 1" Tag="" WorldPos="4 0 6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="38" Name="wall_window02_large_blue_3" Rotation="-3.14159 -4.35511e-006 -3.14159" Scale="1 1 1" Tag="" WorldPos="0 0 6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="39" Name="wall_default02_8" Rotation="-3.14159 -4.52995e-006 -3.14159" Scale="1 1 1" Tag="" WorldPos="-4 0 6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="233" Name="wall_short02_1" Rotation="0 1.5708 0" Scale="1 0.75 1" Tag="" WorldPos="-6 0 0" />
+            </StaticObjects>
+            <Primitives>
+                <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 12" Corner2UV="0 0" Corner3UV="12 0" Corner4UV="12 12" EndCorner="12 0 12" Group="0" ID="0" Material="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/static_objects/mansionbase/floor/mansionbase_floor.mat" Name="Plane" Rotation="0 0 0" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="1 1 1" TileOffset="0 0 0" WorldPos="-6 0 -6" />
+                <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 12" Corner2UV="0 0" Corner3UV="12 0" Corner4UV="12 12" EndCorner="12 0 12" Group="0" ID="30" Material="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/static_objects/mansionbase/ceiling/mansionbase_ceiling_wood.mat" Name="Plane_1" Rotation="0 0 -3.14159" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="1 1 1" TileOffset="0 0 0" WorldPos="6 8 -6" />
+            </Primitives>
+            <Decals />
+            <Entities>
+                <Area Active="true" AreaType="PlayerStart" Group="0" ID="234" Mesh="" Name="PlayerStartArea_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-5 0 0">
+                    <UserVariables />
+                </Area>
+                <PointLight Active="true" CastShadows="false" DiffuseColor="0.45 0.56 0.7 1" FalloffMap="lights/light_falloff_short_fade.tga" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="237" Name="PointLight_1" Radius="2" Rotation="0 -0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="6 2 0" />
+                <PointLight Active="true" CastShadows="false" DiffuseColor="0.45 0.56 0.7 1" FalloffMap="../../../../../../lights/light_falloff_short_fade.tga" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="238" Name="PointLight_2" Radius="2" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="0 2 6" />
+                <PointLight Active="true" CastShadows="false" DiffuseColor="0.45 0.56 0.7 1" FalloffMap="../../../../../../../../../../../../lights/light_falloff_short_fade.tga" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="239" Name="PointLight_3" Radius="2" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="0 2 -6" />
+                <SpotLight Active="true" Aspect="1" CastShadows="true" DiffuseColor="1 1 1 1" FOV="1.0472" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/lights/gobo_mansionbase_window02_large.dds" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="240" Name="SpotLight_1" NearClipPlane="0.1" Radius="1" Rotation="0 1.5708 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" SpotFalloffMap="lights/light_falloff_short_fade.tga" Tag="" WorldPos="6 2 0" />
+            </Entities>
+            <Misc>
+                <Compound Active="true" Group="0" ID="18" Name="Compound_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="6 4 0">
+                    <Component ID="6" />
+                    <Component ID="7" />
+                    <Component ID="8" />
+                </Compound>
+                <Compound Active="true" Group="0" ID="19" Name="Compound_2" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="0 4 6">
+                    <Component ID="9" />
+                    <Component ID="10" />
+                    <Component ID="11" />
+                </Compound>
+                <Compound Active="true" Group="0" ID="20" Name="Compound_3" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="0 4 -6">
+                    <Component ID="5" />
+                    <Component ID="3" />
+                    <Component ID="2" />
+                </Compound>
+                <Compound Active="true" Group="0" ID="24" Name="Compound_4" Rotation="3.14159 4.44253e-006 3.14159" Scale="1 1 1" Tag="" WorldPos="-6 4 0">
+                    <Component ID="21" />
+                    <Component ID="22" />
+                    <Component ID="23" />
+                </Compound>
+            </Misc>
+            <StaticObjectCombos />
+        </MapContents>
+    </MapData>
+</Level>

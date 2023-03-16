@@ -1,0 +1,42 @@
+void OnEnter()
+{
+	AddEntityCollideCallback("Player", "DEATH", "FellOffStage", false, 0);
+	AddEntityCollideCallback("Player", "LOL", "BeginEpicness", true, 0);
+	AddEntityCollideCallback("Player", "AreaTeleport", "TeleportThePlayer", false, 0);
+	AddEntityCollideCallback("Player", "AreaJump", "JumpThePlayer", false, 0);
+	AddEntityCollideCallback("Player", "AreaJump1", "JumpThePlayer", false, 0);
+	AddEntityCollideCallback("Player", "AreaJump2", "JumpThePlayer", false, 0);
+	AddEntityCollideCallback("Player", "AreaJump3", "JumpThePlayer", false, 0);
+	AddEntityCollideCallback("Player", "WINRAR", "WinAgain", true, 0);
+}
+
+void BeginEpicness(string &in asParent, string &in asChild, int alState)
+{
+	SetEntityActive("SURPRISE0", true);
+	SetEntityActive("SURPRISE1", true);
+	SetEntityActive("SURPRISE2", true);
+	SetEntityActive("SURPRISE3", true);
+	PlayMusic("GUILES THEME.ogg", true, 2.0f, 0, 100, true);
+	SetPlayerRunSpeedMul(40.0f);
+}
+
+void FellOffStage(string &in asParent, string &in asChild, int alState)
+{
+	TeleportPlayer("PlayerStartArea_1");
+}
+
+void TeleportThePlayer(string &in asParent, string &in asChild, int alState)
+{
+	TeleportPlayer("AreaTeleport2");
+}
+
+void JumpThePlayer(string &in asParent, string &in asChild, int alState)
+{
+	AddPlayerBodyForce(0, 13100000, 0, false);
+}
+
+void WinAgain(string &in asParent, string &in asChild, int alState)
+{
+	ChangeMap("Dream4.map","PlayerStartArea_1", "", "");
+	FadeOut(0.1f);
+}

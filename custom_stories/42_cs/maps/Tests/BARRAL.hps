@@ -1,0 +1,122 @@
+void OnStart()
+{
+	SetLocalVarInt("amount", 1);
+	SetLocalVarInt("number", 1);
+}
+void OnEnter()
+{
+	SetSanityDrainDisabled(true);
+	SetEnemySanityDecreaseActive("*", false);
+	AddTimer("", 0.001f, "lol");
+
+	if(ScriptDebugOn())
+	{
+		GiveItem("lantern", "lantern", "Lantern", "lantern.tga", 1);
+	}
+}
+
+void lol(string &in asEntity)
+{
+	CreateEntityAtArea("palater1"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate01", false);
+	CreateEntityAtArea("palater2"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate02", false);
+	CreateEntityAtArea("palater3"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate03", false);
+	CreateEntityAtArea("palater4"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate04", false);
+	CreateEntityAtArea("palater5"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate05", false);
+	CreateEntityAtArea("palater6"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate06", false);
+	CreateEntityAtArea("palater7"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate07", false);
+	CreateEntityAtArea("palater8"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate08", false);
+	CreateEntityAtArea("palater9"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate09", false);
+	CreateEntityAtArea("palatera"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate10", false);
+	CreateEntityAtArea("palaterb"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate11", false);
+	CreateEntityAtArea("palaterc"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate12", false);
+	CreateEntityAtArea("palaterd"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate13", false);
+	CreateEntityAtArea("palatere"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate14", false);
+	CreateEntityAtArea("palaterf"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate15", false);
+	CreateEntityAtArea("palaterg"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate16", false);
+	CreateEntityAtArea("palaterh"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate17", false);
+	CreateEntityAtArea("palateri"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate18", false);
+	CreateEntityAtArea("palaterj"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate19", false);
+	CreateEntityAtArea("palaterk"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate20", false);
+	CreateEntityAtArea("palaterl"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate21", false);
+	CreateEntityAtArea("palaterm"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate22", false);
+	CreateEntityAtArea("palatern"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate23", false);
+	CreateEntityAtArea("palatero"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate24", false);
+	CreateEntityAtArea("palaterp"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate25", false);
+	CreateEntityAtArea("palaterq"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate26", false);
+	CreateEntityAtArea("palaterr"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate27", false);
+	CreateEntityAtArea("palaters"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate28", false);
+	CreateEntityAtArea("palatert"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate29", false);
+	CreateEntityAtArea("palateru"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate30", false);
+	AddTimer("", 0.001f, "DAMN");
+}
+
+void DAMN(string &in asTimer)
+{
+	AddPropForce("palater1"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palater2"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palater3"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palater4"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palater5"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palater6"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palater7"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palater8"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palater9"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palatera"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palaterb"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palaterc"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palaterd"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palatere"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palaterf"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palaterg"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palaterh"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palateri"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palaterj"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palaterk"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palaterl"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palaterm"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palatern"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palatero"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palaterp"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palaterq"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palaterr"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palaters"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palatert"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddPropForce("palateru"+GetLocalVarInt("amount"), 0.0f, -50000.0f, 0.0f, "world");
+	AddTimer("", 0.5f, "lol2");
+	AddTimer("", 0.6f, "DAMN");
+}
+
+void lol2(string &in asTimer)
+{
+	CreateEntityAtArea("palater1"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate01", false);
+	CreateEntityAtArea("palater2"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate02", false);
+	CreateEntityAtArea("palater3"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate03", false);
+	CreateEntityAtArea("palater4"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate04", false);
+	CreateEntityAtArea("palater5"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate05", false);
+	CreateEntityAtArea("palater6"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate06", false);
+	CreateEntityAtArea("palater7"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate07", false);
+	CreateEntityAtArea("palater8"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate08", false);
+	CreateEntityAtArea("palater9"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate09", false);
+	CreateEntityAtArea("palatera"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate10", false);
+	CreateEntityAtArea("palaterb"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate11", false);
+	CreateEntityAtArea("palaterc"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate12", false);
+	CreateEntityAtArea("palaterd"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate13", false);
+	CreateEntityAtArea("palatere"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate14", false);
+	CreateEntityAtArea("palaterf"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate15", false);
+	CreateEntityAtArea("palaterg"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate16", false);
+	CreateEntityAtArea("palaterh"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate17", false);
+	CreateEntityAtArea("palateri"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate18", false);
+	CreateEntityAtArea("palaterj"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate19", false);
+	CreateEntityAtArea("palaterk"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate20", false);
+	CreateEntityAtArea("palaterl"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate21", false);
+	CreateEntityAtArea("palaterm"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate22", false);
+	CreateEntityAtArea("palatern"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate23", false);
+	CreateEntityAtArea("palatero"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate24", false);
+	CreateEntityAtArea("palaterp"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate25", false);
+	CreateEntityAtArea("palaterq"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate26", false);
+	CreateEntityAtArea("palaterr"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate27", false);
+	CreateEntityAtArea("palaters"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate28", false);
+	CreateEntityAtArea("palatert"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate29", false);
+	CreateEntityAtArea("palateru"+GetLocalVarInt("amount"), "chair_nice02.ent", "plate30", false);
+	AddTimer("", 0.1f, "DAMN");
+}

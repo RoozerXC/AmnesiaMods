@@ -1,0 +1,128 @@
+void OnEnter()
+{
+	PreloadSound("general_wind_whirl");
+	PreloadSound("scare_whine_loop4");
+	SetEntityConnectionStateChangeCallback("lever_small01_1", "RemoveSafety");
+	AddEntityCollideCallback("Player", "DIE", "FellOffStage", true, 0);
+	AddEntityCollideCallback("Player", "WIN", "WeHaveAWinner", true, 0);
+	AddEntityCollideCallback("Player", "FALL", "FallsDown", true, 0);
+	AddEntityCollideCallback("TheHatch", "TheArea", "AlmostThere", true, 0);
+	AddEntityCollideCallback("Player", "FoundAnEasterEgg", "FoundAnEasterEgg", true, 0);
+	CheckPoint("asdf", "PlayerStartArea_1", "CheckPointDIE", "", "");
+	FadeOut(0.0f);
+	FadeIn(3.0f);
+	SetPlayerRunSpeedMul(1.1f);
+	PlayMusic("Tension.ogg", true, 2.0f, 0, 256, true);
+	AddTimer("Meteor0", RandFloat(30, 30), "CreateMeteor");
+	AddTimer("Meteor1", RandFloat(30, 30), "CreateMeteor");
+	AddTimer("Meteor2", RandFloat(30, 30), "CreateMeteor");
+	AddTimer("Meteor3", RandFloat(30, 30), "CreateMeteor");
+	AddTimer("Meteor4", RandFloat(30, 30), "CreateMeteor");
+	AddTimer("Meteor5", RandFloat(30, 30), "CreateMeteor");
+	AddTimer("Meteor6", RandFloat(30, 30), "CreateMeteor");
+	AddTimer("Meteor7", RandFloat(30, 30), "CreateMeteor");
+}
+
+void FellOffStage(string &in asParent, string &in asChild, int alState)
+{
+	GivePlayerDamage(500, "ui_elec_damage", true, true);
+}
+
+void WeHaveAWinner(string &in asParent, string &in asChild, int alState)
+{
+	ChangeMap("Dream2.map","PlayerStartArea_1", "", "");
+	TeleportPlayer("TeleportHere");
+	FadeOut(0.0f);
+	StopMusic(1.0f, 10);
+}
+
+void AlmostThere(string &in asParent, string &in asChild, int alState)
+{
+	GiveSanityBoostSmall();
+	PlayMusic("amb_guardian.ogg", true, 2.0f, 0, 10, true);
+}
+
+void FallsDown(string &in asParent, string &in asChild, int alState)
+{
+	PlaySoundAtEntity("", "general_wind_whirl.snt", "Player", 1.0f, true);
+}
+
+void CheckPointDIE(string &in asName, int alCount)
+{
+	AddTimer("ChangeMap", 2.0, "TimerChangeMap");
+}
+	
+void TimerChangeMap(string &in asChangeMap)
+{
+	ChangeMap("Dream1Failure.map","PlayerStartArea_1", "", "");
+}
+
+// TIME FOR DA ESTER EGGG> LGLFDLGLDFGLDF<>VCLBCVOIBXCM<LV NXCXZKDFKSJDFKSDNLCXZDRYFSKAh
+
+void RemoveSafety(string &in asEntity, int LeverState)
+{
+        if(LeverState == -1) {
+                SetLeverStuckState("lever_small01_1", LeverState, false);
+                SetEntityActive("safety_normal_vert_1", false);
+        }
+}
+
+void FoundAnEasterEgg(string &in asParent, string &in asChild, int alState)
+{
+	GiveSanityBoostSmall();
+	SetMessage("Message", "HintEASTEREGG", 0.0f);
+}
+
+// and on to something else... nothing too funny or something with the programming comments i guess
+
+void CreateMeteor(string &in asTimer)
+{
+	
+	if(asTimer == "Meteor0") 
+	{
+	CreateEntityAtArea("Meteor", "contained_awesome.ent", "Area_"+RandInt(1, 100), false);
+	AddTimer("Meteor0", RandFloat(30, 30), "CreateMeteor");
+	}
+	
+	else if(asTimer == "Meteor1") 
+	{
+	CreateEntityAtArea("Meteor", "contained_awesome2.ent", "Area_"+RandInt(1, 100), false);
+	AddTimer("Meteor1", RandFloat(40, 40), "CreateMeteor");
+	}
+	
+	else if(asTimer == "Meteor2") 
+	{
+	CreateEntityAtArea("Meteor", "contained_awesome3.ent", "Area_"+RandInt(1, 100), false);
+	AddTimer("Meteor2", RandFloat(50, 50), "CreateMeteor");
+	}
+	
+	else if(asTimer == "Meteor3") 
+	{
+	CreateEntityAtArea("Meteor", "contained_awesome4.ent", "Area_"+RandInt(1, 100), false);
+	AddTimer("Meteor3", RandFloat(90, 90), "CreateMeteor");
+	}
+	
+	else if(asTimer == "Meteor4")
+	{
+	CreateEntityAtArea("Meteor", "contained_grunt.ent", "Area_"+RandInt(1, 100), false);
+	AddTimer("Meteor4", RandFloat(60, 60), "CreateMeteor");
+	}
+	
+	else if(asTimer == "Meteor5") 
+	{
+	CreateEntityAtArea("Meteor", "contained_suitor.ent", "Area_"+RandInt(1, 100), false);
+	AddTimer("Meteor5", RandFloat(70, 70), "CreateMeteor");
+	}
+	
+	else if(asTimer == "Meteor6") 
+	{
+	CreateEntityAtArea("Meteor", "contained_brute.ent", "Area_"+RandInt(1, 100), false);
+	AddTimer("Meteor6", RandFloat(80, 80), "CreateMeteor");
+	}
+	
+	else if(asTimer == "Meteor7") 
+	{
+	CreateEntityAtArea("Meteor", "contained_infected.ent", "Area_"+RandInt(1, 100), false);
+	AddTimer("Meteor7", RandFloat(90, 90), "CreateMeteor");
+	}
+}

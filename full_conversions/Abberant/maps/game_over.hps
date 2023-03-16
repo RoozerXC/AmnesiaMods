@@ -1,0 +1,50 @@
+void OnEnter()
+{
+	// Preload
+
+	PlayMusic("Myuu - Phantom.ogg", true, 1.0, 0.0, 2, false);
+	AddEntityCollideCallback("Player", "EnemyArea", "EnemyArea", true, 1);
+	CheckPoint("asdf", "PlayerStartArea_1", "CheckPointDIE", "", "");
+	SetInventoryDisabled(true);
+	SetPlayerJumpDisabled(true);
+	SetPlayerCrouchDisabled(true);
+	SetSanityDrainDisabled(true);
+	SetPlayerFallDamageDisabled(true);
+
+	// Inventory Removal
+	RemoveItem("lantern_1");
+
+	// Effects
+
+	GivePlayerDamage(500, "", false, false);
+	FadeOut(0.0f);
+	FadeIn(5.3f);
+}
+
+void EnemyArea(string &in asParent, string &in asChild, int alState)
+{
+	// Effects
+
+	StopMusic(0.0, 0);
+	SetPlayerActive(false);
+
+	// Actives
+
+	SetEntityActive("block_box_4", true);
+	SetEntityActive("servant_brute_1", true);
+
+	// Brute hunt sequence
+
+	ShowEnemyPlayerPosition("servant_brute_1");
+	StartPlayerLookAt("servant_brute_1", 1.5f, 2.0f, "");
+}
+
+void CheckPointDIE(string &in asName, int alCount)
+{
+	AddTimer("StartCredits", 0.0, "BadEnding");
+}
+
+void BadEnding(string &in asTimer)
+{
+	StartCredits("Myuu - The Crypt.ogg", true, "Credits", "ThanksForPlaying", 0);
+}

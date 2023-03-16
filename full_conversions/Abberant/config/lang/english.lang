@@ -1,0 +1,19 @@
+<LANGUAGE>
+  <RESOURCES>
+    <Directory Path="fonts/eng" />
+    <Directory Path="lang/eng" />
+  </RESOURCES>
+  <CATEGORY Name="Messages">
+    <Entry Name="CantGoBack">There is no interest that I'm going back.</Entry>
+  </CATEGORY>
+  <CATEGORY Name="Inventory">
+  </CATEGORY>
+  <CATEGORY Name="Levels">
+    <Entry Name="Chasm">The Chasm</Entry>
+	<Entry Name="MainHall">Main Hall</Entry>
+    <Entry Name="Dungeon">Dungeons of Souls</Entry>
+  </CATEGORY>
+  <CATEGORY Name="Credits">
+    <Entry Name="ThanksForPlaying">Thank you for playing Abberant. This is a full conversion mod I've been making for a month and a half.[br][br]*Music[br]Myuuji[br][br]*Sounds[br]NCH Sound Library[br]Frictional Games[br][br]*Level Design[br]RoozyDB[br][br]*Scripting[br]RoozyDB</Entry>
+  </CATEGORY>
+</LANGUAGE>

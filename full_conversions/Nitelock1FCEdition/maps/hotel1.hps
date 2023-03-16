@@ -1,0 +1,9 @@
+// Start of HPS file.
+
+void OnStart()
+{
+	// Key Test (you do not need this script if you already have it!)
+	// AddUseItemCallback("", "TestKey", "TestDoor", "TestUnlock", true);
+}
+
+// End of HPS file.

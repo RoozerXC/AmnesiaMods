@@ -1,0 +1,47 @@
+void OnStart()
+{
+	// DJ Khaled - I Got the Keys ft. Jay-Z, Future
+	AddUseItemCallback("", "key_study_1", "castle_3", "keyxd", true);
+
+	PreloadSound("*");
+}
+
+void OnEnter()
+{
+	SetEnemySanityDecreaseActive("*", false); 	// I think LivajQ said that this function (SetEnemySanityDecreaseActive) applies to
+	SetSanityDrainDisabled(true);				// all entities in the map which could potentially lag the game... but, I have had
+												// no problems when I used it
+	SetPlayerMoveSpeedMul(3);
+	SetPlayerRunSpeedMul(9);
+	SetPlayerRunSpeedMul(9);
+}
+
+// Grunt-in-the-doors! And other scripts.
+
+void SpawnGrunt1(string &in asEntity) { SetEntityActive("servant_grunt_3", true); }
+
+void SpawnGrunt2(string &in asEntity) { SetEntityActive("servant_grunt_4", true); }
+
+void Interesting(string &in asEntity, int AlState) { SetMessage("Messages", "Interesting", 0); }
+
+void SCREWED(string &in asEntity, int AlState)
+{
+	for(int i = 1; i <= 288; i++)
+	{
+		SetEntityActive("barral_" + i, true);
+	}
+
+	for(int i = 1; i <= 35; i++)
+	{
+		SetEntityActive("screw_gruntie_" + i, true);
+	}
+
+	SetMessage("Messages", "Screwed", 0);
+}
+
+void keyxd(string &in asItem, string &in asEntity)
+{
+	SetSwingDoorLocked("castle_3", false, true);
+}
+
+void OnLeave() { }

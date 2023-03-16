@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.0">
+  <asset>
+    <contributor>
+      <author>jens</author>
+      <authoring_tool>Maya 7.0 | ColladaMaya v0.88</authoring_tool>
+      <comments>Collada Maya Export Options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;exportCameraAsLookat=0;relativePaths=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=1;
+exportAnimations=1;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;exportVertexColors=1;exportTangents=0;
+exportTexTangents=0;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file://C|/penumbra/episode2_work/work_models/boxes/box_crate03/crate03.mb</source_data>
+    </contributor>
+    <created>2007-10-03T20:05:51Z</created>
+    <modified>2007-10-03T20:05:51Z</modified>
+    <unit name="meter" meter="1.000000"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="pasted__file27-image" name="pasted__file27">
+      <init_from>file://C|/penumbra/episode2_work/redist/models/boxes/box_crate03.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="pasted__lambert137" name="pasted__lambert137">
+      <instance_effect url="#pasted__lambert137-fx"/>
+    </material>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="pasted__lambert137-fx" name="pasted__lambert137">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="pasted__file27-image" texcoord="UVSET0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">true</wrapU>
+                    <wrapV sid="wrapV0">true</wrapV>
+                    <mirrorU sid="mirrorU0">false</mirrorU>
+                    <mirrorV sid="mirrorV0">false</mirrorV>
+                    <coverageU sid="coverageU0">1.000000</coverageU>
+                    <coverageV sid="coverageV0">1.000000</coverageV>
+                    <translateFrameU sid="translateFrameU0">0</translateFrameU>
+                    <translateFrameV sid="translateFrameV0">0</translateFrameV>
+                    <rotateFrame sid="rotateFrame0">0</rotateFrame>
+                    <stagger sid="stagger0">false</stagger>
+                    <fast sid="fast0">false</fast>
+                    <repeatU sid="repeatU0">1.000000</repeatU>
+                    <repeatV sid="repeatV0">1.000000</repeatV>
+                    <offsetU sid="offsetU0">0</offsetU>
+                    <offsetV sid="offsetV0">0</offsetV>
+                    <rotateUV sid="rotateUV0">0</rotateUV>
+                    <noiseU sid="noiseU0">0</noiseU>
+                    <noiseV sid="noiseV0">0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent>
+              <color sid="transparent">0 0 0 1.000000</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="lambert1-fx" name="lambert1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.500000 0.500000 0.500000 1.000000</color>
+            </diffuse>
+            <transparent>
+              <color sid="transparent">0 0 0 1.000000</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="mboxShape-lib" name="mboxShape">
+      <mesh>
+        <source id="mboxShape-lib-Position">
+          <float_array count="72" id="mboxShape-lib-Position-array">
+0.440774 0.160955 -0.595317
+0.440774 0.160955 0.882676
+-0.441257 0.160955 0.882676
+-0.441257 0.160955 -0.595317
+0.440774 0.988662 -0.595317
+-0.441257 0.988662 -0.595317
+-0.441257 0.988662 0.882676
+0.440774 0.988662 0.882676
+0.440774 0.969163 0.902175
+-0.441257 0.969163 0.902175
+-0.441257 0.180457 0.902176
+0.440774 0.180457 0.902176
+0.460273 0.969163 -0.595317
+0.460273 0.969163 0.882673
+0.460273 0.180457 0.882676
+0.460273 0.180457 -0.595317
+-0.441257 0.969163 -0.614816
+0.440774 0.969163 -0.614816
+0.440774 0.180457 -0.614817
+-0.441257 0.180457 -0.614817
+-0.460757 0.969163 0.882673
+-0.460757 0.969163 -0.595317
+-0.460757 0.180457 -0.595317
+-0.460757 0.180457 0.882676
+</float_array>
+          <technique_common>
+            <accessor source="#mboxShape-lib-Position-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mboxShape-lib-Normal">
+          <float_array count="396" id="mboxShape-lib-Normal-array">
+0 -1.000000 0
+0 -1.000000 0
+0 -1.000000 0
+0 -1.000000 0
+0 -1.000000 0
+0 -1.000000 0
+0 1.000000 0
+0 1.000000 0
+0 1.000000 0
+0 1.000000 0
+0 1.000000 0
+0 1.000000 0
+0 0 1.000000
+0 0 1.000000
+0 0 1.000000
+0 0 1.000000
+0 0 1.000000
+0 0 1.000000
+1.000000 0 0
+1.000000 0 0
+1.000000 0 0
+1.000000 0 0
+1.000000 0 0
+1.000000 0 0
+0 0 -1.000000
+0 0 -1.000000
+0 0 -1.000000
+0 0 -1.000000
+0 0 -1.000000
+0 0 -1.000000
+-1.000000 0 0
+-1.000000 0 0
+-1.000000 0 0
+-1.000000 0 0
+-1.000000 0 0
+-1.000000 0 0
+-1.000000 0 0
+0 -1.000000 0
+-1.000000 0 0
+0 -1.000000 0
+0 -1.000000 0
+-1.000000 0 0
+0 0 -1.000000
+0 -1.000000 0
+0 0 -1.000000
+0 -1.000000 0
+0 -1.000000 0
+0 0 -1.000000
+1.000000 0 0
+0 -1.000000 0
+1.000000 0 0
+0 -1.000000 0
+0 -1.000000 0
+1.000000 0 0
+0 0 1.000000
+0 -1.000000 0
+0 0 1.000000
+0 -1.000000 0
+0 -1.000000 0
+0 0 1.000000
+0 0 1.000000
+0 1.000000 0
+0 0 1.000000
+0 1.000000 0
+0 1.000000 0
+0 0 1.000000
+1.000000 0 0
+0 1.000000 0
+1.000000 0 0
+0 1.000000 0
+0 1.000000 0
+1.000000 0 0
+0 0 -1.000000
+0 1.000000 0
+0 0 -1.000000
+0 1.000000 0
+0 1.000000 0
+0 0 -1.000000
+-1.000000 0 0
+0 1.000000 0
+-1.000000 0 0
+0 1.000000 0
+0 1.000000 0
+-1.000000 0 0
+1.000000 0 0
+0 0 1.000000
+1.000000 0 0
+0 0 1.000000
+0 0 1.000000
+1.000000 0 0
+-1.000000 0 0
+0 0 1.000000
+-1.000000 0 0
+0 0 1.000000
+0 0 1.000000
+-1.000000 0 0
+0 0 -1.000000
+1.000000 0 0
+0 0 -1.000000
+1.000000 0 0
+1.000000 0 0
+0 0 -1.000000
+-1.000000 0 0
+0 0 -1.000000
+-1.000000 0 0
+0 0 -1.000000
+0 0 -1.000000
+-1.000000 0 0
+0 0 1.000000
+-1.000000 0 0
+0 -1.000000 0
+0 -1.000000 0
+1.000000 0 0
+0 0 1.000000
+-1.000000 0 0
+0 0 -1.000000
+0 -1.000000 0
+0 -1.000000 0
+0 0 -1.000000
+1.000000 0 0
+0 0 1.000000
+0 1.000000 0
+-1.000000 0 0
+1.000000 0 0
+0 1.000000 0
+0 0 1.000000
+-1.000000 0 0
+0 1.000000 0
+0 0 -1.000000
+0 0 -1.000000
+0 1.000000 0
+1.000000 0 0
+</float_array>
+          <technique_common>
+            <accessor source="#mboxShape-lib-Normal-array" count="132" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+          <technique profile="MAYA">
+            <DOUBLE_SIDED>false</DOUBLE_SIDED>
+          </technique>
+        </source>
+        <source id="mboxShape-lib-map1" name="map1">
+          <float_array count="96" id="mboxShape-lib-map1-array">
+0.470682 0.642071
+0.036825 0.642071
+0.036825 0.388044
+0.470682 0.388044
+0.484633 0.058006
+0.484633 0.332186
+0.025199 0.332186
+0.025199 0.058006
+0.907978 0.302908
+0.627501 0.302908
+0.627501 0.049907
+0.907978 0.049907
+0.035743 0.937041
+0.481877 0.937041
+0.481877 0.697742
+0.035743 0.697742
+0.625875 0.625196
+0.908398 0.625196
+0.908398 0.371008
+0.625875 0.371008
+0.978297 0.939454
+0.524693 0.939454
+0.524693 0.694523
+0.978297 0.694523
+0.524693 0.688467
+0.978297 0.688467
+0.908398 0.364723
+0.625875 0.364723
+0.481877 0.691826
+0.035743 0.691826
+0.627501 0.043651
+0.907978 0.043651
+0.907978 0.309164
+0.627501 0.309164
+0.035743 0.942958
+0.481877 0.942958
+0.625875 0.631481
+0.908398 0.631481
+0.978297 0.945510
+0.524693 0.945510
+0.487763 0.937041
+0.487763 0.697742
+0.984282 0.694523
+0.984282 0.939454
+0.029857 0.937041
+0.029857 0.697742
+0.518708 0.939454
+0.518708 0.694523
+</float_array>
+          <technique_common>
+            <accessor source="#mboxShape-lib-map1-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="mboxShape-lib-Vertex">
+          <input semantic="POSITION" source="#mboxShape-lib-Position"/>
+        </vertices>
+        <triangles material="pasted__lambert137" count="44">
+          <input semantic="VERTEX" offset="0" source="#mboxShape-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#mboxShape-lib-Normal"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#mboxShape-lib-map1"/>
+          <p>0 0 0 1 1 1 3 2 3 1 3 1 2 4 2 3 5 3 4 6 4 5 7 5 7 8 7 5 9 5 6 10 6 7 11 7 8 12 8 9 13 9 11 14 11 9 15 9 10 16 10 11 17 11 12 18 12 13 19 13 15 20 15 13 21 13 14 22 14 15 23 15 16 24 16 17 25 17 19 26 19 17 27 17 18 28 18 19 29 19 20 30 20 21 31 21 23 32 23 21 33 21 22 34 22 23 35 23 22 36 22 3 37 24 23 38 23 3 39 24 2 40 25 23 41 23 18 42 18 0 43 26 19 44 19 0 45 26 3 46 27 19 47 19 14 48 14 1 49 28 15 50 15 1 51 28 0 52 29 15 53 15 10 54 10 2 55 30 11 56 11 2 57 30 1 58 31 11 59 11 8 60 8 7 61 32 9 62 9 7 63 32 6 64 33 9 65 9 12 66 12 4 67 34 13 68 13 4 69 34 7 70 35 13 71 13 16 72 16 5 73 36 17 74 17 5 75 36 4 76 37 17 77 17 20 78 20 6 79 38 21 80 21 6 81 38 5 82 39 21 83 21 13 84 13 8 85 40 14 86 14 8 87 40 11 88 41 14 89 14 23 90 23 10 91 42 20 92 20 10 93 42 9 94 43 20 95 20 17 96 44 12 97 12 18 98 45 12 99 12 15 100 15 18 101 45 21 102 21 16 103 46 22 104 22 16 105 46 19 106 47 22 107 22 10 108 42 23 109 23 2 110 25 1 111 28 14 112 14 11 113 41 22 114 22 19 115 47 3 116 24 0 117 29 18 118 45 15 119 15 9 120 43 6 121 38 20 122 20 13 123 13 7 124 35 8 125 40 21 126 21 5 127 39 16 128 46 17 129 44 4 130 34 12 131 12</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_collider_box_Shape1-lib" name="_collider_box_Shape1">
+      <mesh>
+        <source id="_collider_box_Shape1-lib-Position">
+          <float_array count="24" id="_collider_box_Shape1-lib-Position-array">
+-0.500000 -0.500000 0.500000
+0.500000 -0.500000 0.500000
+-0.500000 0.500000 0.500000
+0.500000 0.500000 0.500000
+-0.500000 0.500000 -0.500000
+0.500000 0.500000 -0.500000
+-0.500000 -0.500000 -0.500000
+0.500000 -0.500000 -0.500000
+</float_array>
+          <technique_common>
+            <accessor source="#_collider_box_Shape1-lib-Position-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_collider_box_Shape1-lib-Normal">
+          <float_array count="72" id="_collider_box_Shape1-lib-Normal-array">
+0 0 1.000000
+0 0 1.000000
+0 0 1.000000
+0 0 1.000000
+0 1.000000 0
+0 1.000000 0
+0 1.000000 0
+0 1.000000 0
+0 0 -1.000000
+0 0 -1.000000
+0 0 -1.000000
+0 0 -1.000000
+0 -1.000000 0
+0 -1.000000 0
+0 -1.000000 0
+0 -1.000000 0
+1.000000 0 0
+1.000000 0 0
+1.000000 0 0
+1.000000 0 0
+-1.000000 0 0
+-1.000000 0 0
+-1.000000 0 0
+-1.000000 0 0
+</float_array>
+          <technique_common>
+            <accessor source="#_collider_box_Shape1-lib-Normal-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+          <technique profile="MAYA">
+            <DOUBLE_SIDED>true</DOUBLE_SIDED>
+          </technique>
+        </source>
+        <source id="_collider_box_Shape1-lib-map1" name="map1">
+          <float_array count="28" id="_collider_box_Shape1-lib-map1-array">
+0 0
+1.000000 0
+0 1.000000
+1.000000 1.000000
+0 2.000000
+1.000000 2.000000
+0 3.000000
+1.000000 3.000000
+0 4.000000
+1.000000 4.000000
+2.000000 0
+2.000000 1.000000
+-1.000000 0
+-1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#_collider_box_Shape1-lib-map1-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_collider_box_Shape1-lib-Vertex">
+          <input semantic="POSITION" source="#_collider_box_Shape1-lib-Position"/>
+        </vertices>
+        <triangles material="lambert1" count="12">
+          <input semantic="VERTEX" offset="0" source="#_collider_box_Shape1-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#_collider_box_Shape1-lib-Normal"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#_collider_box_Shape1-lib-map1"/>
+          <p>0 0 0 1 1 1 2 3 2 1 1 1 3 2 3 2 3 2 2 4 2 3 5 3 4 7 4 3 5 3 5 6 5 4 7 4 4 8 4 5 9 5 6 11 6 5 9 5 7 10 7 6 11 6 6 12 6 7 13 7 0 15 8 7 13 7 1 14 9 0 15 8 1 16 1 7 17 10 3 19 3 7 17 10 5 18 11 3 19 3 6 20 12 0 21 0 4 23 13 0 21 0 2 22 2 4 23 13</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="DefaultScene" name="crate03">
+      <node id="mbox" name="mbox" sid="mbox">
+        <translate sid="rotatePivot">-0.000241 0.574808 0.143681</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <translate sid="rotatePivotInverse">0.000241 -0.574808 -0.143681</translate>
+        <translate sid="scalePivot">-0.000241 0.574808 0.143681</translate>
+        <translate sid="scalePivotInverse">0.000241 -0.574808 -0.143681</translate>
+        <instance_geometry url="#mboxShape-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="pasted__lambert137" target="#pasted__lambert137">
+                <bind semantic="UVSET0" target="#mboxShape-lib-map1"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="_collider_box_1" name="_collider_box_1" sid="_collider_box_1">
+        <translate sid="translate">0 0.574981 0.145132</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 90.000076</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <scale sid="scale">1.512845 0.829486 0.914031</scale>
+        <instance_geometry url="#_collider_box_Shape1-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="lambert1" target="#lambert1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="MAYA">
+          <start_time>0.041667</start_time>
+          <end_time>125.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#DefaultScene"/>
+  </scene>
+</COLLADA>

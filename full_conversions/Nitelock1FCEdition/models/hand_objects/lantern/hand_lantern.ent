@@ -1,0 +1,28 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-0.155483 -0.168393 -0.172439" CameraTarget="-0.128017 -0.0778347 0.0866482" CameraZoom="5.2" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities>
+            <Billboard Active="true" BillboardColor="0.923 0.79 0.517 1" BillboardOffset="0" BillboardSize="0.4 0.4" BillboardType="Point" ConnectLight="PointLight_1" HaloSourceSize="0.3 0.3 0.3" ID="2" IsHalo="false" MaterialFile="billboards/bb_white_halo_no_depthtest.mat" Name="Billboard_1" Rotation="0 0 0" Tag="" WorldPos="-0.10097 -0.082223 0.050713" />
+            <PointLight Active="true" CastShadows="false" DiffuseColor="0 0.69 1 0.689" FalloffMap="" FlickerActive="true" FlickerFade="true" FlickerOffColor="0 0.568 0.6 1" FlickerOffFadeMaxLength="0.65" FlickerOffFadeMinLength="0.35" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="9.5" FlickerOffSound="" FlickerOnFadeMaxLength="0.65" FlickerOnFadeMinLength="0.35" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" ID="3" Name="PointLight_1" Radius="10" Rotation="0.045518 0.285148 0.672241" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="-0.09761 -0.079684 0.045433" />
+            <PointLight Active="true" CastShadows="false" DiffuseColor="0 0.222 0.3 0" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" ID="4" Name="PointLight_2" Radius="0.3" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="0.010163 0.120968 -0.021269" />
+        </Entities>
+        <Mesh Filename="models/hand_objects/lantern/hand_lantern.dae">
+            <SubMesh Active="true" ID="1" Material="" Name="lantern" Rotation="0 0 0" Scale="1 1 1" SubMeshID="1" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="5" Material="" Name="handle_wood" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes />
+        <Bodies />
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="HandObject" />
+</Entity>

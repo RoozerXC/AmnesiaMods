@@ -1,0 +1,60 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-0.418282 0.268007 -0.25831" CameraTarget="-0.0224518 0.135718 0.108219" CameraZoom="4.5" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/item/bullseye_lantern_item/bullseye_lantern_item.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="Lantern" Rotation="3.14159 3.14159 1.5708" Scale="0.7 0.7 0.7" SubMeshID="0" Tag="" WorldPos="0 0.152122 0.113363" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="2" Name="Shape_1" RelativeRotation="0 0 0" RelativeScale="0.07105 0.2436 0.07105" RelativeTranslation="3.15747e-005 -0.0621105 -0.0117598" Rotation="0 0 0" Scale="0.07105 0.2436 0.07105" ShapeType="Cylinder" Tag="" WorldPos="6.31493e-005 0.120733 0.000988984" />
+            <BodyShape Active="true" ID="3" Name="Shape_2" RelativeRotation="0 0 0" RelativeScale="0.03045 0.0406 0.03045" RelativeTranslation="3.15747e-005 0.0737935 -0.0117598" Rotation="0 0 0" Scale="0.03045 0.0406 0.03045" ShapeType="Cylinder" Tag="" WorldPos="6.31493e-005 0.256637 0.000988984" />
+            <BodyShape Active="true" ID="4" Name="Shape_3" RelativeRotation="1.5708 0 0" RelativeScale="0.06496 0.1015 0.06496" RelativeTranslation="3.15747e-005 -0.0737935 -0.063436" Rotation="1.5708 0 0" Scale="0.06496 0.1015 0.06496" ShapeType="Cylinder" Tag="" WorldPos="6.31493e-005 0.10905 -0.0506872" />
+            <BodyShape Active="true" ID="17" Name="Shape_4" RelativeRotation="0.686469 0 0" RelativeScale="0.15 0.2 0.02" RelativeTranslation="-3.15747e-005 -0.0235515 -0.0667722" Rotation="0.686469 0 0" Scale="0.15 0.2 0.02" ShapeType="Box" Tag="" WorldPos="0 0.159292 -0.0540234" />
+            <BodyShape Active="true" ID="18" Name="Shape_5" RelativeRotation="-2.53518e-006 1.5708 -2.53518e-006" RelativeScale="0.08 0.14 0.02" RelativeTranslation="-3.15747e-005 -0.0321845 0.0667722" Rotation="-2.53518e-006 1.5708 -2.53518e-006" Scale="0.08 0.14 0.02" ShapeType="Box" Tag="" WorldPos="0 0.150659 0.079521" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0.2" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="19" LinearDamping="0.2" Mass="2" Material="Metal" MaxAngularSpeed="16" MaxLinearSpeed="16" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="3.15747e-005 0.182844 0.0127488">
+                <Shape ID="2" />
+                <Shape ID="17" />
+                <Shape ID="4" />
+                <Shape ID="18" />
+                <Shape ID="3" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="Lantern" EntityType="Item">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="SubItemTypeName" Value="Lantern" />
+        <Var Name="ImageFile" Value="C:/Program Files (x86)/Steam/steamapps/common/amnesia the dark descent/entities/item/bullseye_lantern_item/bullseye_lantern_item.tga" />
+        <Var Name="PickSound" Value="Generic" />
+    </UserDefinedVariables>
+</Entity>

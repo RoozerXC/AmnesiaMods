@@ -1,0 +1,25 @@
+<LANGUAGE>
+  <RESOURCES>
+    <Directory Path="fonts/eng" />
+    <Directory Path="lang/eng" />
+  </RESOURCES>
+  <CATEGORY Name="Messages">
+    <Entry Name="DoorJammed">The door has been jammed for some unknown reason.</Entry>
+    <Entry Name="DblDoorJammed">The doors have been jammed for some unknown reason.</Entry>
+    <Entry Name="NeedTheKey">I need a key to unlock this floor.</Entry>
+    <Entry Name="CantGoBack">There is no interest that I'm going back.</Entry>
+    <Entry Name="Credits">* -THE NITELOCK HOTEL -[br][br]*Sounds[br]RoozyDB[br][br]*Models[br]SAB64[br]Nintendo[br][br]xAmn[br]RoozyDB (only entity and texture edits)[br][br]</Entry>
+  </CATEGORY>
+  <CATEGORY Name="Inventory">
+    <Entry Name="ItemName_TestKey">A test key</Entry>
+    <Entry Name="ItemDesc_TestKey">For what not testing purposes. Open the test door with it.</Entry>
+  </CATEGORY>
+  <CATEGORY Name="Levels">
+    <Entry Name="MainRoom">Main Hotel Room</Entry>
+    <Entry Name="FloorTwo">Floor Two</Entry>
+    <Entry Name="FloorThree">Floor Three</Entry>
+    <Entry Name="FloorFour">Floor Four</Entry>
+    <Entry Name="FloorFive">Floor Five</Entry>
+    <Entry Name="FloorOne">Floor One</Entry>
+  </CATEGORY>
+</LANGUAGE>

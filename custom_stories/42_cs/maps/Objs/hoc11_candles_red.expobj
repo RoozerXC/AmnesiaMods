@@ -1,0 +1,125 @@
+<Level>
+    <MapData FogActive="false" FogColor="1 1 1 1" FogCulling="true" FogEnd="20" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="true" SkyBoxColor="0 0 0 0" SkyBoxTexture="../../../../../../">
+        <MapContents>
+            <FileIndex_StaticObjects NumOfFiles="3">
+                <File Id="0" Path="custom_stories/House Of Creep 11/static_objects/CoF/wall_cof_basement/wall_cof_basement.dae" />
+                <File Id="1" Path="static_objects/machine/pipes/thick_straight_long.dae" />
+                <File Id="2" Path="static_objects/machine/pipes/thin_straight_long.dae" />
+            </FileIndex_StaticObjects>
+            <FileIndex_Entities NumOfFiles="18">
+                <File Id="0" Path="custom_stories/House Of Creep 11/entities/cof_door_level/cof_door_level.ent" />
+                <File Id="1" Path="entities/ptest/phonograph/phonograph.ent" />
+                <File Id="2" Path="custom_stories/House Of Creep 11/entities/potion_oil_small.ent" />
+                <File Id="3" Path="entities/insan_visions/corpse_male_plague/corpse_male_plague_fountain.ent" />
+                <File Id="4" Path="entities/enemy/servant_brute/servant_brute.ent" />
+                <File Id="5" Path="entities/insan_visions/corpse_male_plague/corpse_male_plague_cistern.ent" />
+                <File Id="6" Path="entities/insan_visions/painting_portrait_insane.ent" />
+                <File Id="7" Path="entities/organic/slime_anim/slime_anim_wall.ent" />
+                <File Id="8" Path="entities/organic/corpse_pile/corpse_pile1.ent" />
+                <File Id="9" Path="entities/organic/corpse_pile/corpse_pile2.ent" />
+                <File Id="10" Path="entities/organic/slime_static/slime_pile.ent" />
+                <File Id="11" Path="entities/organic/slime_static/slime_6way.ent" />
+                <File Id="12" Path="entities/organic/slime_static/slime_3way.ent" />
+                <File Id="13" Path="entities/organic/slime_anim/slime_anim_ceiling.ent" />
+                <File Id="14" Path="entities/organic/slime_static/slime_egg.ent" />
+                <File Id="15" Path="entities/organic/slime_static/slime_pile_large.ent" />
+                <File Id="16" Path="custom_stories/House Of Creep 11/entities/lamp/candle_floor/candle_floor_red.ent" />
+                <File Id="17" Path="custom_stories/House Of Creep 11/entities/lamp/candle_floor/candle_floor_red_small.ent" />
+            </FileIndex_Entities>
+            <FileIndex_Decals NumOfFiles="5">
+                <File Id="0" Path="custom_stories/House Of Creep 11/textures/filth_rust_edit.mat" />
+                <File Id="1" Path="textures/decals/scratches.mat" />
+                <File Id="2" Path="textures/decals/blood_alchemy_circles.mat" />
+                <File Id="3" Path="textures/decals/blood_stain_large.mat" />
+                <File Id="4" Path="textures/decals/blood_smear01.mat" />
+            </FileIndex_Decals>
+            <StaticObjects />
+            <Primitives />
+            <Decals />
+            <Entities>
+                <Entity Active="true" FileIndex="17" Group="0" ID="640" Name="candle_floor_7" Rotation="0 0.523598 0" Scale="0.75 2.2 0.75" Tag="" WorldPos="2.75 -0.05 -12.1">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Lit" Value="true" />
+                        <Var Name="ConnectedLight" Value="" />
+                        <Var Name="ConnectionLightAmount" Value="1" />
+                        <Var Name="ConnectionLightUseOnColor" Value="true" />
+                        <Var Name="ConnectionLightUseSpec" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="16" Group="0" ID="639" Name="candle_floor_8" Rotation="0 0 0" Scale="0.75 2.7 0.75" Tag="" WorldPos="2.85 -0.1 -12.2">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Lit" Value="true" />
+                        <Var Name="ConnectedLight" Value="" />
+                        <Var Name="ConnectionLightAmount" Value="1" />
+                        <Var Name="ConnectionLightUseOnColor" Value="true" />
+                        <Var Name="ConnectionLightUseSpec" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="16" Group="0" ID="641" Name="candle_floor_10" Rotation="0 0.549921 0" Scale="0.589077 1.65 0.634632" Tag="" WorldPos="3.75004 -0.055156 -10.9969">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Lit" Value="true" />
+                        <Var Name="ConnectedLight" Value="" />
+                        <Var Name="ConnectionLightAmount" Value="1" />
+                        <Var Name="ConnectionLightUseOnColor" Value="true" />
+                        <Var Name="ConnectionLightUseSpec" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="17" Group="0" ID="642" Name="candle_floor_9" Rotation="0 0.549921 0" Scale="0.785435 0.6 0.846176" Tag="" WorldPos="3.58848 -0.025156 -11.0468">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Lit" Value="true" />
+                        <Var Name="ConnectedLight" Value="" />
+                        <Var Name="ConnectionLightAmount" Value="1" />
+                        <Var Name="ConnectionLightUseOnColor" Value="true" />
+                        <Var Name="ConnectionLightUseSpec" Value="false" />
+                    </UserVariables>
+                </Entity>
+            </Entities>
+            <Misc />
+            <StaticObjectCombos />
+        </MapContents>
+    </MapData>
+</Level>

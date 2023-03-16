@@ -1,0 +1,28 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="-0.240755 -0.753667 180" CameraTarget="-0.240755 -0.753667 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 -0.484148 0.0233888" CameraTarget="0 -0.484148 0.0233888" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0.202646 -0.118404 0.38312" CameraTarget="0.0525529 -0.0301722 -0.144337" CameraZoom="4.5" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities>
+            <SpotLight Active="true" Aspect="1" CastShadows="true" DiffuseColor="0.9 0.7 0.45 1" FOV="1.22173" FalloffMap="" FlickerActive="true" FlickerFade="true" FlickerOffColor="0.85 0.65 0.4 1" FlickerOffFadeMaxLength="0.65" FlickerOffFadeMinLength="0.35" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="12" FlickerOffSound="" FlickerOnFadeMaxLength="0.65" FlickerOnFadeMinLength="0.35" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="C:/Program Files (x86)/Steam/steamapps/common/amnesia the dark descent/models/hand_objects/lantern/BullseyeLantern/gobo_bullseye_lantern.dds" GoboAnimFrameTime="0" GoboAnimMode="None" ID="1" Name="SpotLight_1" NearClipPlane="0.1" Radius="12" Rotation="0 -1.5708 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" SpotFalloffMap="" Tag="" WorldPos="0.0532578 -0.146109 0.00556173" />
+            <PointLight Active="true" CastShadows="false" DiffuseColor="0.13 0.08 0.03 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" ID="2" Name="PointLight_1" Radius="1" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="-0.0196033 -0.0508426 0.106544" />
+            <Billboard Active="true" BillboardColor="0.35 0.31 0.27 0.5" BillboardOffset="0" BillboardSize="0.4 0.4" BillboardType="Point" ConnectLight="SpotLight_1" HaloSourceSize="0.4 0.4 0.4" ID="3" IsHalo="false" MaterialFile="C:/Program Files (x86)/Steam/steamapps/common/amnesia the dark descent/billboards/bb_white_halo.mat" Name="Billboard_1" Rotation="0 0 0" Tag="" WorldPos="0.148164 -0.152289 0" />
+        </Entities>
+        <Mesh Filename="models/hand_objects/lantern/BullseyeLantern/bullseye_lantern.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="Handle_Wood" Rotation="0 -1.5708 0" Scale="0.4 0.5 0.5" SubMeshID="0" Tag="" WorldPos="-0.00148971 -0.000469026 0.00237705" />
+            <SubMesh Active="true" ID="4" Material="" Name="Lantern" Rotation="1.5708 0 -1.5708" Scale="0.35 0.35 0.35" SubMeshID="1" Tag="" WorldPos="-0.0581119 -0.124225 0.005" />
+        </Mesh>
+        <Bones />
+        <Shapes />
+        <Bodies />
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="HandObject" />
+</Entity>

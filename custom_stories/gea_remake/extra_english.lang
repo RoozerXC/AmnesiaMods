@@ -1,0 +1,21 @@
+<LANGUAGE>
+
+	<RESOURCES />
+
+	<CATEGORY Name="CustomStoryMain">
+		<Entry Name="Description">The title says it all. Just glitch all the grunts</Entry>
+	</CATEGORY>
+	<CATEGORY Name="Inventory">
+		<Entry Name="ItemName_TheKey">the most stupidest key in the world.</Entry>
+		<Entry Name="ItemDesc_TheKey">Literally what it says in the tin. Frankly, though, it works.</Entry>
+	</CATEGORY>
+	<CATEGORY Name="Messages">
+		<Entry Name="DoorsReset">Doors reset</Entry>
+		<Entry Name="HelpKey">You have to pick up a key and unlock the right door if you want to exit the map</Entry>
+		<Entry Name="Screwed">You're screwed</Entry>
+		<Entry Name="Barrels">There was a pile of barrels here. But then they blew up</Entry>
+		<Entry Name="Interesting">He thinks the boxes are very interesting</Entry>
+		<Entry Name="DD_oohbutton">Ooh! What does this button do</Entry>
+		<Entry Name="DD_theFRAMES">I now know what this button does. It destroys the game's framerate</Entry>
+	</CATEGORY>
+</LANGUAGE>

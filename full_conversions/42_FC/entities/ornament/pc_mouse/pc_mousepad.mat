@@ -1,0 +1,6 @@
+<Material>
+    <Main BlendMode="Add" DepthTest="true" HeightMapBias="0.000000" HeightMapScale="0.050000" PhysicsMaterial="Generic_Soft" Type="soliddiffuse" UseAlpha="false" />
+    <TextureUnits>
+        <Diffuse AnimFrameTime="0.000000" AnimMode="None" Compress="true" File="pc_mousepad.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+    </TextureUnits>
+</Material>

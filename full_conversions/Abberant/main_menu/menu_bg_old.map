@@ -1,0 +1,94 @@
+<Level>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="true" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="-0.678262 0.670825 0.0543704" CameraTarget="0.125866 -1.90735e-006 -0.0584493" CameraZoom="3.86013" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+        </ViewportConfig>
+        <Groups>
+            <Group ID="0" Name="None" Visible="true" />
+        </Groups>
+    </EditorSession>
+    <MapData FogActive="false" FogColor="1 1 1 1" FogCulling="true" FogEnd="20" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="true" SkyBoxColor="0 0 0 1" SkyBoxTexture="../../../../../../">
+        <MapContents>
+            <FileIndex_StaticObjects NumOfFiles="3">
+                <File Id="0" Path="static_objects/castlebase/wall/default.dae" />
+                <File Id="1" Path="static_objects/castlebase/ceiling/concave.dae" />
+                <File Id="2" Path="static_objects/castlebase/ceiling/corner_concave.dae" />
+            </FileIndex_StaticObjects>
+            <FileIndex_Entities NumOfFiles="1">
+                <File Id="0" Path="entities/item/ceremony_knife/ceremony_knife.ent" />
+            </FileIndex_Entities>
+            <FileIndex_Decals NumOfFiles="1">
+                <File Id="0" Path="textures/decals/blood_stain_large.mat" />
+            </FileIndex_Decals>
+            <StaticObjects>
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="16" Name="wall_default_1" Rotation="3.14159 -1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="6 0 -4" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="17" Name="wall_default_2" Rotation="3.14159 -1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="6 0 0" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="18" Name="wall_default_3" Rotation="3.14159 -1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="6 0 4" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="19" Name="wall_default_4" Rotation="3.14159 8.74228e-008 3.14159" Scale="1 1 1" Tag="" WorldPos="0 0 6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="20" Name="wall_default_5" Rotation="3.14159 8.74228e-008 3.14159" Scale="1 1 1" Tag="" WorldPos="4 0 6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="21" Name="wall_default_6" Rotation="3.14159 8.74228e-008 3.14159" Scale="1 1 1" Tag="" WorldPos="-4 0 6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="22" Name="wall_default_7" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="-6 0 4" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="23" Name="wall_default_8" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="-6 0 0" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="24" Name="wall_default_9" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="-6 0 -4" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="25" Name="wall_default_10" Rotation="0 -1.74846e-007 0" Scale="1 1 1" Tag="" WorldPos="0 0 -6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="26" Name="wall_default_11" Rotation="0 -1.74846e-007 0" Scale="1 1 1" Tag="" WorldPos="-4 0 -6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="27" Name="wall_default_12" Rotation="0 -1.74846e-007 0" Scale="1 1 1" Tag="" WorldPos="4 0 -6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="28" Name="ceiling_concave_1" Rotation="3.14159 -1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="6 4 0" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="29" Name="ceiling_concave_2" Rotation="3.14159 -2.26498e-006 -3.14159" Scale="1 1 1" Tag="" WorldPos="0 4 6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="30" Name="ceiling_concave_3" Rotation="3.14159 1.5708 -3.14159" Scale="1 1 1" Tag="" WorldPos="-6 4 0" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="31" Name="ceiling_concave_4" Rotation="0 6.70751e-006 4.76837e-007" Scale="1 1 1" Tag="" WorldPos="0 4 -6" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="32" Name="ceiling_corner_concave_1" Rotation="3.14159 8.74228e-008 3.14159" Scale="1 1 1" Tag="" WorldPos="-4 4 4" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="33" Name="ceiling_corner_concave_2" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="-4 4 -4" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="34" Name="ceiling_corner_concave_3" Rotation="0 -4.52995e-006 0" Scale="1 1 1" Tag="" WorldPos="4 4 -4" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="35" Name="ceiling_corner_concave_4" Rotation="0 -1.5708 0" Scale="1 1 1" Tag="" WorldPos="4 4 4" />
+            </StaticObjects>
+            <Primitives>
+                <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 1" Corner2UV="0 0" Corner3UV="1 0" Corner4UV="1 1" EndCorner="4 0 4" Group="0" ID="0" Material="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/static_objects/castlebase/floor/castlebase_floor_emblem.mat" Name="Plane" Rotation="0 0 0" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="0.25 1 0.25" TileOffset="0 0 0" WorldPos="-2 0 -2" />
+                <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 4" Corner2UV="0 0" Corner3UV="12 0" Corner4UV="12 4" EndCorner="12 0 4" Group="0" ID="10" Material="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/static_objects/castlebase/castlebase_tiledfloor.mat" Name="Plane_1" Rotation="0 0 0" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="1 1 1" TileOffset="0 0 0" WorldPos="-6 0 -6" />
+                <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 4" Corner2UV="0 0" Corner3UV="12 0" Corner4UV="12 4" EndCorner="12 0 4" Group="0" ID="12" Material="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/static_objects/castlebase/castlebase_tiledfloor.mat" Name="Plane_2" Rotation="0 0 0" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="1 1 1" TileOffset="0 0 0" WorldPos="-6 0 2" />
+                <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 4" Corner2UV="0 0" Corner3UV="4 0" Corner4UV="4 4" EndCorner="4 0 4" Group="0" ID="13" Material="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/static_objects/castlebase/castlebase_tiledfloor.mat" Name="Plane_3" Rotation="0 0 0" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="1 1 1" TileOffset="0 0 0" WorldPos="-6 0 -2" />
+                <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 4" Corner2UV="0 0" Corner3UV="4 0" Corner4UV="4 4" EndCorner="4 0 4" Group="0" ID="14" Material="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/static_objects/castlebase/castlebase_tiledfloor.mat" Name="Plane_4" Rotation="0 0 0" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="1 1 1" TileOffset="0 0 0" WorldPos="2 0 -2" />
+                <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 4" Corner2UV="0 0" Corner3UV="4 0" Corner4UV="4 4" EndCorner="8 0 8" Group="0" ID="36" Material="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/static_objects/castlebase/castlebase_ceiling02.mat" Name="Plane_5" Rotation="0 0 3.14159" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="0.5 1 0.5" TileOffset="0 0 0" WorldPos="4 6 -4" />
+            </Primitives>
+            <Decals>
+                <Decal Active="true" Color="1 1 1 1" CurrentSubDiv="1" Group="0" ID="44" MaterialIndex="0" MaxTriangles="-1" Name="blood_stain_large_1" Offset="0.00897748" OnEntity="true" OnPrimitive="true" OnStatic="true" Rotation="3.14159 4.44253e-006 3.14159" Scale="1 1 1" SubDiv="2 2" Tag="" WorldPos="0 0 0">
+                    <DecalMesh NumInds="12" NumVerts="8">
+                        <Positions Array="0.5 0.009 -0.5 1 -0.5 0.009 0.5 1 -0.5 0.009 0.5 1 -0.5 0.009 -0.5 1 -0.5 0.009 0.5 1 0.5 0.009 -0.5 1 0.5 0.009 -0.5 1 0.5 0.009 0.5 1 " />
+                        <Normals Array="0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 " />
+                        <Tangents Array="-1 0 -0 1 -1 0 -0 1 -1 0 -0 1 -1 0 -0 1 -1 0 -0 1 -1 0 -0 1 -1 0 -0 1 -1 0 -0 1 " />
+                        <TexCoords Array="0.5 0.5 0 1 1 0 1 1 0 1 0.5 0 1 1 0 0.5 0.5 0 0.5 0.5 0 0.5 1 0 " />
+                        <Indices Array="0 1 2 0 2 3 4 5 6 4 6 7" />
+                    </DecalMesh>
+                </Decal>
+            </Decals>
+            <Entities>
+                <SpotLight Active="true" Aspect="1" CastShadows="true" DiffuseColor="1 0 0 1" FOV="1.0472" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="8" Name="SpotLight_1" NearClipPlane="0.1" Radius="3" Rotation="-1.57079 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" SpotFalloffMap="" Tag="" WorldPos="0 2 0" />
+                <Area Active="true" AreaType="PlayerStart" Group="0" ID="9" Mesh="" Name="CameraPos" Rotation="2.61799 -1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="-1.5 1 0">
+                    <UserVariables />
+                </Area>
+                <Entity Active="true" FileIndex="0" Group="0" ID="41" Name="ceremony_knife_1" Rotation="0 -2.0944 0" Scale="1 1 1" Tag="" WorldPos="0 0 0">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="CustomSubItemTypeName" Value="" />
+                    </UserVariables>
+                </Entity>
+            </Entities>
+            <Misc />
+            <StaticObjectCombos />
+        </MapContents>
+    </MapData>
+</Level>

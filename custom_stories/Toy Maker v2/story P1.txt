@@ -1,0 +1,87 @@
+Three years ago I went to a thrift store and found a Japanese game called Toy Maker on a Japanese stall.
+
+I have asked a Japanese seller to translate the title of the game and he had said "This is Toy Maker, a game for kids." 
+
+I decided to buy it for only 20 dollars (2245.68 Japanese yen), and three hours after I wanted to use the game, I moved to another house and then lost it.
+
+Yesterday whilst searching my old Game Boy on an old backpack, I found the game and I decided that I would try the game today, but it's for DOS. 
+
+I downloaded an emulator called DOSBox on my computer and I installed the game. 
+
+When I started the game, the splash screen was a low quality image, and I see the copyright date and the name of the creator "Tsunayoshi Toshimichi".
+
+When I pressed the Enter button (or the Return button), I see the main menu with three slots:
+
+Start Game - it does not work anymore.
+
+Load Game - the game crashes.
+
+Options - a menu can be opened.
+
+When I opened the options menu I see the other three buttons:
+
+Sounds - when I open it, the game was stuck on a black screen.
+
+Controls - the game crashes (same as Load Game).
+
+Exit to DOS - exits the game as normal.
+
+I can't play this game, and I tried a lot of methods, but it was stuck on the main menu.
+
+I have emailed this guy, and he answered:
+
+"Dear Matteo, I had read your email and yes, a guy on the internet has contacted me and I decided to send him a copy of the game.
+
+I have waited at least two months, and later having waited all this time, he has contacted me with this email:
+
+'Hi, I have created an executable of your game. It can be played from Windows without an emulator, but keep in mind, it isn't finished.
+
+Bye.'
+
+Keep attention, the sounds in the game are a little troublesome and repetitive. The graphics are not looking exactly better.
+
+The game does not have much sense, I have not played it very much but it is a game which exactly puts the anxiety.
+
+Tomorrow, I'll give you a copy of the game converted by that person, and I can send some screenshots if you want.
+
+Good luck..."
+
+After waiting, a person named Kenjiro finally sent me a copy of the game.
+
+I played the game, but I didn't finish it beause in some point, it crashes.
+
+However, there are various paths to different locations and I haven't explored them at all.
+
+I re-contacted Kenjiro for more info, and he gave me two weblinks.
+
+Both of these weblinks are gone due to migrations with 000webhost.
+
+When I downloaded the beta from MediaFire, I extracted the game, and then found out that the files have dates modified as:
+
+12 / 31 / 1992 9:00 PM
+
+When I clicked INSTALL.BAT, it took me to the game. I pressed Enter and this time I was greeted with a menu with some edits.
+
+I pressed "Start Game", and it worked than before. It showed me a big room, with a path that looks like some sort of a shop.
+
+I entered the room, and it took me into another room, with a sign that says "Don't enter. Forget that place." I was confused on what "that place" is.
+
+I entered the room with a metal like door, and I was greeted with a long corridor with portraits. I continued to gather on, and something happened.
+
+The lights went out, so I continued, and when I looked around, someone was behind me. I was startled, so I turned around and even then, after
+
+walking in a long corridor, a jumpscare came to me, and it was some sort of a grey hannya looking at me. This eventually turned into a shattering piece
+
+of what seems to be a mask, and at that time, the game restarted to the first level.
+
+I went to the second room, and this time when I forgot the place, I was greeted into a room of Wolfenstein 3D and Zork II floppy disks.
+
+When I gathered around, there were teddy bears in the room. All of them look normal except some have red eyes.
+
+I continued to walk around unless I noticed that something opened.
+
+I went to the open area, and saw another teddy bear with red eyes. I continued to walk, and saw a figure colored in black with red eyes too.
+
+I went closer, and I heard a loud beep. The figure was gone.
+
+(continued in part 2 of the story)

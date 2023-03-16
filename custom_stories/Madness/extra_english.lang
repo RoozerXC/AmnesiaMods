@@ -1,0 +1,11 @@
+<LANGUAGE>
+	<RESOURCES>
+	</RESOURCES>
+	<CATEGORY Name="CustomStoryMain">
+		<Entry Name="Description">Madness Hype brings everything up into the next level.[br][br]Have fun.</Entry>
+	</CATEGORY>
+	<CATEGORY Name="Journal">
+		<Entry Name="Note_EntryCH3_Name">A City of Evil</Entry>
+		<Entry Name="Note_EntryCH3_Text">This place is made by the indigneous lost souls of the dead.[br][br]Will you survive? Good luck.</Entry>
+	</CATEGORY>
+</LANGUAGE>

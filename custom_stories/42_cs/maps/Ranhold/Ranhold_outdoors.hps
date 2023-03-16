@@ -1,0 +1,24 @@
+void OnStart()
+{
+	AddEntityCollideCallback("Player", "MinesTrigger", "MinesTrigger", true, 1);
+	if(ScriptDebugOn())
+	{
+		GiveItem("lantern", "lantern", "Lantern", "lantern.tga", 1);
+	}
+}
+
+void OnEnter()
+{
+	PlayMusic("penumbra_music_E1_A2.ogg", true, 1.0f, 0.0f, 0, true);
+}
+
+void MinesTrigger(string &in asParent, string &in asChild, int alState)
+{
+	SetupLoadScreen("LoadingText", "Loading_RanholdMines", 0, "game_loading_mines.png");
+	ChangeMap("Ranhold_outdoors_old.map", "PlayerStartArea_1", "", "");
+}
+
+void InnSetup(string &in asEntity)
+{
+	SetupLoadScreen("LoadingText", "Loading_RanholdInn", 0, "game_loading_inn.png");
+}

@@ -1,0 +1,168 @@
+<Level>
+    <MapData FogActive="false" FogColor="1 1 1 1" FogCulling="true" FogEnd="20" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="false" SkyBoxColor="1 1 1 1" SkyBoxTexture="../../../../../../">
+        <MapContents>
+            <FileIndex_StaticObjects NumOfFiles="74">
+                <File Id="0" Path="static_objects/castlebase/wall/door_frame_plain_worn.dae" />
+                <File Id="1" Path="static_objects/cellarbase/wall/door_frame.dae" />
+                <File Id="2" Path="static_objects/cellarbase/ceiling/welder.dae" />
+                <File Id="3" Path="static_objects/decals/web_spider01.dae" />
+                <File Id="4" Path="static_objects/decals/dirt_floor01.dae" />
+                <File Id="5" Path="static_objects/cellarbase/stairs/welder_top.dae" />
+                <File Id="6" Path="static_objects/castlebase/wall/door_way_worn.dae" />
+                <File Id="7" Path="static_objects/castlebase/wall/default_worn.dae" />
+                <File Id="8" Path="static_objects/castlebase/wall/short_worn.dae" />
+                <File Id="9" Path="static_objects/cellarbase/stairs/wood.dae" />
+                <File Id="10" Path="static_objects/cellarbase/wall/default02.dae" />
+                <File Id="11" Path="static_objects/cellarbase/stairs/stone.dae" />
+                <File Id="12" Path="static_objects/castlebase/wall/door_way_worn_prison_left.dae" />
+                <File Id="13" Path="static_objects/castlebase/wall/door_way_worn_prison_right.dae" />
+                <File Id="14" Path="static_objects/dungeonbase/special/well.dae" />
+                <File Id="15" Path="static_objects/dungeonbase/special/well_extension.dae" />
+                <File Id="16" Path="static_objects/castlebase/wall/welder_convex_worn.dae" />
+                <File Id="17" Path="static_objects/decals/cobweb_01.dae" />
+                <File Id="18" Path="static_objects/castlebase/wall/prisonbars.dae" />
+                <File Id="19" Path="static_objects/castlebase/wall/prisonbars_door_way.dae" />
+                <File Id="20" Path="static_objects/castlebase/wall/prisonbars_broken.dae" />
+                <File Id="21" Path="static_objects/castlebase/wall/default_worn_3x1_broken.dae" />
+                <File Id="22" Path="static_objects/debris/rock/stone_large01_brown.dae" />
+                <File Id="23" Path="static_objects/debris/rock/stone_large02_brown.dae" />
+                <File Id="24" Path="static_objects/debris/rock/stone_med01_brown.dae" />
+                <File Id="25" Path="static_objects/debris/rock/stone_med02_brown.dae" />
+                <File Id="26" Path="static_objects/debris/rock/stone_small01_brown.dae" />
+                <File Id="27" Path="static_objects/debris/fallen_prisonbars/fallen_prisonbars.dae" />
+                <File Id="28" Path="static_objects/debris/fallen_prisonbars/prisonbars_bottom.dae" />
+                <File Id="29" Path="static_objects/debris/fallen_prisonbars/prisonbars_doorway.dae" />
+                <File Id="30" Path="static_objects/decals/cobweb_03.dae" />
+                <File Id="31" Path="static_objects/cellarbase/ceiling/welder_arched.dae" />
+                <File Id="32" Path="static_objects/cellarbase/wall/welder.dae" />
+                <File Id="33" Path="static_objects/machine/hanging_chain/hanging_chain.dae" />
+                <File Id="34" Path="static_objects/machine/pipes/thick_straight_short_end.dae" />
+                <File Id="35" Path="static_objects/cellarbase/special/caved_in_roof_arched.dae" />
+                <File Id="36" Path="static_objects/decals/pool_wine01.dae" />
+                <File Id="37" Path="static_objects/decals/dirt_floor02.dae" />
+                <File Id="38" Path="static_objects/decals/pebbles04.dae" />
+                <File Id="39" Path="static_objects/castlebase/ceiling/welder_wood_edge.dae" />
+                <File Id="40" Path="static_objects/castlebase/ceiling/welder_wood_middle.dae" />
+                <File Id="41" Path="static_objects/cellarbase/ceiling/welder_extension.dae" />
+                <File Id="42" Path="static_objects/dungeonbase/special/well_cover.dae" />
+                <File Id="43" Path="static_objects/castlebase/wall/default_extension_worn.dae" />
+                <File Id="44" Path="static_objects/castlebase/ceiling/concave_worn.dae" />
+                <File Id="45" Path="static_objects/decals/pebbles03.dae" />
+                <File Id="46" Path="static_objects/castlebase/ceiling/corner_concave_worn.dae" />
+                <File Id="47" Path="static_objects/decals/pebbles02.dae" />
+                <File Id="48" Path="static_objects/decals/pebbles01.dae" />
+                <File Id="49" Path="static_objects/castlebase/ceiling/window_high_worn.dae" />
+                <File Id="50" Path="static_objects/machine/pipes/thick_bend_short.dae" />
+                <File Id="51" Path="static_objects/machine/pipes/thick_straight_long.dae" />
+                <File Id="52" Path="static_objects/machine/pipes/thick_straight_medium.dae" />
+                <File Id="53" Path="static_objects/machine/pipes/thick_three_cross.dae" />
+                <File Id="54" Path="static_objects/machine/pipes/thick_straight_short.dae" />
+                <File Id="55" Path="static_objects/castlebase/special/cell_wall_worn.dae" />
+                <File Id="56" Path="static_objects/machine/pipes/thin_special01.dae" />
+                <File Id="57" Path="static_objects/castlebase/pillar/tall_stone.dae" />
+                <File Id="58" Path="static_objects/cisternbase/ceiling/stone_arched.dae" />
+                <File Id="59" Path="static_objects/cisternbase/pillars/stone_broken.dae" />
+                <File Id="60" Path="static_objects/castlebase/special/cell_wall_worn_short.dae" />
+                <File Id="61" Path="static_objects/murky_castlebase/ceiling/corridor_arched_T_cross.dae" />
+                <File Id="62" Path="static_objects/murky_castlebase/ceiling/corridor_arched_damaged02.dae" />
+                <File Id="63" Path="static_objects/debris/broken_cell_wall/broken_cell_wall.dae" />
+                <File Id="64" Path="static_objects/murky_castlebase/ceiling/corridor_arched_damaged03.dae" />
+                <File Id="65" Path="static_objects/murky_castlebase/ceiling/corridor_arched_damaged01.dae" />
+                <File Id="66" Path="static_objects/murky_castlebase/wall/default.dae" />
+                <File Id="67" Path="static_objects/murky_castlebase/wall/welder.dae" />
+                <File Id="68" Path="static_objects/murky_castlebase/ceiling/corridor_arched.dae" />
+                <File Id="69" Path="static_objects/murky_castlebase/ceiling/corridor_arched_turn.dae" />
+                <File Id="70" Path="static_objects/murky_castlebase/ceiling/corridor_arched_broken.dae" />
+                <File Id="71" Path="static_objects/murky_castlebase/ceiling/corridor_arched_short.dae" />
+                <File Id="72" Path="static_objects/murky_castlebase/wall/default_short.dae" />
+                <File Id="73" Path="static_objects/murky_castlebase/wall/door_way.dae" />
+            </FileIndex_StaticObjects>
+            <FileIndex_Entities NumOfFiles="65">
+                <File Id="0" Path="entities/door/level_dungeon/level_dungeon.ent" />
+                <File Id="1" Path="entities/door/prison/prison.ent" />
+                <File Id="2" Path="entities/door/cellar_wood01/cellar_wood01.ent" />
+                <File Id="3" Path="entities/special/cell_breakable_wall/cell_breakable_wall_fragment03.ent" />
+                <File Id="4" Path="entities/special/cell_breakable_wall/cell_breakable_wall_fragment02.ent" />
+                <File Id="5" Path="entities/equipment/pulley/pulley.ent" />
+                <File Id="6" Path="entities/gameplay/crank_wheel/crank_wheel.ent" />
+                <File Id="7" Path="entities/special/cell_breakable_wall/cell_breakable_wall.ent" />
+                <File Id="8" Path="entities/special/cell_breakable_wall/cell_breakable_wall_fragment01.ent" />
+                <File Id="9" Path="entities/special/cell_room_broken_pipe/cell_room_broken_pipe.ent" />
+                <File Id="10" Path="entities/gameplay/padlock_rusty/padlock_rusty.ent" />
+                <File Id="11" Path="entities/special/cell_breakable_wall/cell_breakable_wall_support.ent" />
+                <File Id="12" Path="entities/item/potion_health/potion_health.ent" />
+                <File Id="13" Path="entities/item/wooden_bucket/wooden_bucket.ent" />
+                <File Id="14" Path="entities/special/cell_breakable_wall/cell_breakable_wall_broken.ent" />
+                <File Id="15" Path="entities/special/cell_breakable_wall/cell_breakable_wall_rock1.ent" />
+                <File Id="16" Path="entities/special/cell_breakable_wall/cell_breakable_wall_rock2.ent" />
+                <File Id="17" Path="entities/special/cell_breakable_wall/cell_breakable_wall_rock3.ent" />
+                <File Id="18" Path="entities/lamp/torch_static01/torch_static01.ent" />
+                <File Id="19" Path="entities/special/cave_in/cave_in.ent" />
+                <File Id="20" Path="entities/ornament/torchholder_empty/torchholder_empty.ent" />
+                <File Id="21" Path="entities/item/key_tomb/key_tomb_rusty.ent" />
+                <File Id="22" Path="entities/item/potion_oil/potion_oil.ent" />
+                <File Id="23" Path="entities/prison/cell_bucket/cell_bucket.ent" />
+                <File Id="24" Path="entities/furniture/bed_simple/bed_simple.ent" />
+                <File Id="25" Path="entities/prison/shackles/shackles.ent" />
+                <File Id="26" Path="entities/item/tinderbox/tinderbox.ent" />
+                <File Id="27" Path="entities/furniture/table_wood_small/table_wood_small.ent" />
+                <File Id="28" Path="entities/special/wriggle_prison_bar/wriggle_prison_bar_key_pusher.ent" />
+                <File Id="29" Path="entities/furniture/chair_wood02/chair_wood02.ent" />
+                <File Id="30" Path="entities/special/wriggle_prison_bar/wriggle_prison_bar_bend_stone.ent" />
+                <File Id="31" Path="entities/item/wooden_bucket/wooden_bucket_filled_static.ent" />
+                <File Id="32" Path="entities/critter/cockroach/cockroach.ent" />
+                <File Id="33" Path="entities/bottle/wine01/wine01.ent" />
+                <File Id="34" Path="entities/special/wriggle_prison_bar/wriggle_prison_bar.ent" />
+                <File Id="35" Path="entities/equipment/chain_beam/chain_beam.ent" />
+                <File Id="36" Path="entities/equipment/rope_beam/rope_beam02.ent" />
+                <File Id="37" Path="entities/prison/prisoner_cage/prisoner_cage.ent" />
+                <File Id="38" Path="entities/item/note_generic/note_generic.ent" />
+                <File Id="39" Path="entities/gameplay/padlock_rusty/padlock_broken.ent" />
+                <File Id="40" Path="entities/bottle/wine02/wine02.ent" />
+                <File Id="41" Path="entities/debris/rock_debris/rock_debris_brown01.ent" />
+                <File Id="42" Path="entities/technical/block_box/invisible_box_mass_2.ent" />
+                <File Id="43" Path="entities/organic/slime_static/slime_egg.ent" />
+                <File Id="44" Path="entities/organic/slime_anim/slime_anim_ceiling.ent" />
+                <File Id="45" Path="entities/organic/slime_anim/slime_anim_wall.ent" />
+                <File Id="46" Path="entities/equipment/rope_pile/rope_pile.ent" />
+                <File Id="47" Path="entities/debris/rock_debris/rock_debris_brown02.ent" />
+                <File Id="48" Path="entities/debris/rock/stone_med01_brown.ent" />
+                <File Id="49" Path="entities/organic/slime_static/slime_3way.ent" />
+                <File Id="50" Path="entities/debris/rock/stone_small01_brown.ent" />
+                <File Id="51" Path="entities/door/prison_section/prison_section_plain.ent" />
+                <File Id="52" Path="entities/door/prison_section/prison_section_plain_static.ent" />
+                <File Id="53" Path="entities/organic/slime_static/slime_pile.ent" />
+                <File Id="54" Path="entities/organic/slime_static/slime_6way.ent" />
+                <File Id="55" Path="entities/organic/slime_static/slime_pile_large.ent" />
+                <File Id="56" Path="entities/special/wriggle_prison_bar/wriggle_prison_bar_item.ent" />
+                <File Id="57" Path="entities/enemy/servant_grunt/servant_grunt.ent" />
+                <File Id="58" Path="entities/item/stone_chipper/stone_chipper_move_x.ent" />
+                <File Id="59" Path="entities/item/stone_hammer/stone_hammer_move.ent" />
+                <File Id="60" Path="entities/technical/block_box/block_box.ent" />
+                <File Id="61" Path="entities/item/wooden_bucket/wooden_bucket_object.ent" />
+                <File Id="62" Path="entities/organic/corpse_male/corpse_male.ent" />
+                <File Id="63" Path="entities/debris/wood/wood_beam.ent" />
+                <File Id="64" Path="entities/technical/commentary_icon/commentary_icon.ent" />
+            </FileIndex_Entities>
+            <FileIndex_Decals NumOfFiles="7">
+                <File Id="0" Path="textures/decals/hay.mat" />
+                <File Id="1" Path="textures/decals/hay_small.mat" />
+                <File Id="2" Path="textures/decals/dirt_stain_large.mat" />
+                <File Id="3" Path="textures/decals/filth_rust.mat" />
+                <File Id="4" Path="textures/decals/dirt_wall_leaks.mat" />
+                <File Id="5" Path="textures/decals/blood_smear02.mat" />
+                <File Id="6" Path="textures/decals/blood_stain_small.mat" />
+            </FileIndex_Decals>
+            <StaticObjects />
+            <Primitives />
+            <Decals />
+            <Entities>
+                <Billboard Active="true" BillboardColor="1 1 1 1" BillboardOffset="0" BillboardSize="2.5 2.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0.3 0.3 0.3" ID="1629" IsHalo="false" MaterialFile="E:/lux/redist/billboards/bb_white_halo.mat" Name="Billboard_5" Rotation="-1.5708 0 0" Tag="" WorldPos="0 19.75 -6.5" />
+                <Billboard Active="true" BillboardColor="1 1 1 0.5" BillboardOffset="0" BillboardSize="2.5 2.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0.3 0.3 0.3" ID="1931" IsHalo="false" MaterialFile="E:/lux/redist/billboards/bb_white_halo.mat" Name="Billboard_6" Rotation="-1.5708 0 0" Tag="" WorldPos="0 19 -6.5" />
+                <FogArea Active="true" Color="0.7 0.8 0.9 0.5" End="4" FalloffExp="1" Group="0" ID="1624" Name="FogArea_1" Rotation="0 0 0" Scale="3 4 11.5" ShownBacksideWhenInside="true" ShownBacksideWhenOutside="false" Start="0" Tag="" WorldPos="0 18.25 -10.5" />
+            </Entities>
+            <Misc />
+            <StaticObjectCombos />
+        </MapContents>
+    </MapData>
+</Level>

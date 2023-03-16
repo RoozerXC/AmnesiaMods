@@ -1,0 +1,52 @@
+void OnStart()
+{
+	SetPlayerMoveSpeedMul(0.8f);
+	SetPlayerRunSpeedMul(0);
+	SetPlayerJumpDisabled(true);
+	SetPlayerCrouchDisabled(true);
+	AddEntityCollideCallback("Player", "TeleportToRoom2", "TeleportToRoom2", true, 1);
+	AddEntityCollideCallback("Player", "TeleportToRoom3", "TeleportToRoom3", true, 1);
+	AddEntityCollideCallback("Player", "RemoveBoxLight", "RemoveBoxLight", true, 1);
+	AddEntityCollideCallback("Player", "EndArea", "EndArea", true, 1);
+	PlayMusic("ambient.ogg", true, 1, 0, 1, true);
+}
+
+void TeleportToRoom2(string &in asParent, string &in asChild, int alState)
+{
+	TeleportPlayer("PlayerStartArea_2");
+}
+
+void TeleportToRoom3(string &in asParent, string &in asChild, int alState)
+{
+	TeleportPlayer("PlayerStartArea_3");
+}
+
+void RemoveBoxLight(string &in asParent, string &in asChild, int alState)
+{
+	StopMusic(0.0, 1);
+	SetLightVisible("BoxLight_1", false);
+	SetLightVisible("BoxLight_2", true);
+	GiveSanityDamage(50.0f, true);
+	PlaySoundAtEntity("", "react_scare.snt", "Player", 1.0f, true);
+	AddTimer("", 2.0f, "BreathingTimer");
+}
+
+void BreathingTimer(string &in asTimer)
+{
+	PlaySoundAtEntity("", "react_breath.snt", "Player", 1.0f, true);
+}
+
+void EndArea(string &in asParent, string &in asChild, int alState)
+{
+	SetPlayerActive(false);
+}
+
+void OnEnter()
+{
+
+}
+
+void OnLeave()
+{
+
+}

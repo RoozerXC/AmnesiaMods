@@ -1,0 +1,62 @@
+////////////////////////////
+void OnStart()
+{
+    SetEntityPlayerInteractCallback("button_simple_1", "spamm", false);
+	AddTimer("", 1.0f, "calls");
+	SetLocalVarInt("amount", 1);
+	SetLocalVarInt("number", 1);
+}
+void OnEnter()
+{
+    PlayMusic("", true, 1, 1, 1, false);
+	SetMapDisplayNameEntry("");
+	AutoSave();
+	AddTimer("", 1.0f, "sanitator");
+}
+void OnLeave()
+{
+    StopMusic(1.0f, 1);
+    StopMusic(1.0f, 2);
+    StopMusic(1.0f, 3);
+}
+void sanitator(string &in asTimer)
+{
+    AddTimer("", 1.0f, "sanitator");
+	if(GetPlayerSanity() <= 3.0f)
+	{
+	    SetPlayerSanity(5.0f);
+	}
+	else{}
+}
+void spamm(string &in asEntity)
+{
+    CreateEntityAtArea("boxinger"+GetLocalVarInt("amount"), "wood_box01.ent", "ScriptArea_1", false);
+	AddTimer("", 0.01f, "pushing");
+}
+void calls(string &in asTimer)
+{
+    for(int x = 0; x<=999; x++)
+	{
+		    AddEntityCollideCallback("servant_grunt_1", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_2", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_3", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_4", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_5", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_6", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_7", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_8", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_9", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_10", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_11", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_12", "boxinger_"+x, "killerman", false, 0);
+	}
+}
+void killerman(string &in asParent, string &in asChild, int alState)
+{
+    ReplaceEntity(asParent, "", "ragdolly", "servant_grunt_ragdoll.ent", false);
+}
+void pushing(string &in asTimer)
+{
+    AddPropForce("boxinger"+GetLocalVarInt("amount"), 0.0f, 0.0f, -20000.0f, "world");
+	SetLocalVarInt("amount", GetLocalVarInt("amount")+GetLocalVarInt("number"));
+}

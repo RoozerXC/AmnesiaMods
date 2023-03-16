@@ -1,0 +1,9 @@
+void OnEnter()
+{
+	AddEntityCollideCallback("Player", "DIE", "FellOffStage", true, 0);
+}
+
+void FellOffStage(string &in asParent, string &in asChild, int alState)
+{
+	ChangeMap("Dream1.map","PlayerStartArea_1", "", "");
+}

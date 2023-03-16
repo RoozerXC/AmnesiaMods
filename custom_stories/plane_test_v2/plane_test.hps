@@ -1,0 +1,20 @@
+void OnStart() { }
+
+void OnEnter()
+{
+	AddTimer("InfiniteHP", 0.001f, "InfiniteHP"); // Infinite hp + sanity
+	AddTimer("BruteMadafakas", 0.001f, "BruteMadafakas"); // Force enable Brutes MUHAJAJHA
+}
+
+void InfiniteHP(string &in asTimer)
+{
+	SetPlayerHealth(100000.0f); // Set health AND sanity to 100,000 HP
+	SetPlayerSanity(100000.0f);
+	AddTimer("InfiniteHP", 0.001f, "InfiniteHP"); // Repeat itself
+}
+
+void BruteMadafakas(string &in asTimer)
+{
+	for(int i = 1; i <= 29; i++) SetEntityActive("servant_brute_"+i, true);
+	AddTimer("BruteMadafakas", 0.001f, "BruteMadafakas"); // Repeat itself
+}

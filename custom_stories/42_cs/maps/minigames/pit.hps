@@ -1,0 +1,20 @@
+void OnEnter()
+{
+	if(ScriptDebugOn())
+	{
+		GetPlayerHealth();
+		SetPlayerHealth(50);
+		GetPlayerSanity();
+		SetPlayerSanity(50);
+		GiveItem("lantern", "lantern", "Lantern", "lantern.tga", 1);
+		for(int i = 1; i <= 99; i++) GiveItemFromFile("potion_health_"+i, "potion_health.ent");
+		for(int i = 1; i <= 99; i++) GiveItemFromFile("potion_sanity_"+i, "potion_sanity.ent");
+		for(int i = 1; i <= 99; i++) GiveItemFromFile("potion_oil_"+i, "potion_oil.ent");
+		for(int i = 1; i <= 99; i++) GiveItemFromFile("potion_oil_large_"+i, "potion_oil_large.ent");
+		for(int i = 1; i <= 999; i++) GiveItemFromFile("tinderbox_"+i, "tinderbox.ent");
+	}
+}
+	/*
+		GiveItem("potion_health", "Health", "HealthPotion", "potion_health.tga", 99);
+		GiveItem("potion_sanity", "Sanity", "SanityPotion", "potion_sanity.tga", 99);
+	*/

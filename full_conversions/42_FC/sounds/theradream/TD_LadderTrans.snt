@@ -1,0 +1,8 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="TD_LadderTrans.ogg" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="1.0" MinDistance="20" MaxDistance="30" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="True" Loop="False" Use3D="False" Blockable="False" BlockVolumeMul="0.5" Priority="0" />
+</SOUNDENTITY>

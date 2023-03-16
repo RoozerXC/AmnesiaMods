@@ -1,0 +1,12 @@
+<LANGUAGE>
+  <RESOURCES />
+  <CATEGORY Name="CustomStoryMain">
+    <Entry Name="Description">Three years ago I found a Japanese game called Toy Maker on a Japanese stall.[br][br]I have asked to the Japanese guy to translate the title of the game and he had said "This is Toy Maker, a game for kids." [br][br]I decided to buy it for only 20 dollars (2245.68 Japanese yen), and three hours after I wanted to use the game, but I moved to another house and then lost it.[br][br]Yesterday whilst searching my old Game Boy on an old backpack, I found the game and I decided that I would try the game today, but it's for DOS. [br][br]I downloaded an emulator called DOSBox on my computer and I installed the game. When I started the game, the splash screen was a low quality image, and I see the copyright date and the name of the creator "Tsunayoshi Toshimichi".[br][br](continued on story P1.txt and story P2.txt)</Entry>
+  </CATEGORY>
+  <CATEGORY Name="Messages">
+    <Entry Name="BadCrodiz">You beated the game![br]Unfortunately, you got caught by a cheap jumpscare, which was not okay in the first place.[br][br]*Level Design[br]Roozy[br][br]*Scripting[br]Roozy[br][br]*Idea[br]Creepypasta of a Japanese game.[br][br]Stay tuned for more custom stories in the future.</Entry>
+    <Entry Name="DontEnter">Don't enter. Forget that place.</Entry>
+    <Entry Name="GoodCrodiz">You beated the game![br]Fortunately, you're back into your home.[br][br]*Level Design[br]Roozy[br][br]*Scripting[br]Roozy[br][br]*Idea[br]Creepypasta of a Japanese game.[br][br]Stay tuned for more custom stories in the future.[br]</Entry>
+    <Entry Name="SecretCrodiz">You beated the game![br]Unfortunately, a screaming sound has played, and you were killed instantly to death.[br][br]*Level Design[br]Roozy[br][br]*Scripting[br]Roozy[br][br]*Idea[br]Creepypasta of a Japanese game.[br][br]Stay tuned for more custom stories in the future.</Entry>
+  </CATEGORY>
+</LANGUAGE>

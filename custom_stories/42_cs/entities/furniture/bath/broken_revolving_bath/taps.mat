@@ -1,0 +1,16 @@
+<Material>
+    <Main BlendMode="Add" DepthTest="true" PhysicsMaterial="Metal" Type="soliddiffuse" UseAlpha="false" />
+    <TextureUnits>
+        <Diffuse AnimFrameTime="0" AnimMode="None" Compress="true" File="E:/GameB/Game/redist/entities/furniture/taps/taps.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <NMap AnimFrameTime="0" AnimMode="None" Compress="true" File="E:/GameB/Game/redist/entities/furniture/taps/taps_nrm.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <Specular AnimFrameTime="0" AnimMode="None" Compress="true" File="E:/GameB/Game/redist/entities/furniture/taps/taps_spec.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <CubeMap AnimFrameTime="0" AnimMode="None" Compress="true" File="E:/GameB/Game/redist/textures/envmaps/water_castlebase_cubemap.dds" MipMaps="true" Type="Cube" Wrap="Repeat" />
+    </TextureUnits>
+    <SpecificVariables>
+        <Var Name="HeightMapScale" Value="0.64999997615814209" />
+        <Var Name="HeightMapBias" Value="0" />
+        <Var Name="FrenselBias" Value="2.1" />
+        <Var Name="FrenselPow" Value="13" />
+        <Var Name="AlphaDissolveFilter" Value="false" />
+    </SpecificVariables>
+</Material>

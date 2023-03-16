@@ -1,0 +1,4 @@
+void OnEnter()
+{
+	PlayMusic("sub_dan_brute.ogg", true, 1.0f, 0.0f, 0, true);
+}

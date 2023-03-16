@@ -1,0 +1,7 @@
+<LANGUAGE>
+  <RESOURCES />
+  <CATEGORY Name="Inventory">
+    <Entry Name="ItemName_Revolver357">Revolver 357</Entry>
+    <Entry Name="ItemDesc_Revolver357">This gun can pass a massive firepower-- although, it hits with massive recoil making it rather disadvantageous to close encounters.</Entry>
+  </CATEGORY>
+</LANGUAGE>

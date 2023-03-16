@@ -1,0 +1,74 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="false" GPointLight="false" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0.292544 -0.0314886 0.338663" CameraTarget="0.12078 0.0736836 -0.338022" CameraZoom="4.26013" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities>
+            <PointLight Active="true" CastShadows="false" DiffuseColor="0.0558472 0.301197 0.953125 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" ID="4" Name="PointLight_1" Radius="1" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="0 0.223705 0" />
+            <PointLight Active="true" CastShadows="false" DiffuseColor="0.0235294 0.160784 0.52549 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" ID="5" Name="PointLight_2" Radius="1.5" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="0.25 0.223705 0.25" />
+            <PointLight Active="true" CastShadows="false" DiffuseColor="0.0235294 0.160784 0.52549 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" ID="6" Name="PointLight_3" Radius="1.5" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="-0.25 0.223705 0.25" />
+            <PointLight Active="true" CastShadows="false" DiffuseColor="0.0235294 0.160784 0.52549 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" ID="7" Name="PointLight_4" Radius="1.5" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="-0.25 0.223705 -0.25" />
+            <PointLight Active="true" CastShadows="false" DiffuseColor="0.0226593 0.160659 0.527344 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" ID="8" Name="PointLight_5" Radius="1.5" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="0.25 0.223705 -0.25" />
+        </Entities>
+        <Mesh Filename="42_FC/entities/item/lantern/Lantern_orb.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="orb" Rotation="0 0 0" Scale="0.15 0.15 0.15" SubMeshID="0" Tag="" WorldPos="0 0.223705 0" />
+            <SubMesh Active="true" ID="1" Material="" Name="handle" Rotation="0 0 -1.5708" Scale="0.15 0.15 0.15" SubMeshID="1" Tag="" WorldPos="0 0.554897 0" />
+            <SubMesh Active="true" ID="2" Material="" Name="handle_thingerinos" Rotation="0 0 0" Scale="0.15 0.15 0.15" SubMeshID="2" Tag="" WorldPos="0 0.223705 0" />
+            <SubMesh Active="true" ID="3" Material="" Name="whatever_this_is" Rotation="0 0 0" Scale="0.15 0.15 0.15" SubMeshID="3" Tag="" WorldPos="0 0.223705 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="10" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="0.174 0.174 0.174" RelativeTranslation="0 -0.07904 0" Rotation="0 0 0" Scale="0.174 0.174 0.174" ShapeType="Sphere" Tag="" WorldPos="0 0.223705 0" />
+            <BodyShape Active="true" ID="11" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="0.15 0.1 0.15" RelativeTranslation="0 -0.25196 0" Rotation="0 0 0" Scale="0.15 0.1 0.15" ShapeType="Cylinder" Tag="" WorldPos="0 0.0507854 0" />
+            <BodyShape Active="true" ID="12" Name="Shape_3" RelativeRotation="0 -0 0" RelativeScale="0.006 0.15 0.006" RelativeTranslation="-0.076 0.17096 0" Rotation="0 0 0" Scale="0.006 0.15 0.006" ShapeType="Cylinder" Tag="" WorldPos="-0.076 0.473705 0" />
+            <BodyShape Active="true" ID="13" Name="Shape_4" RelativeRotation="0 -0 0" RelativeScale="0.006 0.15 0.006" RelativeTranslation="0.076 0.17096 0" Rotation="0 0 0" Scale="0.006 0.15 0.006" ShapeType="Cylinder" Tag="" WorldPos="0.076 0.473705 0" />
+            <BodyShape Active="true" ID="14" Name="Shape_5" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0 0 0" Rotation="0 0 1.5708" Scale="0.008 0.008 0.008" ShapeType="Cylinder" Tag="" WorldPos="0 0.553705 0" />
+            <BodyShape Active="true" ID="15" Name="Shape_6" RelativeRotation="0 -0 1.5708" RelativeScale="0.016 0.121 0.016" RelativeTranslation="0 0.25196 0" Rotation="0 0 1.5708" Scale="0.016 0.121 0.016" ShapeType="Cylinder" Tag="" WorldPos="0 0.554705 0" />
+            <BodyShape Active="true" ID="16" Name="Shape_7" RelativeRotation="0 -0 0" RelativeScale="0.104 0.047 0.104" RelativeTranslation="0 0.08096 0" Rotation="0 0 0" Scale="0.104 0.047 0.104" ShapeType="Cylinder" Tag="" WorldPos="0 0.383705 0" />
+            <BodyShape Active="true" ID="19" Name="Shape_8" RelativeRotation="0 -0 1.5708" RelativeScale="0.008 0.169 0.008" RelativeTranslation="0 0.25096 0" Rotation="0 0 1.5708" Scale="0.008 0.169 0.008" ShapeType="Cylinder" Tag="" WorldPos="0 0.553705 0" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="22" LinearDamping="0" Mass="1" Material="Metal" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_1" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="0 0.302745 0">
+                <Shape ID="15" />
+                <Shape ID="13" />
+                <Shape ID="19" />
+                <Shape ID="12" />
+                <Shape ID="16" />
+                <Shape ID="10" />
+                <Shape ID="11" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="Lantern" EntityType="Item">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="SubItemTypeName" Value="Lantern" />
+        <Var Name="ImageFile" Value="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/42_FC/graphics/item/lantern.tga" />
+        <Var Name="PickSound" Value="Orb_Piece" />
+    </UserDefinedVariables>
+</Entity>

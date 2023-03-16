@@ -1,0 +1,75 @@
+void OnEnter()
+{
+	CheckPoint("asdf", "PlayerStartArea_1", "CheckPointDIE", "", "");
+	AddEntityCollideCallback("Player", "DIE", "FellOffStage", false, 0);
+	AddEntityCollideCallback("Player", "WIN", "WeHaveAWinner", true, 0);
+	AddEntityCollideCallback("Player", "FALL", "FallsDown", false, 0);
+	AddEntityCollideCallback("TheHatch", "TheArea", "AlmostThere", true, 0);
+	PlayMusic("Tension.ogg", true, 2.0f, 0, 10, true);
+	FadeIn(5.0f);
+	AddTimer("Meteor0", RandFloat(20, 30), "CreateMeteor");
+	AddTimer("Meteor1", RandFloat(20, 30), "CreateMeteor");
+	AddTimer("Meteor2", RandFloat(20, 30), "CreateMeteor");
+	AddTimer("Meteor3", RandFloat(20, 30), "CreateMeteor");
+	SetSanityDrainDisabled(true);
+	PreloadSound("general_wind_whirl");
+	PreloadSound("scare_whine_loop4");
+}
+
+void FellOffStage(string &in asParent, string &in asChild, int alState)
+{
+	TeleportPlayer("PlayerStartArea_1");
+}
+
+void WeHaveAWinner(string &in asParent, string &in asChild, int alState)
+{
+	ChangeMap("win.map","PlayerStartArea_1", "", "");
+	FadeOut(0.0f);
+}
+
+void AlmostThere(string &in asParent, string &in asChild, int alState)
+{
+	GiveSanityBoostSmall();
+}
+
+void FallsDown(string &in asParent, string &in asChild, int alState)
+{
+	PlaySoundAtEntity("", "general_wind_whirl.snt", "Player", 1.0f, true);
+}
+
+void CheckPointDIE(string &in asName, int alCount)
+{
+	AddTimer("ChangeMap", 2.0, "TimerChangeMap");
+}
+	
+void TimerChangeMap(string &in asChangeMap)
+{
+	ChangeMap("fail.map","PlayerStartArea_1", "", "");
+}
+
+void CreateMeteor(string &in asTimer)
+{
+	if(asTimer == "Meteor0")
+	{
+	CreateEntityAtArea("Meteor", "contained_awesome.ent", "Area_"+RandInt(1, 100), false);
+	AddTimer("Meteor1", RandFloat(30, 30), "CreateMeteor");
+	}
+	
+	else if(asTimer == "Meteor1")
+	{
+	CreateEntityAtArea("Meteor", "contained_grunt.ent", "Area_"+RandInt(1, 100), false);
+	AddTimer("Meteor1", RandFloat(40, 40), "CreateMeteor");
+	}
+	
+	else if(asTimer == "Meteor2") 
+	{
+	CreateEntityAtArea("Meteor", "contained_brute.ent", "Area_"+RandInt(1, 100), false);
+	AddTimer("Meteor2", RandFloat(50, 50), "CreateMeteor");
+	}
+	
+	else if(asTimer == "Meteor3") 
+	{
+	CreateEntityAtArea("Meteor", "contained_infected.ent", "Area_"+RandInt(1, 100), false);
+	AddTimer("Meteor3", RandFloat(60, 60), "CreateMeteor");
+	}
+} 

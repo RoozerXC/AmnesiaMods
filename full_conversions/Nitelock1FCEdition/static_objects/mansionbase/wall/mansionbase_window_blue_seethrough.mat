@@ -1,0 +1,6 @@
+<Material>
+    <Main BlendMode="Mulx2" DepthTest="true" HeightMapBias="0.000000" HeightMapScale="0.100000" PhysicsMaterial="Default" Type="translucent" UseAlpha="false" />
+    <TextureUnits>
+        <Diffuse AnimFrameTime="0.000000" AnimMode="None" Compress="true" File="C:/Skolarbeten och diverse projekt/3d/projekt/Frictional Games/SVN/redist/static_objects/mansionbase/wall/mansionbase_window_blue_seethrough.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+    </TextureUnits>
+</Material>

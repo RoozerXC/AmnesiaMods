@@ -1,0 +1,9 @@
+void OnStart() { }
+
+void OnEnter()
+{
+	PlayMusic("06_amb.ogg", true, 0.4f, 0.0f, 0, true);
+	SetMapDisplayNameEntry("Bedroom");
+}
+
+void OnLeave() { }

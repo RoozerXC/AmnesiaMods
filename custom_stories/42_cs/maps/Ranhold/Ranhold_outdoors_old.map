@@ -1,0 +1,212 @@
+<Level>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="false" GridSnap="true" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="-4.43189 2.64525 -3.00478" CameraTarget="13.6343 0 5.93175" CameraZoom="0.9" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="false" ShowGrid="false" UsingLTCam="true" />
+        </ViewportConfig>
+        <Groups>
+            <Group ID="0" Name="None" Visible="true" />
+        </Groups>
+    </EditorSession>
+    <MapData FogActive="false" FogColor="1 1 1 1" FogCulling="true" FogEnd="20" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="true" SkyBoxColor="1 1 1 1" SkyBoxTexture="custom_stories/42_cs/textures/backdrops/skybox_3.dds">
+        <MapContents>
+            <FileIndex_StaticObjects NumOfFiles="9">
+                <File Id="0" Path="custom_stories/42_cs/static_objects/dungeonbase/floor/42_terrain_thing.dae" />
+                <File Id="1" Path="static_objects/cellarbase/ceiling/welder_extension.dae" />
+                <File Id="2" Path="static_objects/outside/tree/pine.dae" />
+                <File Id="3" Path="static_objects/outside/tree/pine_lowpoly.dae" />
+                <File Id="4" Path="static_objects/debris/rock/stone_large02.dae" />
+                <File Id="5" Path="static_objects/debris/rock/stone_large01.dae" />
+                <File Id="6" Path="static_objects/outside/foliage/grass02.dae" />
+                <File Id="7" Path="static_objects/outside/foliage/shrubb01.dae" />
+                <File Id="8" Path="static_objects/outside/foliage/grass01.DAE" />
+            </FileIndex_StaticObjects>
+            <FileIndex_Entities NumOfFiles="3">
+                <File Id="0" Path="entities/lamp/hanging_lantern/hanging_lantern_wall.ent" />
+                <File Id="1" Path="entities/lamp/torch_static01/torch_static01.ent" />
+                <File Id="2" Path="entities/navigation/sign_refinery/sign_refinery.ent" />
+            </FileIndex_Entities>
+            <FileIndex_Decals NumOfFiles="0" />
+            <StaticObjects>
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="3" Name="floor_dirt_mould_pile_1" Rotation="0 0 0" Scale="5 23.75 5" Tag="" WorldPos="1.5 0 22.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="4" Name="floor_dirt_mould_pile_2" Rotation="-3.14159 0.523603 -3.14159" Scale="10 25 5" Tag="" WorldPos="-7 0 20.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="5" Name="floor_dirt_mould_pile_3" Rotation="-1.19209e-006 1.309 -9.53674e-007" Scale="10 35.75 9.75" Tag="" WorldPos="-5 0 30.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="8" Name="floor_dirt_mould_pile_6" Rotation="-3.14159 1.309 -3.14159" Scale="10 25 5" Tag="" WorldPos="-18 0 13" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="9" Name="floor_dirt_mould_pile_7" Rotation="-0.158706 1.5708 -0.158706" Scale="13.5 34.25 5.5" Tag="" WorldPos="-18.5 0 8.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="10" Name="floor_dirt_mould_pile_8" Rotation="3.14159 0.5236 -3.14159" Scale="12.75 67.25 5.5" Tag="" WorldPos="-8.25 0 20.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="12" Name="floor_dirt_mould_pile_10" Rotation="1.01042e-009 -0.785395 1.94726e-007" Scale="9.25 84.5 10.25" Tag="" WorldPos="-21 0 20.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="13" Name="floor_dirt_mould_pile_11" Rotation="3.14159 -1.0472 -3.14159" Scale="10.25 128 11.75" Tag="" WorldPos="-31.5 0 -4.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="14" Name="floor_dirt_mould_pile_12" Rotation="-3.12708 1.5708 -3.12708" Scale="16.5 167.75 11.75" Tag="" WorldPos="-29.25 0 9" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="15" Name="floor_dirt_mould_pile_13" Rotation="2.76054e-009 1.309 1.98106e-007" Scale="9.25 110 10.25" Tag="" WorldPos="-26.75 0 13.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="16" Name="floor_dirt_mould_pile_14" Rotation="7.14479e-010 2.23517e-006 1.9544e-007" Scale="9.25 108.25 10.25" Tag="" WorldPos="-23.25 0 16.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="19" Name="floor_dirt_mould_pile_16" Rotation="3.14159 0.261801 3.14159" Scale="10.25 66.75 11.75" Tag="" WorldPos="-16.5 0 33" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="20" Name="floor_dirt_mould_pile_17" Rotation="-3.14159 -0.261797 -3.14159" Scale="13.25 115.75 10" Tag="" WorldPos="2.75 0 -26.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="22" Name="floor_dirt_mould_pile_19" Rotation="-3.14159 -0.261797 3.14159" Scale="13.25 87.5 10" Tag="" WorldPos="17.25 0 -28.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="23" Name="floor_dirt_mould_pile_20" Rotation="3.14159 1.0472 3.14159" Scale="11.75 68.75 8" Tag="" WorldPos="22.25 0 -17" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="24" Name="floor_dirt_mould_pile_21" Rotation="3.14159 -0.785395 -3.14159" Scale="11.75 68.75 8" Tag="" WorldPos="4.25 0 24.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="25" Name="floor_dirt_mould_pile_22" Rotation="1.43051e-006 -1.0472 -9.53674e-007" Scale="8.25 91.75 11" Tag="" WorldPos="19.75 0 20.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="67" Name="tree_pine_3" Rotation="3.14159 0.785404 3.14159" Scale="1.25 1.25 1.25" Tag="" WorldPos="3.75 0 9.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="68" Name="tree_pine_lowpoly_1" Rotation="0 0.523598 0" Scale="1 1 1" Tag="" WorldPos="9 5.25 -9" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="69" Name="tree_pine_lowpoly_2" Rotation="3.14159 -0.523594 3.14159" Scale="1 1 1" Tag="" WorldPos="10 5.25 6.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="73" Name="tree_pine_4" Rotation="-3.14159 -1.04719 3.14159" Scale="1.25 1.25 1.25" Tag="" WorldPos="-7.25 0 5.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="74" Name="tree_pine_lowpoly_3" Rotation="0 0.523598 0" Scale="0.75 0.75 0.75" Tag="" WorldPos="-2.25 4 11" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="77" Name="floor_dirt_mould_pile_23" Rotation="3.14159 -1.30899 -3.14159" Scale="4.7215 54.25 8.5" Tag="" WorldPos="24.75 0 -8.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="78" Name="floor_dirt_mould_pile_24" Rotation="0.618265 1.5708 0.618265" Scale="7.1959 54.25 7.51594" Tag="" WorldPos="22.5 0 12.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="82" Name="ceiling_welder_extension_1" Rotation="0 1.5708 0" Scale="0.5 1 1" Tag="" WorldPos="19 4 0.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="85" Name="ceiling_welder_extension_4" Rotation="1.5708 0 1.5708" Scale="1 1 1" Tag="" WorldPos="19 1.5 -1" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="86" Name="ceiling_welder_extension_5" Rotation="1.5708 0 1.5708" Scale="1 1 1" Tag="" WorldPos="19 1.5 2" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="88" Name="floor_dirt_mould_pile_27" Rotation="-3.14159 -1.04719 3.14159" Scale="2 38.25 2.75" Tag="" WorldPos="20.25 0 5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="91" Name="rock_stone_large01_1" Rotation="0 1.5708 0" Scale="4.39544 4.45 2.5" Tag="" WorldPos="20 0 -3.78498" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="92" Name="rock_stone_large02_1" Rotation="-3.06096 -1.40374 -2.91908" Scale="15.6321 6.56695 16.424" Tag="" WorldPos="31.7176 5.55152 0.793796" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="94" Name="rock_stone_large02_2" Rotation="1.5708 2.26498e-006 1.5708" Scale="3.5 2.25 2" Tag="" WorldPos="19.25 2.25 1.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="95" Name="tree_pine_5" Rotation="3.14159 0.785404 3.14159" Scale="1 1 1" Tag="" WorldPos="3.75 0 -9.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="7" Group="0" ID="116" Name="foliage_shrubb01_1" Rotation="3.14159 -1.309 3.14159" Scale="1 1 1" Tag="" WorldPos="5.53899 -4.76837e-007 5.90431" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="6" Group="0" ID="131" Name="foliage_grass02_12" Rotation="3.14159 0.708532 3.14159" Scale="1 2.3 1" Tag="" WorldPos="14.0317 -0.272836 -2.46333" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="6" Group="0" ID="132" Name="foliage_grass02_13" Rotation="-4.76837e-007 1.43404 -4.76837e-007" Scale="1 2.3 1" Tag="" WorldPos="17.997 -0.273 1.03" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="6" Group="0" ID="133" Name="foliage_grass02_14" Rotation="0 0.694099 0" Scale="1 2.3 1" Tag="" WorldPos="13.4091 -0.272836 4.05676" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="8" Group="0" ID="135" Name="foliage_grass01_1" Rotation="0 1.0472 0" Scale="1 2.3 1" Tag="" WorldPos="15.279 -0.273 0.008" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="6" Group="0" ID="136" Name="foliage_grass02_15" Rotation="0 0.638192 0" Scale="1 2.3 1" Tag="" WorldPos="12.1545 -0.272836 2.02589" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="8" Group="0" ID="137" Name="foliage_grass01_2" Rotation="0 0.528243 0" Scale="1 2.3 1" Tag="" WorldPos="11.1998 -0.273 -0.0814532" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="8" Group="0" ID="138" Name="foliage_grass01_3" Rotation="0 -1.13228 2.38419e-007" Scale="1 2.3 1" Tag="" WorldPos="11.2661 -0.273 -2.51039" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="8" Group="0" ID="140" Name="foliage_grass01_4" Rotation="0 -0.0310692 2.38419e-007" Scale="1 2.3 1" Tag="" WorldPos="9.59907 -0.273 -5.83188" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="145" Name="rock_stone_large02_3" Rotation="0.899567 0.285399 1.35081" Scale="7.75 6.95099 12.198" Tag="" WorldPos="32.9185 2.25 -7.61647" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="146" Name="rock_stone_large01_2" Rotation="0 0.298338 0" Scale="9.56586 16.3 15.6891" Tag="" WorldPos="41.4789 -4.25147 2.22253" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="147" Name="rock_stone_large01_3" Rotation="0 1.5708 0" Scale="7.04799 0.850001 5.32057" Tag="" WorldPos="22.0268 -0.706387 0.0813335" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="148" Name="rock_stone_large02_4" Rotation="1.5708 2.26498e-006 1.5708" Scale="0.65 5.61336 2.96462" Tag="" WorldPos="25.2748 -0.24734 -2.40401" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="149" Name="rock_stone_large01_4" Rotation="-2.96139 1.25399 0.189425" Scale="7.04799 0.850001 5.32057" Tag="" WorldPos="28.0794 0.126362 1.10041" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="150" Name="rock_stone_large02_5" Rotation="-1.5708 0.043002 -1.57079" Scale="0.65 5.61336 2.96462" Tag="" WorldPos="32.5088 -0.24734 5.41773" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="151" Name="rock_stone_large01_5" Rotation="-0.111332 -1.04423 -3.02723" Scale="7.04799 0.850001 5.32057" Tag="" WorldPos="33.7477 0.126362 5.28022" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="152" Name="rock_stone_large02_6" Rotation="1.2842 0.043002 -1.57079" Scale="0.65 6.86412 4.42229" Tag="" WorldPos="34.043 -0.24734 6.03074" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="157" Name="ceiling_welder_extension_6" Rotation="1.5708 0 1.5708" Scale="1 1 1" Tag="" WorldPos="24.25 2 2.25" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="6" Group="0" ID="179" Name="foliage_grass02_16" Rotation="1.90735e-006 -0.283596 -1.43051e-006" Scale="1 2.3 1" Tag="" WorldPos="6.48694 -0.272836 -5.04507" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="6" Group="0" ID="180" Name="foliage_grass02_17" Rotation="3.14159 -0.545998 3.14159" Scale="1 2.3 1" Tag="" WorldPos="9.56409 -0.272836 2.12971" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="8" Group="0" ID="181" Name="foliage_grass01_5" Rotation="0 0.686779 2.38419e-007" Scale="1 2.3 1" Tag="" WorldPos="7.73517 -0.273 0.823596" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="6" Group="0" ID="182" Name="foliage_grass02_18" Rotation="0 -0.361788 0" Scale="1 2.3 1" Tag="" WorldPos="7.80171 -0.272836 -3.33509" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="8" Group="0" ID="183" Name="foliage_grass01_6" Rotation="-3.14159 0.593844 -3.14159" Scale="1 2.3 1" Tag="" WorldPos="9.08709 -0.273 -0.675165" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="8" Group="0" ID="184" Name="foliage_grass01_7" Rotation="3.14159 0.684284 3.14159" Scale="1 2.3 1" Tag="" WorldPos="16.0569 -0.273 -2.49737" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="185" Name="rock_stone_large01_6" Rotation="0 -1.29748 0" Scale="7.34341 16.4 15.4605" Tag="" WorldPos="33.109 -3.27807 14.9267" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="186" Name="rock_stone_large01_7" Rotation="0.139308 -0.128907 0.444326" Scale="4.42046 7.43562 6.49608" Tag="" WorldPos="41.2745 8.31058 8.22526" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="192" Name="ceiling_welder_extension_7" Rotation="0.785403 0 1.5708" Scale="1 1 1" Tag="" WorldPos="-11.5 2.5 -8.75" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="8" Group="0" ID="203" Name="foliage_grass01_8" Rotation="0 1.25441 2.38419e-007" Scale="1 2.3 1" Tag="" WorldPos="5.75311 -0.273 3.09418" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="6" Group="0" ID="204" Name="foliage_grass02_19" Rotation="-3.14159 -1.17322 -3.14159" Scale="1 2.3 1" Tag="" WorldPos="6.51982 -0.272836 -1.41875" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="8" Group="0" ID="205" Name="foliage_grass01_9" Rotation="0 -0.816275 2.38419e-007" Scale="1 2.3 1" Tag="" WorldPos="12.7456 -0.273 -5.81498" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="6" Group="0" ID="206" Name="foliage_grass02_20" Rotation="-3.14159 -1.33702 3.14159" Scale="1 2.3 1" Tag="" WorldPos="4.89044 -0.272836 -3.94051" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="8" Group="0" ID="207" Name="foliage_grass01_10" Rotation="3.14159 -1.03002 -3.14159" Scale="1 2.3 1" Tag="" WorldPos="10.3396 -0.273 0.838343" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="6" Group="0" ID="208" Name="foliage_grass02_21" Rotation="-3.14159 -0.51317 -3.14159" Scale="1 2.3 1" Tag="" WorldPos="-4.76729 -0.272836 8.67312" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="8" Group="0" ID="209" Name="foliage_grass01_11" Rotation="-3.14159 1.13908 -3.14159" Scale="1 2.3 1" Tag="" WorldPos="0.446572 -0.273 11.087" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="6" Group="0" ID="210" Name="foliage_grass02_22" Rotation="-3.14159 -0.855934 -3.14159" Scale="1 2.3 1" Tag="" WorldPos="1.3956 -0.272836 6.30245" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="8" Group="0" ID="211" Name="foliage_grass01_12" Rotation="0 -1.31752 2.38419e-007" Scale="1 2.3 1" Tag="" WorldPos="6.89462 -0.273 7.91463" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="8" Group="0" ID="212" Name="foliage_grass01_13" Rotation="0 0.284814 2.38419e-007" Scale="1 2.3 1" Tag="" WorldPos="13.0425 -0.273 5.37321" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="8" Group="0" ID="213" Name="foliage_grass01_14" Rotation="0 -0.172531 2.38419e-007" Scale="1 2.3 1" Tag="" WorldPos="6.22282 -0.273 -7.69013" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="6" Group="0" ID="214" Name="foliage_grass02_23" Rotation="-3.14159 0.527718 -3.14159" Scale="1 2.3 1" Tag="" WorldPos="4.05838 -0.272836 3.80787" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="8" Group="0" ID="215" Name="foliage_grass01_15" Rotation="-3.14159 0.946465 -3.14159" Scale="1 2.3 1" Tag="" WorldPos="3.59933 -0.273 1.79197" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="6" Group="0" ID="216" Name="foliage_grass02_24" Rotation="-3.14159 -1.43672 3.14159" Scale="1 2.3 1" Tag="" WorldPos="2.43116 -0.272836 -4.828" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="6" Group="0" ID="217" Name="foliage_grass02_25" Rotation="-2.38419e-007 0.059759 2.38419e-007" Scale="1 2.3 1" Tag="" WorldPos="-0.0648591 -0.272836 -0.23446" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="8" Group="0" ID="218" Name="foliage_grass01_16" Rotation="-3.14159 0.227273 3.14159" Scale="1 2.3 1" Tag="" WorldPos="1.74158 -0.273 1.74368" />
+                <StaticObject CastShadows="true" Collides="false" FileIndex="8" Group="0" ID="219" Name="foliage_grass01_17" Rotation="-2.59407e-007 -0.41209 -1.19254e-007" Scale="1 2.3 1" Tag="" WorldPos="1.30275 -0.273 4.68199" />
+            </StaticObjects>
+            <Primitives>
+                <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 4.775" Corner2UV="0 0" Corner3UV="4.625 0" Corner4UV="4.625 4.775" EndCorner="92.5 0 95.5" Group="0" ID="98" Material="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/static_objects/outside/ground/zimmerman_ground_grass.mat" Name="Plane" Rotation="0 0 0" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="0.05 1 0.05" TileOffset="0 0 0" WorldPos="-33 0 -33" />
+                <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 0.779395" Corner2UV="0 0" Corner3UV="0.465 0" Corner4UV="0.465 0.779395" EndCorner="9.3 0 15.5879" Group="0" ID="153" Material="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/static_objects/technical/plane_black/plane_black.mat" Name="Plane_1" Rotation="-1.15565 0 1.5708" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="0.05 1 0.05" TileOffset="0 0 0" WorldPos="40.6111 0 6.24042" />
+            </Primitives>
+            <Decals />
+            <Entities>
+                <Entity Active="true" FileIndex="0" Group="0" ID="99" Name="hanging_lantern_wall_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="18.75 2.75 -1.25">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Lit" Value="true" />
+                        <Var Name="ConnectedLight" Value="" />
+                        <Var Name="ConnectionLightAmount" Value="1" />
+                        <Var Name="ConnectionLightUseOnColor" Value="true" />
+                        <Var Name="ConnectionLightUseSpec" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Area Active="true" AreaType="PlayerStart" Group="0" ID="141" Mesh="" Name="PlayerStartArea_1" Rotation="0 0.925025 0" Scale="1 1 1" Tag="" WorldPos="-13.25 0 -13.5">
+                    <UserVariables />
+                </Area>
+                <FogArea Active="true" Color="0 0 0 1" End="10" FalloffExp="1" Group="0" ID="155" Name="FogArea_1" Rotation="0 0 0" Scale="17.75 12.75 22.75" ShownBacksideWhenInside="true" ShownBacksideWhenOutside="false" Start="0" Tag="" WorldPos="31.75 2.75 1" />
+                <Entity Active="true" FileIndex="1" Group="0" ID="159" Name="torch_static01_1" Rotation="0 -3.14159 0" Scale="1 1 1" Tag="" WorldPos="24.25 1.75 1.75">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Lit" Value="true" />
+                        <Var Name="ConnectedLight" Value="" />
+                        <Var Name="ConnectionLightAmount" Value="1" />
+                        <Var Name="ConnectionLightUseOnColor" Value="true" />
+                        <Var Name="ConnectionLightUseSpec" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <PointLight Active="true" CastShadows="false" DiffuseColor="1 0.407 0.13 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="160" Name="PointLight_1" Radius="2.5" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="22.75 2.25 0.25" />
+                <PointLight Active="true" CastShadows="false" DiffuseColor="0.483 0.225 0.061 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="161" Name="PointLight_2" Radius="3.5" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="21 2.5 0.5" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/particles/ps_area_fog_large.ps" Group="0" ID="162" MaxFadeDistanceEnd="110" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MinFadeDistanceStart="2" Name="ParticleSystem_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="20.5 2 0" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/particles/ps_area_fog_large.ps" Group="0" ID="163" MaxFadeDistanceEnd="110" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MinFadeDistanceStart="2" Name="ParticleSystem_2" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="27.5 2 0.5" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/particles/ps_area_fog_large.ps" Group="0" ID="164" MaxFadeDistanceEnd="110" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MinFadeDistanceStart="2" Name="ParticleSystem_3" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="32.75 2 3.5" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/particles/ps_area_fog_large.ps" Group="0" ID="165" MaxFadeDistanceEnd="110" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MinFadeDistanceStart="2" Name="ParticleSystem_4" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="30.5 2 1.5" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/particles/ps_area_fog_large.ps" Group="0" ID="166" MaxFadeDistanceEnd="110" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MinFadeDistanceStart="2" Name="ParticleSystem_5" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="34 2 6.5" />
+                <ParticleSystem Active="true" Color="1 0.438 0.19 1" FadeAtDistance="true" File="ps_light_dust_large.ps" Group="0" ID="177" MaxFadeDistanceEnd="110" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MinFadeDistanceStart="2" Name="ParticleSystem_6" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="24.25 2.5 1" />
+                <ParticleSystem Active="true" Color="1 0.627 0.386 1" FadeAtDistance="true" File="ps_light_dust_large.ps" Group="0" ID="178" MaxFadeDistanceEnd="110" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MinFadeDistanceStart="2" Name="ParticleSystem_7" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="17.75 2 -1" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/particles/ps_water_rain.ps" Group="0" ID="187" MaxFadeDistanceEnd="110" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MinFadeDistanceStart="2" Name="ParticleSystem_8" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-11.456 11.5731 -6.90351" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/particles/ps_water_rain.ps" Group="0" ID="188" MaxFadeDistanceEnd="110" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MinFadeDistanceStart="2" Name="ParticleSystem_9" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="16.6255 27.5052 0.0704117" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/particles/ps_water_rain.ps" Group="0" ID="189" MaxFadeDistanceEnd="110" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MinFadeDistanceStart="2" Name="ParticleSystem_10" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="5.88507 40.4095 -21.4963" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="C:/Program Files (x86)/Steam/steamapps/common/Amnesia The Dark Descent/particles/ps_water_rain.ps" Group="0" ID="190" MaxFadeDistanceEnd="110" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MinFadeDistanceStart="2" Name="ParticleSystem_11" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-0.228299 40.4095 22.3282" />
+                <Entity Active="true" FileIndex="0" Group="0" ID="195" Name="hanging_lantern_wall_2" Rotation="0 -2.35619 0" Scale="1 1 1" Tag="" WorldPos="-11.16 3.71 -9.12">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="Lit" Value="true" />
+                        <Var Name="ConnectedLight" Value="" />
+                        <Var Name="ConnectionLightAmount" Value="1" />
+                        <Var Name="ConnectionLightUseOnColor" Value="true" />
+                        <Var Name="ConnectionLightUseSpec" Value="false" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="2" Group="0" ID="201" Name="sign_refinery_1" Rotation="0 -0.7854 0" Scale="1.5 1.5 1.5" Tag="" WorldPos="-11.825 1.5 -8.35">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Area Active="true" AreaType="Sign" Group="0" ID="202" Mesh="" Name="SignArea_1" Rotation="0 -0.785397 0" Scale="1.75 1 0.75" Tag="" WorldPos="-11.25 2 -9">
+                    <UserVariables>
+                        <Var Name="TextCat" Value="Signs" />
+                        <Var Name="TextEntry" Value="SIGN_RanholdEntrance" />
+                    </UserVariables>
+                </Area>
+                <BoxLight Active="true" BlendFunc="0" CastShadows="false" DiffuseColor="0.121 0.014 0.151 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="220" Name="BoxLight_1" Radius="1" Rotation="0 -0 0" Scale="100 100 100" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Size="100 100 100" Tag="" WorldPos="-1.25 10 0" />
+            </Entities>
+            <Misc />
+            <StaticObjectCombos />
+        </MapContents>
+    </MapData>
+</Level>

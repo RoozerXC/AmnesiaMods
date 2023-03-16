@@ -1,0 +1,62 @@
+void OnStart()
+{
+	FadeIn(2.0f);
+	AddEntityCollideCallback("Player", "AAUEURUGH", "AAUEURUGH", true, 1);
+	AddEntityCollideCallback("Player", "jumper", "jumper", true, 1);
+}
+
+void OnEnter()
+{
+	PlayMusic("12_amb.ogg", true, 1.0f, 0.0f, 0, true);
+}
+
+// Scrapped jumpscare events
+
+/*
+
+void AAUEURUGH(string &in asParent, string &in asChild, int alState)
+{
+	SetPlayerMoveSpeedMul(0.1f);
+	SetEntityActive("corpse_male_1", true);
+	AddPropForce("corpse_male_1", 0, 0, 500000, "");
+	PlaySoundAtEntity("21_scream1", "21_scream1.snt", "corpse_male_1", 0.0f, false);
+	AddTimer("pant", 0.13, "pant");
+}
+
+void pant(string& asTimer)
+{
+	AddTimer("woah", 0.12, "woah");
+	PlaySoundAtEntity("react_pant", "react_pant.snt", "Player", 0.0f, false);
+}
+
+void woah(string& asTimer)
+{
+	GiveSanityDamage(70, true);
+	AddTimer("normspeed", 1.65, "normspeed");
+}
+
+void normspeed(string& asTimer)
+{
+	SetPlayerMoveSpeedMul(1.0f);
+}
+
+void jumper(string &in asParent, string &in asChild, int alState)
+{
+	SetPlayerMoveSpeedMul(0.0f);
+	StopMusic(0.0f, 0);
+	PlayMusic("ryuk.ogg", false, 1.0f, 0.0f, 0, false);
+	TeleportPlayer("JumperArea");
+	SetPlayerActive(false);
+	AddTimer("damn", 5, "damn");
+}
+
+void damn(string& asTimer)
+{
+	GivePlayerDamage(999, "BloodSplat", false, true);
+	FadeOut(0.0f);
+	SetPlayerActive(true);
+	SetPlayerMoveSpeedMul(1.0f);
+}
+
+*/
+

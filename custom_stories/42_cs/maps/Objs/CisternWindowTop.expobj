@@ -1,0 +1,135 @@
+<Level>
+    <MapData FogActive="true" FogColor="0.13 0.18 0.22 0.3" FogCulling="true" FogEnd="40" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="false" SkyBoxColor="1 1 1 1" SkyBoxTexture="../../../../../../">
+        <MapContents>
+            <FileIndex_StaticObjects NumOfFiles="62">
+                <File Id="0" Path="static_objects/cisternbase/floor/platform_intersection_long.dae" />
+                <File Id="1" Path="static_objects/cisternbase/floor/platform_end.dae" />
+                <File Id="2" Path="static_objects/cisternbase/floor/platform_end_bridge.dae" />
+                <File Id="3" Path="static_objects/cisternbase/bridge/platform_bridge.dae" />
+                <File Id="4" Path="static_objects/cisternbase/floor/platform_long.dae" />
+                <File Id="5" Path="static_objects/cisternbase/floor/platform_corner.dae" />
+                <File Id="6" Path="static_objects/cisternbase/ceiling/stone_arched.dae" />
+                <File Id="7" Path="static_objects/cisternbase/stairs/platform_normal.dae" />
+                <File Id="8" Path="static_objects/cisternbase/floor/platform_normal.dae" />
+                <File Id="9" Path="static_objects/cisternbase/floor/platform_intersection.dae" />
+                <File Id="10" Path="static_objects/cisternbase/floor/platform_end_broken.dae" />
+                <File Id="11" Path="static_objects/cisternbase/bridge/platform_bridge_broken.dae" />
+                <File Id="12" Path="static_objects/cisternbase/pillars/stone.dae" />
+                <File Id="13" Path="static_objects/castlebase/wall/default_extension.dae" />
+                <File Id="14" Path="static_objects/debris/wood/plank01_4.5m.dae" />
+                <File Id="15" Path="static_objects/castlebase/wall/default_extension_short.dae" />
+                <File Id="16" Path="static_objects/castlebase/wall/door_frame.dae" />
+                <File Id="17" Path="static_objects/castlebase/wall/door_way.dae" />
+                <File Id="18" Path="static_objects/castlebase/ceiling/corner_concave_flat.dae" />
+                <File Id="19" Path="static_objects/castlebase/ceiling/concave_flat.dae" />
+                <File Id="20" Path="static_objects/castlebase/ceiling/corner_convex_short_flat.dae" />
+                <File Id="21" Path="static_objects/castlebase/ceiling/corner_concave_short_flat.dae" />
+                <File Id="22" Path="static_objects/castlebase/ceiling/concave_short_flat.dae" />
+                <File Id="23" Path="static_objects/cisternbase/wall/castlebase_transition.dae" />
+                <File Id="24" Path="static_objects/cisternbase/wall/castlebase_transition_short.dae" />
+                <File Id="25" Path="static_objects/cisternbase/debris/platform_long.dae" />
+                <File Id="26" Path="static_objects/cisternbase/floor/platform_pillar01.dae" />
+                <File Id="27" Path="static_objects/cisternbase/debris/platform_short.dae" />
+                <File Id="28" Path="static_objects/cisternbase/floor/platform_pillar02.dae" />
+                <File Id="29" Path="static_objects/cisternbase/wall/welder_stone_bottom.dae" />
+                <File Id="30" Path="static_objects/cisternbase/wall/welder_stone.dae" />
+                <File Id="31" Path="static_objects/cisternbase/debris/platform_cornerstones.dae" />
+                <File Id="32" Path="static_objects/cellarbase/floor/grating.dae" />
+                <File Id="33" Path="static_objects/machine/pipes/thick_special02.dae" />
+                <File Id="34" Path="static_objects/machine/pipes/thick_bend_short.dae" />
+                <File Id="35" Path="static_objects/decals/dirt_floor01.dae" />
+                <File Id="36" Path="static_objects/machine/pipes/thick_three_cross.dae" />
+                <File Id="37" Path="static_objects/machine/pipes/thick_straight_medium.dae" />
+                <File Id="38" Path="static_objects/machine/pipes/thick_straight_short.dae" />
+                <File Id="39" Path="static_objects/machine/pipes/thick_straight_long.dae" />
+                <File Id="40" Path="static_objects/decals/web_spider01.dae" />
+                <File Id="41" Path="static_objects/cisternbase/special/water_reservoir.dae" />
+                <File Id="42" Path="static_objects/castlebase/wall/welder_convex.dae" />
+                <File Id="43" Path="static_objects/cisternbase/pillars/stone_broken.dae" />
+                <File Id="44" Path="static_objects/decals/pebbles02.dae" />
+                <File Id="45" Path="static_objects/machine/pipes/thick_straight_short_end.dae" />
+                <File Id="46" Path="static_objects/cisternbase/wall/castlebase_transition_broken.dae" />
+                <File Id="47" Path="static_objects/decals/pebbles01.dae" />
+                <File Id="48" Path="static_objects/decals/pebbles03.dae" />
+                <File Id="49" Path="static_objects/decals/pebbles04.dae" />
+                <File Id="50" Path="static_objects/decals/dirt_floor03.dae" />
+                <File Id="51" Path="static_objects/debris/dungeon_cave_in/dungeon_cave_in.dae" />
+                <File Id="52" Path="static_objects/debris/cellarbase_broken_wall/rock_round03.dae" />
+                <File Id="53" Path="static_objects/debris/cellarbase_broken_wall/rock_round02.dae" />
+                <File Id="54" Path="static_objects/debris/cellarbase_broken_wall/rock_round01.dae" />
+                <File Id="55" Path="static_objects/debris/rock/stone_large01_brown.dae" />
+                <File Id="56" Path="static_objects/debris/rock/stone_large02_brown.dae" />
+                <File Id="57" Path="static_objects/debris/rock/stone_med01_brown.dae" />
+                <File Id="58" Path="static_objects/debris/rock/stone_med02_brown.dae" />
+                <File Id="59" Path="static_objects/debris/wood/plank_2.5m_broken.dae" />
+                <File Id="60" Path="static_objects/debris/wood/plank_4.5m_broken.dae" />
+                <File Id="61" Path="static_objects/castlebase/special/broken_stairs_part02.dae" />
+            </FileIndex_StaticObjects>
+            <FileIndex_Entities NumOfFiles="29">
+                <File Id="0" Path="entities/lamp/torch_static01/torch_static01.ent" />
+                <File Id="1" Path="entities/enemy/waterlurker/waterlurker_music02.ent" />
+                <File Id="2" Path="entities/enemy/waterlurker/waterlurker.ent" />
+                <File Id="3" Path="entities/organic/slime_static/slime_3way.ent" />
+                <File Id="4" Path="entities/storage/storage_box_wood01/storage_box_wood01_large.ent" />
+                <File Id="5" Path="entities/organic/slime_static/slime_6way.ent" />
+                <File Id="6" Path="entities/gameplay/bridge_chained/bridge_chained.ent" />
+                <File Id="7" Path="entities/organic/slime_static/slime_pile.ent" />
+                <File Id="8" Path="entities/organic/slime_anim/slime_anim_wall.ent" />
+                <File Id="9" Path="entities/organic/slime_anim/slime_anim_ceiling.ent" />
+                <File Id="10" Path="entities/storage/storage_box_wood02/storage_box_wood02.ent" />
+                <File Id="11" Path="entities/gameplay/valve_iron/valve_iron_rusty.ent" />
+                <File Id="12" Path="entities/critter/fish/fish.ent" />
+                <File Id="13" Path="entities/debris/rock/stone_small01.ent" />
+                <File Id="14" Path="entities/debris/rock/stone_small01_brown.ent" />
+                <File Id="15" Path="entities/technical/block_box/block_box.ent" />
+                <File Id="16" Path="entities/item/diary_paper01/diary_paper01.ent" />
+                <File Id="17" Path="entities/item/potion_oil/potion_oil.ent" />
+                <File Id="18" Path="entities/debris/rock/stone_med01_brown.ent" />
+                <File Id="19" Path="entities/item/tinderbox/tinderbox.ent" />
+                <File Id="20" Path="entities/organic/slime_static/slime_egg.ent" />
+                <File Id="21" Path="entities/door/level_cistern/level_cistern.ent" />
+                <File Id="22" Path="entities/gameplay/chest_small/chest_small.ent" />
+                <File Id="23" Path="entities/special/control_room_chain_weight/control_room_chain_mount.ent" />
+                <File Id="24" Path="entities/gameplay/valve_iron/valve_iron_rusty02.ent" />
+                <File Id="25" Path="entities/navigation/sign_cistern/sign_cistern.ent" />
+                <File Id="26" Path="entities/debris/rock_debris/rock_debris_brown02.ent" />
+                <File Id="27" Path="entities/debris/rock_debris/rock_debris_brown01.ent" />
+                <File Id="28" Path="entities/technical/commentary_icon/commentary_icon.ent" />
+            </FileIndex_Entities>
+            <FileIndex_Decals NumOfFiles="3">
+                <File Id="0" Path="textures/decals/dirt_wall_leaks.mat" />
+                <File Id="1" Path="textures/decals/dirt_stain_large.mat" />
+                <File Id="2" Path="static_objects/decals/dirt_floor03.mat" />
+            </FileIndex_Decals>
+            <StaticObjects />
+            <Primitives />
+            <Decals />
+            <Entities>
+                <Billboard Active="true" BillboardColor="1 1 1 1" BillboardOffset="0" BillboardSize="2.44588 2.43388" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0.3 0.3 0.3" ID="942" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_5" Rotation="1.5708 1.5708 0" Tag="" WorldPos="-20.2246 13.75 35" />
+                <Billboard Active="true" BillboardColor="1 1 1 1" BillboardOffset="0" BillboardSize="2.31857 2.60136" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0.3 0.3 0.3" ID="941" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_4" Rotation="1.5708 0 0" Tag="" WorldPos="-20.2311 14 35.0552" />
+                <Billboard Active="true" BillboardColor="0.5 0.5 0.5 0.15" BillboardOffset="0" BillboardSize="3 5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0.3 0.3 0.3" ID="959" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_14" Rotation="-3.14159 0 -3.14159" Tag="" WorldPos="-20.25 11.6713 35" />
+                <Billboard Active="true" BillboardColor="0.5 0.5 0.5 0.15" BillboardOffset="0" BillboardSize="3 5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0.3 0.3 0.3" ID="961" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_16" Rotation="-3.14159 -1.0472 -3.14159" Tag="" WorldPos="-20.25 11.6722 35" />
+                <Billboard Active="true" BillboardColor="0.5 0.5 0.5 0.15" BillboardOffset="0" BillboardSize="2.5 5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0.3 0.3 0.3" ID="957" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_13" Rotation="-3.14159 1.0472 -3.14159" Tag="" WorldPos="-20.25 11.674 35" />
+                <PointLight Active="true" CastShadows="false" DiffuseColor="0.552 0.769 1 0" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="1392" Name="PointLight_8" Radius="2.5" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="-19.4675 9.82493 32.5317" />
+                <Billboard Active="true" BillboardColor="0.25 0.25 0.25 0.05" BillboardOffset="0" BillboardSize="1 5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0.3 0.3 0.3" ID="1104" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_27" Rotation="3.14159 -0.320367 3.14159" Tag="" WorldPos="-20 8.3154 34.25" />
+                <Billboard Active="true" BillboardColor="0.25 0.25 0.25 0.05" BillboardOffset="0" BillboardSize="2 5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0.3 0.3 0.3" ID="964" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_18" Rotation="-3.14159 -1.0472 -3.14159" Tag="" WorldPos="-20.2671 8.15149 35" />
+                <Billboard Active="true" BillboardColor="0.25 0.25 0.25 0.05" BillboardOffset="0" BillboardSize="2.5 3" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0.3 0.3 0.3" ID="962" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_15" Rotation="-3.14159 1.0472 -3.14159" Tag="" WorldPos="-20.25 8.27304 35" />
+                <Billboard Active="true" BillboardColor="0.25 0.25 0.25 0.05" BillboardOffset="0" BillboardSize="1 5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0.3 0.3 0.3" ID="1098" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_24" Rotation="3.14159 -0.320367 3.14159" Tag="" WorldPos="-20.75 7.76911 34.75" />
+                <Billboard Active="true" BillboardColor="0.25 0.25 0.25 0.05" BillboardOffset="0" BillboardSize="1 5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0.3 0.3 0.3" ID="1097" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_23" Rotation="-1e-006 1.36757 -1e-006" Tag="" WorldPos="-20.75 7.89042 34.75" />
+                <Billboard Active="true" BillboardColor="0.25 0.25 0.25 0.05" BillboardOffset="0" BillboardSize="1 5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0.3 0.3 0.3" ID="1096" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_22" Rotation="3.14159 0.72683 3.14159" Tag="" WorldPos="-20.75 7.86737 34.75" />
+                <Billboard Active="true" BillboardColor="0.25 0.25 0.25 0.05" BillboardOffset="0" BillboardSize="1 5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0.3 0.3 0.3" ID="1092" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_20" Rotation="3.14159 0.489953 3.14159" Tag="" WorldPos="-19.75 7.90805 35.25" />
+                <Billboard Active="true" BillboardColor="0.25 0.25 0.25 0.05" BillboardOffset="0" BillboardSize="1 4" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0.3 0.3 0.3" ID="1091" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_19" Rotation="3.14159 -0.557244 3.14159" Tag="" WorldPos="-19.75 7.88177 35.25" />
+                <Billboard Active="true" BillboardColor="0.25 0.25 0.25 0.05" BillboardOffset="0" BillboardSize="1 3" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0.3 0.3 0.3" ID="1093" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_21" Rotation="3.14159 1.53715 3.14159" Tag="" WorldPos="-19.75 7.91862 35.25" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="false" File="ps_light_dust_large.ps" Group="0" ID="1125" MaxFadeDistanceEnd="110" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MinFadeDistanceStart="2" Name="ParticleSystem_21" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-20.3386 8.48483 34.8519" />
+                <Billboard Active="true" BillboardColor="0.25 0.25 0.25 0.05" BillboardOffset="0" BillboardSize="1 3" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0.3 0.3 0.3" ID="1102" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_25" Rotation="-1e-006 1.36757 -1e-006" Tag="" WorldPos="-20 7.60868 34.25" />
+                <Billboard Active="true" BillboardColor="0.25 0.25 0.25 0.05" BillboardOffset="0" BillboardSize="1 4" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0.3 0.3 0.3" ID="1103" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_26" Rotation="3.14159 0.72683 3.14159" Tag="" WorldPos="-20 7.86756 34.25" />
+                <Billboard Active="true" BillboardColor="0.25 0.25 0.25 0.05" BillboardOffset="0" BillboardSize="2 5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0.3 0.3 0.3" ID="963" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_17" Rotation="-3.14159 0 -3.14159" Tag="" WorldPos="-20.25 8.26411 35" />
+                <PointLight Active="true" CastShadows="false" DiffuseColor="0.552 0.769 1 1" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="724" Name="PointLight_2" Radius="8" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="-20.25 6.7641 35.25" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="false" File="ps_light_dust_large.ps" Group="0" ID="1124" MaxFadeDistanceEnd="110" MaxFadeDistanceStart="100" MinFadeDistanceEnd="1" MinFadeDistanceStart="2" Name="ParticleSystem_20" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="-20.3386 7.26259 34.8519" />
+                <PointLight Active="true" CastShadows="false" DiffuseColor="0.552 0.769 1 0" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="1393" Name="PointLight_9" Radius="2.5" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="-17.642 10.2943 34.6236" />
+            </Entities>
+            <Misc />
+            <StaticObjectCombos />
+        </MapContents>
+    </MapData>
+</Level>

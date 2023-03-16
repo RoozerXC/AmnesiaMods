@@ -1,0 +1,7 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="0.8" MinDistance="1" MaxDistance="18" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="false" Loop="false" Use3D="True" Blockable="True" BlockVolumeMul="0.7" Priority="1" />
+</SOUNDENTITY>

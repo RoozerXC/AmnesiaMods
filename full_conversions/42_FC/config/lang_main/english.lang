@@ -1,0 +1,52 @@
+<LANGUAGE>
+  <RESOURCES>
+    <Directory Path="fonts/eng" />
+    <Directory Path="lang/eng" />
+  </RESOURCES>
+  <CATEGORY Name="PreMenu">
+    <Entry Name="WelcomeMessage01">Adjust the gamma until the square at the right is barely visible.</Entry>
+  </CATEGORY>
+  <CATEGORY Name="LoadingText">
+    <Entry Name="Loading_Placeholder">This is a placeholder loading[br]screen used for EmberEngine.</Entry>
+  </CATEGORY>
+  <CATEGORY Name="Messages">
+    <Entry Name="CantLeaveTourney">There is no point in leaving. I must watch the barrel tournament.</Entry>
+    <Entry Name="WinBarrel">TOURNAMENT GRANDMASTER: Congratulations Barrel #1. You have won the ultimate barrel tournament. And uhh... yeah idk what to award you anyway :prayforplaty:</Entry>
+  </CATEGORY>
+
+  <CATEGORY Name="MINIGAME_MonsterSurvival">
+    <Entry Name="FirstGrunt">A Grunt has appeared and is currently stalking the area.</Entry>
+    <Entry Name="AnotherGrunt">Another Grunt has appeared.</Entry>
+
+    <Entry Name="FirstBrute">A Brute has appeared and is currently stalking the area.</Entry>
+    <Entry Name="AnotherBrute">Another Brute has appeared.</Entry>
+
+    <Entry Name="FirstSawrunner">A Sawrunner has arrived and is currently trying to hunt you down. Be careful.</Entry>
+    <Entry Name="AnotherSawrunner">Another Sawrunner has appeared.</Entry>
+
+    <Entry Name="FirstBuffy">A Buffy has arrived and is currently trying to hunt you down. Be careful.</Entry>
+    <Entry Name="AnotherBuffy">Another Buffy has appeared.</Entry>
+
+    <Entry Name="FirstBull">A Bull has arrived and is currently trying to hunt you down. Be careful.</Entry>
+    <Entry Name="AnotherBull">Another Bull has appeared.</Entry>
+
+    <Entry Name="FirstWitheredKaeya">A Withered Kaeya has arrived and is currently trying to hunt you down. Be careful.</Entry>
+    <Entry Name="AnotherWitheredKaeya">Another Withered Kaeya has appeared.</Entry>
+  </CATEGORY>
+
+  <CATEGORY Name="Voice">
+    <Entry Name="TONY_VA_DesperateRoozerCall">Roozy...</Entry>
+    <Entry Name="TONY_VA_RoozerHelp_01">Roozer, help!</Entry>
+    <Entry Name="TONY_VA_RoozerHelp_02">Help, help...</Entry>
+    <Entry Name="TONY_VA_RoozerHelp_03">Roozer, help...</Entry>
+
+	<Entry Name="42_BarrelTournament_01">Hello, Roozer. Welcome to The Barrel Tournament. And today... You will be watching two barrels fight to the death</Entry>
+	<Entry Name="42_BarrelTournament_02">Oh, God! I'm kinda scared if this will lag the game</Entry>
+	<Entry Name="42_BarrelTournament_03">It does, you'll just have to bear with it (being a slideshow) for a while</Entry>
+	<Entry Name="42_BarrelTournament_04">So what is up with the "two barrels fighting to the death" thing?</Entry>
+	<Entry Name="42_BarrelTournament_05">WELL... As you may have expected I was running out of ideas, so I came up with this. This monstrosity, to say the least</Entry>
+	<Entry Name="42_BarrelTournament_06">Oh. Sounds fun</Entry>
+	<Entry Name="42_BarrelTournament_07">Definitely. Now let's start the battle</Entry>
+	<Entry Name="42_BarrelTournament_08">FIGHT!</Entry>
+  </CATEGORY>
+</LANGUAGE>

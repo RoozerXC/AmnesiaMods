@@ -1,0 +1,12 @@
+void OnEnter()
+{
+	PlayMusic("neon_kinnie_boss.ogg", true, 1.0f, 0.0f, 0, true);
+	AddEntityCollideCallback("Player", "GingerAndCommunity_1", "GingerAndCommunity_1", true, 1);
+	TeleportPlayer("Cammie");
+}
+
+void GingerAndCommunity_1(string &in asParent, string &in asChild, int alState)
+{
+	SetPlayerActive(false);
+	StartPlayerLookAt("Lookerino", 5, 5, "");
+}

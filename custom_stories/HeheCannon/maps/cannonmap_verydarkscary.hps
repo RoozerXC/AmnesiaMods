@@ -1,0 +1,143 @@
+void OnStart()
+{
+    SetEntityPlayerInteractCallback("button_simple_1", "spamm", false);
+    SetEntityPlayerInteractCallback("button_simple_2", "doublespamm", false);
+	SetLocalVarInt("amount", 1);
+	SetLocalVarInt("number", 1);
+}
+
+void OnEnter()
+{
+
+	SetSanityDrainDisabled(true);
+	SetEnemySanityDecreaseActive("*", false);
+	SetMapDisplayNameEntry("");
+
+	// NODES
+
+	AddEnemyPatrolNode("servant_grunt_18", "PathNodeArea_4", 0.001f, "");
+	AddEnemyPatrolNode("servant_grunt_18", "PathNodeArea_6", 0.001f, "");
+	AddEnemyPatrolNode("servant_grunt_18", "PathNodeArea_8", 0.001f, "");
+	AddEnemyPatrolNode("servant_grunt_18", "PathNodeArea_8", 0.001f, "");
+	AddEnemyPatrolNode("servant_grunt_18", "PathNodeArea_9", 0.001f, "");
+	AddEnemyPatrolNode("servant_grunt_18", "PathNodeArea_1", 0.001f, "");
+}
+
+void spamm(string &in asEntity)
+{
+    CreateEntityAtArea("boxinger"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_1", false);
+    CreateEntityAtArea("boxinger2"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_2", false);
+    CreateEntityAtArea("boxinger3"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_3", false);
+    CreateEntityAtArea("boxinger4"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_4", false);
+    CreateEntityAtArea("boxinger5"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_5", false);
+    CreateEntityAtArea("boxinger6"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_6", false);
+    CreateEntityAtArea("boxinger7"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_7", false);
+    CreateEntityAtArea("boxinger8"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_8", false);
+    CreateEntityAtArea("boxinger9"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_9", false);
+    CreateEntityAtArea("boxingera"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_10", false);
+    CreateEntityAtArea("boxingerb"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_11", false);
+    CreateEntityAtArea("boxingerc"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_12", false);
+    CreateEntityAtArea("boxingerd"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_13", false);
+    CreateEntityAtArea("boxingere"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_14", false);
+    CreateEntityAtArea("boxingerf"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_15", false);
+    CreateEntityAtArea("boxingerg"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_16", false);
+    CreateEntityAtArea("boxingerh"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_17", false);
+    CreateEntityAtArea("boxingeri"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_18", false);
+    CreateEntityAtArea("boxingerj"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_19", false);
+    CreateEntityAtArea("boxingerk"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_20", false);
+    CreateEntityAtArea("boxingerl"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_21", false);
+    CreateEntityAtArea("boxingerm"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_22", false);
+    CreateEntityAtArea("boxingern"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_23", false);
+    CreateEntityAtArea("boxingero"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_24", false);
+    CreateEntityAtArea("boxingerp"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_25", false);
+    CreateEntityAtArea("boxingerq"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_26", false);
+    CreateEntityAtArea("boxingerr"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_27", false);
+    CreateEntityAtArea("boxingers"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_28", false);
+    CreateEntityAtArea("boxingert"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_29", false);
+    CreateEntityAtArea("boxingeru"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_30", false);
+    CreateEntityAtArea("boxingerv"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_31", false);
+    CreateEntityAtArea("boxingerw"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_32", false);
+    CreateEntityAtArea("boxingerx"+GetLocalVarInt("amount"), "wood_box01_breakable.ent", "ScriptArea_33", false);
+	PlaySoundAtEntity("CannonFire", "CannonFire.snt", "Player", 0, false);
+	StartScreenShake(0.5, 0.5, 0, 0.5);
+	AddTimer("", 0.001f, "pushing");
+}
+void doublespamm(string &in asEntity)
+{
+    CreateEntityAtArea("boxingery"+GetLocalVarInt("amount"), "wood_box01.ent", "ScriptArea_34", false);
+    CreateEntityAtArea("boxingerz"+GetLocalVarInt("amount"), "wood_box01.ent", "ScriptArea_35", false);
+	PlaySoundAtEntity("SSHFireOld", "SSHFIREOLD.snt", "Player", 0, false);
+	StartScreenShake(0.05, 0.5, 0, 0.5);
+	AddTimer("", 0.001f, "pushing2");
+}
+
+/*
+
+void calls(string &in asTimer)
+{
+    for(int x = 0; x<=999; x++)
+	{
+		    AddEntityCollideCallback("servant_grunt_1", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_2", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_3", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_4", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_5", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_6", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_7", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_8", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_9", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_10", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_11", "boxinger_"+x, "killerman", false, 0);
+			AddEntityCollideCallback("servant_grunt_12", "boxinger_"+x, "killerman", false, 0);
+	}
+}
+void killerman(string &in asParent, string &in asChild, int alState)
+{
+    ReplaceEntity(asParent, "", "ragdolly", "servant_grunt_ragdoll.ent", false);
+}
+
+*/
+
+void pushing(string &in asTimer)
+{
+    AddPropForce("boxinger"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxinger2"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+	AddPropForce("boxinger3"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxinger4"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+	AddPropForce("boxinger5"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxinger6"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxinger7"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+	AddPropForce("boxinger8"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxinger9"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxingera"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxingerb"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+	AddPropForce("boxingerc"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxingerd"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+	AddPropForce("boxingere"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxingerf"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxingerg"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+	AddPropForce("boxingerh"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxingeri"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxingerj"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+	AddPropForce("boxingerk"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxingerl"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxingerm"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxingern"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+	AddPropForce("boxingero"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxingerp"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxingerq"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+	AddPropForce("boxingerr"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxingers"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxingert"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxingeru"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+	AddPropForce("boxingerv"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxingerw"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxingerx"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+	SetLocalVarInt("amount", GetLocalVarInt("amount")+GetLocalVarInt("number"));
+}
+void pushing2(string &in asTimer)
+{
+    AddPropForce("boxingery"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+    AddPropForce("boxingerz"+GetLocalVarInt("amount"), 0.0f, 0.0f, -50000.0f, "world");
+	SetLocalVarInt("amount", GetLocalVarInt("amount")+GetLocalVarInt("number"));
+}

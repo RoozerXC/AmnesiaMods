@@ -1,0 +1,211 @@
+<Level>
+    <MapData FogActive="false" FogColor="1 1 1 1" FogCulling="true" FogEnd="20" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="false" SkyBoxColor="1 1 1 1" SkyBoxTexture="../../../../../../">
+        <MapContents>
+            <FileIndex_StaticObjects NumOfFiles="53">
+                <File Id="0" Path="static_objects/debris/mansionbase_roof/mansionbase_roof.dae" />
+                <File Id="1" Path="static_objects/mansionbase/ceiling/default_broken.dae" />
+                <File Id="2" Path="static_objects/mansionbase/wall/wall_stove.dae" />
+                <File Id="3" Path="static_objects/decals/paper_pile02.dae" />
+                <File Id="4" Path="static_objects/mansionbase/special/outside_wall.dae" />
+                <File Id="5" Path="static_objects/mansionbase/wall/window_large_blue_seethrough.dae" />
+                <File Id="6" Path="static_objects/decals/cobweb_04.dae" />
+                <File Id="7" Path="static_objects/decals/cobweb_03.dae" />
+                <File Id="8" Path="static_objects/outside/tree/pine_lowpoly.dae" />
+                <File Id="9" Path="static_objects/decals/paper_pile.dae" />
+                <File Id="10" Path="static_objects/mansionbase/ceiling/concave_short.dae" />
+                <File Id="11" Path="static_objects/mansionbase/wall/window_large_blue.dae" />
+                <File Id="12" Path="static_objects/mansionbase/wall/window03_blue.dae" />
+                <File Id="13" Path="static_objects/debris/rock/stone_small01.dae" />
+                <File Id="14" Path="static_objects/mansionbase/wall/door_frame.dae" />
+                <File Id="15" Path="static_objects/mansionbase/wall/door_way.dae" />
+                <File Id="16" Path="static_objects/mansionbase/wall/short.dae" />
+                <File Id="17" Path="static_objects/mansionbase/wall/welder.dae" />
+                <File Id="18" Path="static_objects/mansionbase/wall/default.dae" />
+                <File Id="19" Path="static_objects/debris/rock/stone_large02.dae" />
+                <File Id="20" Path="static_objects/debris/rock/stone_med01.dae" />
+                <File Id="21" Path="static_objects/debris/rock/stone_med02.dae" />
+                <File Id="22" Path="static_objects/debris/rock/stone_large01.dae" />
+                <File Id="23" Path="static_objects/mansionbase/wall/default_extension.dae" />
+                <File Id="24" Path="static_objects/mansionbase/wall/window_blue.dae" />
+                <File Id="25" Path="static_objects/ornaments/carpets/carpet01.dae" />
+                <File Id="26" Path="static_objects/ornaments/carpets/carpet04.dae" />
+                <File Id="27" Path="static_objects/mansionbase/wall/default02.dae" />
+                <File Id="28" Path="static_objects/mansionbase/wall/door_way02.dae" />
+                <File Id="29" Path="static_objects/mansionbase/wall/short02.dae" />
+                <File Id="30" Path="static_objects/mansionbase/wall/window02_blue.dae" />
+                <File Id="31" Path="static_objects/mansionbase/wall/welder02_concave.dae" />
+                <File Id="32" Path="static_objects/mansionbase/wall/welder02_convex.dae" />
+                <File Id="33" Path="static_objects/ornaments/carpets/carpet03.dae" />
+                <File Id="34" Path="static_objects/decals/web_spider01.dae" />
+                <File Id="35" Path="static_objects/ornaments/curtains/curtain01_closed.dae" />
+                <File Id="36" Path="static_objects/ornaments/carpets/carpet02.dae" />
+                <File Id="37" Path="static_objects/debris/hole/rock_Lconcave.dae" />
+                <File Id="38" Path="static_objects/ornaments/curtains/curtain01_open.dae" />
+                <File Id="39" Path="static_objects/debris/hole/rock_Uconcave.dae" />
+                <File Id="40" Path="static_objects/debris/wood/plank_4.5m_broken.dae" />
+                <File Id="41" Path="static_objects/debris/hole/rock_straight2m.dae" />
+                <File Id="42" Path="static_objects/debris/hole/rock_straight4m.dae" />
+                <File Id="43" Path="static_objects/debris/wood/plank02_4.5m.dae" />
+                <File Id="44" Path="static_objects/debris/wood/plank_2.5m_broken.dae" />
+                <File Id="45" Path="static_objects/debris/wood/plank_2.5m.dae" />
+                <File Id="46" Path="static_objects/decals/dirt_floor01.dae" />
+                <File Id="47" Path="static_objects/decals/dirt_floor02.dae" />
+                <File Id="48" Path="static_objects/mansionbase/ceiling/corner_concave_short.dae" />
+                <File Id="49" Path="static_objects/mansionbase/ceiling/concave.dae" />
+                <File Id="50" Path="static_objects/debris/wood/plank01_4.5m.dae" />
+                <File Id="51" Path="static_objects/mansionbase/wall/window02_large_blue.dae" />
+                <File Id="52" Path="static_objects/decals/dirt_floor03.dae" />
+            </FileIndex_StaticObjects>
+            <FileIndex_Entities NumOfFiles="118">
+                <File Id="0" Path="entities/statues/armour_nice/armour_nice_glove.ent" />
+                <File Id="1" Path="entities/statues/armour_nice/armour_nice_head_heavy.ent" />
+                <File Id="2" Path="entities/storage/shelf_no_back/shelf_no_back.ent" />
+                <File Id="3" Path="entities/navigation/sign_floor_plans/sign_floor_plans.ent" />
+                <File Id="4" Path="entities/ornament/paintings/painting02/painting02.ent" />
+                <File Id="5" Path="entities/ornament/paintings/painting07/painting07.ent" />
+                <File Id="6" Path="entities/ornament/paintings/painting05/painting05.ent" />
+                <File Id="7" Path="entities/ornament/paintings/painting04/painting04.ent" />
+                <File Id="8" Path="entities/ornament/paintings/painting06/painting06.ent" />
+                <File Id="9" Path="entities/lamp/chandelier_nice/chandelier_nice.ent" />
+                <File Id="10" Path="entities/ornament/banners/banners01/banner_long01.ent" />
+                <File Id="11" Path="entities/ornament/banners/banners01/banner_long01_broken.ent" />
+                <File Id="12" Path="entities/ornament/banners/banners01/banner_short01.ent" />
+                <File Id="13" Path="entities/ornament/banners/banners01/banner_short01_broken.ent" />
+                <File Id="14" Path="entities/navigation/sign_map/sign_map.ent" />
+                <File Id="15" Path="entities/navigation/sign_local_history/sign_local_history.ent" />
+                <File Id="16" Path="entities/item/diary_paper01/diary_paper01.ent" />
+                <File Id="17" Path="entities/item/note_paper01/note_paper01.ent" />
+                <File Id="18" Path="entities/navigation/sign_ancient_tomes/sign_ancient_tomes.ent" />
+                <File Id="19" Path="entities/desktop/paper01/paper01.ent" />
+                <File Id="20" Path="entities/critter/cockroach/cockroach.ent" />
+                <File Id="21" Path="entities/desktop/paperpile01/paperpile01.ent" />
+                <File Id="22" Path="entities/desktop/paperpile03/paperpile03.ent" />
+                <File Id="23" Path="entities/ornament/book01/book01.ent" />
+                <File Id="24" Path="entities/ornament/book02/book02.ent" />
+                <File Id="25" Path="entities/ornament/book03/book03.ent" />
+                <File Id="26" Path="entities/navigation/sign_rare_books/sign_rare_books.ent" />
+                <File Id="27" Path="entities/furniture/work_desk/work_desk.ent" />
+                <File Id="28" Path="entities/furniture/chair_nice01/chair_nice01.ent" />
+                <File Id="29" Path="entities/furniture/cabinet_nice/cabinet_nice.ent" />
+                <File Id="30" Path="entities/ornament/paintings/painting03/painting03.ent" />
+                <File Id="31" Path="entities/storage/shelf_high01/shelf_high01.ent" />
+                <File Id="32" Path="entities/ornament/book_row03/book_row03.ent" />
+                <File Id="33" Path="entities/ornament/book_row02/book_row02.ent" />
+                <File Id="34" Path="entities/ornament/book_row01/book_row01.ent" />
+                <File Id="35" Path="entities/navigation/sign_study/sign_study.ent" />
+                <File Id="36" Path="entities/navigation/sign_catalogs/sign_catalogs.ent" />
+                <File Id="37" Path="entities/gameplay/shelf_secret_door/shelf_secret_door.ent" />
+                <File Id="38" Path="entities/storage/shelf01/shelf01.ent" />
+                <File Id="39" Path="entities/enemy/servant_grunt/servant_grunt.ent" />
+                <File Id="40" Path="entities/gameplay/book_moveable/book_moveable.ent" />
+                <File Id="41" Path="entities/special/cave_in/cave_in.ent" />
+                <File Id="42" Path="entities/desktop/ink_bottle/ink_bottle.ent" />
+                <File Id="43" Path="entities/cloth/shirts/shirt_folded_white/shirt_folded_white.ent" />
+                <File Id="44" Path="entities/ornament/paintings/painting_large01/painting_large04.ent" />
+                <File Id="45" Path="entities/lamp/candlestick_floor/candlestick_floor.ent" />
+                <File Id="46" Path="entities/desktop/paperpile02/paperpile02.ent" />
+                <File Id="47" Path="entities/desktop/paper02/paper02.ent" />
+                <File Id="48" Path="entities/desktop/paper03/paper03.ent" />
+                <File Id="49" Path="entities/container/wood_box03/wood_box03.ent" />
+                <File Id="50" Path="entities/furniture/chair_nice02/chair_nice02.ent" />
+                <File Id="51" Path="entities/furniture/table_nice02/table_nice02.ent" />
+                <File Id="52" Path="entities/ornament/paintings/painting_large01/painting_large03.ent" />
+                <File Id="53" Path="entities/ornament/paintings/painting_large01/painting_large02.ent" />
+                <File Id="54" Path="entities/furniture/armchair/armchair.ent" />
+                <File Id="55" Path="entities/container/vase02/vase02_ghost.ent" />
+                <File Id="56" Path="entities/furniture/table_wood01/table_wood01.ent" />
+                <File Id="57" Path="entities/technical/commentary_icon/commentary_icon.ent" />
+                <File Id="58" Path="entities/container/wood_box02/wood_box02.ent" />
+                <File Id="59" Path="entities/furniture/table_wood_small/table_wood_small.ent" />
+                <File Id="60" Path="entities/ration/bread_rotten/bread_rotten.ent" />
+                <File Id="61" Path="entities/furniture/display/display.ent" />
+                <File Id="62" Path="entities/ration/rotten_apple/rotten_apple.ent" />
+                <File Id="63" Path="entities/insan_visions/painting02_insane.ent" />
+                <File Id="64" Path="entities/lamp/candlestick_tri/candlestick_tri.ent" />
+                <File Id="65" Path="entities/gameplay/chest_small/chest_small.ent" />
+                <File Id="66" Path="entities/furniture/chest_of_drawers_nice/chest_of_drawers_nice.ent" />
+                <File Id="67" Path="entities/ration/rotten_apple_pile/rotten_apple_pile.ent" />
+                <File Id="68" Path="entities/insan_visions/painting05_insane.ent" />
+                <File Id="69" Path="entities/ornament/tome01/tome01.ent" />
+                <File Id="70" Path="entities/ornament/tome_open01/tome_open01.ent" />
+                <File Id="71" Path="entities/ornament/tome_pile01/tome_pile01.ent" />
+                <File Id="72" Path="entities/ornament/tome_pile02/tome_pile02.ent" />
+                <File Id="73" Path="entities/furniture/table_wood02/table_wood02.ent" />
+                <File Id="74" Path="entities/lamp/candlestick02/candlestick02.ent" />
+                <File Id="75" Path="entities/furniture/stove_metal/stove_metal.ent" />
+                <File Id="76" Path="entities/insan_visions/painting04_insane.ent" />
+                <File Id="77" Path="entities/insan_visions/painting03_insane.ent" />
+                <File Id="78" Path="entities/insan_visions/painting07_insane.ent" />
+                <File Id="79" Path="entities/insan_visions/painting06_insane.ent" />
+                <File Id="80" Path="entities/technical/block_box/block_box.ent" />
+                <File Id="81" Path="entities/special/orb_pedestal/orb_pedestal.ent" />
+                <File Id="82" Path="entities/storage/shelf_high02/shelf_high02.ent" />
+                <File Id="83" Path="entities/storage/storage_box_wood01/storage_box_wood01.ent" />
+                <File Id="84" Path="entities/ornament/sketch_castle/sketch_castle02.ent" />
+                <File Id="85" Path="entities/ornament/sketch_castle/sketch_castle01.ent" />
+                <File Id="86" Path="entities/ornament/book_open/book_open.ent" />
+                <File Id="87" Path="entities/ornament/sketch_castle/sketch_roll01.ent" />
+                <File Id="88" Path="entities/ornament/book_pile01/book_pile01.ent" />
+                <File Id="89" Path="entities/ornament/map_prussia/map_prussia02.ent" />
+                <File Id="90" Path="entities/lamp/hanging_lantern/hanging_lantern_wall.ent" />
+                <File Id="91" Path="entities/lamp/candlestick_floor/candlestick_floor_burntout.ent" />
+                <File Id="92" Path="entities/lamp/hanging_lantern/hanging_lantern_ceiling.ent" />
+                <File Id="93" Path="entities/ornament/arabic_statue/arabic_statue.ent" />
+                <File Id="94" Path="entities/ornament/map_prussia/map_prussia01.ent" />
+                <File Id="95" Path="entities/lamp/bonfire/bonfire.ent" />
+                <File Id="96" Path="entities/furniture/table_nice_round/table_nice_round.ent" />
+                <File Id="97" Path="entities/special/orb/orb_6_of_6.ent" />
+                <File Id="98" Path="entities/furniture/stove_front02/stove_front02.ent" />
+                <File Id="99" Path="entities/ornament/mirror_broken/mirror_broken.ent" />
+                <File Id="100" Path="entities/furniture/stove_corner/stove_corner.ent" />
+                <File Id="101" Path="entities/item/potion_oil/potion_oil.ent" />
+                <File Id="102" Path="entities/ornament/mirror_broken_small/mirror_broken_small.ent" />
+                <File Id="103" Path="entities/furniture/layout_board/layout_board.ent" />
+                <File Id="104" Path="entities/item/tinderbox/tinderbox.ent" />
+                <File Id="105" Path="entities/desktop/deskpad/deskpad.ent" />
+                <File Id="106" Path="entities/door/level_wood/level_wood.ent" />
+                <File Id="107" Path="entities/item/key_study/key_study.ent" />
+                <File Id="108" Path="entities/furniture/work_desk/work_desk_door.ent" />
+                <File Id="109" Path="entities/door/mansion/mansion.ent" />
+                <File Id="110" Path="entities/ornament/sketch_castle/sketch_roll_row02.ent" />
+                <File Id="111" Path="entities/furniture/piano/piano.ent" />
+                <File Id="112" Path="entities/ornament/sketch_castle/sketch_roll_row01.ent" />
+                <File Id="113" Path="entities/ornament/sketch_castle/sketch_roll02.ent" />
+                <File Id="114" Path="entities/door/mansion/mansion_off_hinges.ent" />
+                <File Id="115" Path="entities/furniture/sofa/sofa.ent" />
+                <File Id="116" Path="entities/special/mansionbase_secret_passage/mansionbase_secret_passage.ent" />
+                <File Id="117" Path="entities/gameplay/rock/rock_small.ent" />
+            </FileIndex_Entities>
+            <FileIndex_Decals NumOfFiles="5">
+                <File Id="0" Path="static_objects/decals/dirt_floor01.mat" />
+                <File Id="1" Path="static_objects/decals/level03_flashback_path.mat" />
+                <File Id="2" Path="textures/decals/dirt_stain_large.mat" />
+                <File Id="3" Path="textures/decals/blood_stain_small.mat" />
+                <File Id="4" Path="textures/ptest/decals/chalk_hieroglyphs.mat" />
+            </FileIndex_Decals>
+            <StaticObjects />
+            <Primitives />
+            <Decals />
+            <Entities>
+                <SpotLight Active="true" Aspect="1.5" CastShadows="true" DiffuseColor="0.8 0.9 0.85 0.8" FOV="1.22173" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="gobo_mansionbase_window02_large.dds" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="1690" Name="SpotLight_2" NearClipPlane="0.1" Radius="7" Rotation="0.785398 0 3.14159" Scale="1 1 1" ShadowResolution="Medium" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" SpotFalloffMap="" Tag="" WorldPos="84.5 2 31" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="3904" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_134" Rotation="-1.32736 0.149372 2.12626" Tag="" WorldPos="85.1244 1.96035 29.963" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="3911" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_141" Rotation="-1.93576 -0.255884 -0.168725" Tag="" WorldPos="84.9103 1.33637 30.5338" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="3910" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_140" Rotation="-1.74858 0.407297 1.56131" Tag="" WorldPos="85.1776 1.33637 30.5338" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="3913" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_143" Rotation="-1.91331 0.431568 1.55165" Tag="" WorldPos="85.3973 0.54863 30.5436" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="3912" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_142" Rotation="-1.93576 -0.255884 -0.168725" Tag="" WorldPos="84.9103 0.856329 30.5338" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="3902" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_132" Rotation="-1.32736 0.149372 2.12626" Tag="" WorldPos="84.9858 1.30889 29.963" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="3907" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_137" Rotation="-1.13155 0.434955 2.18341" Tag="" WorldPos="84.3893 0.722455 30.7518" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="1 5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="3905" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_135" Rotation="-1.83687 0.102879 -0.115127" Tag="" WorldPos="84.6562 1.11434 29.963" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="1 5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="3906" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_136" Rotation="-2.17631 0.058578 -0.142771" Tag="" WorldPos="84.0597 0.539126 30.5568" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="3908" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_138" Rotation="-1.13155 0.434955 2.18341" Tag="" WorldPos="83.7561 0.74624 30.5436" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="3901" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_103" Rotation="-1.32736 0.149372 2.12626" Tag="" WorldPos="84.3527 1.33413 29.963" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 1" BillboardOffset="0" BillboardSize="2 4.5" BillboardType="FixedAxis" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="3903" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_133" Rotation="-1.53063 0.28206 1.2387" Tag="" WorldPos="84.1451 1.96035 29.963" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="ps_light_dust.ps" Group="0" ID="4664" MaxFadeDistanceEnd="50" MaxFadeDistanceStart="40" MinFadeDistanceEnd="0" MinFadeDistanceStart="0" Name="ParticleSystem_36" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="84.4871 1.40804 30.5173" />
+                <PointLight Active="true" CastShadows="false" DiffuseColor="0.5 0.6 0.55 0" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="1689" Name="PointLight_2" Radius="9" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="84.5 2.25 28.75" />
+                <Billboard Active="true" BillboardColor="0.1 0.1 0.1 0.5" BillboardOffset="0" BillboardSize="3 3" BillboardType="Point" ConnectLight="" Group="0" HaloSourceSize="0 0 0" ID="3900" IsHalo="false" MaterialFile="billboards/bb_lightblue_lightray.mat" Name="Billboard_102" Rotation="3.14159 0 3.14159" Tag="" WorldPos="84.46 2.0556 31.1199" />
+            </Entities>
+            <Misc />
+            <StaticObjectCombos />
+        </MapContents>
+    </MapData>
+</Level>

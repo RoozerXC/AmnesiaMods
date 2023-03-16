@@ -1,0 +1,4 @@
+void OnEnter()
+{
+	PlayMusic("penumbra_music_E1_A10.ogg", true, 1.0f, 0.0f, 0, true);
+}

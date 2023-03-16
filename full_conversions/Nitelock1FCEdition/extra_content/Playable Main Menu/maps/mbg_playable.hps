@@ -1,0 +1,15 @@
+void OnStart()
+{
+	AddEntityCollideCallback("Player", "TeleporterAreaRoom2", "TeleporterAreaRoom2", false, 0);
+	AddEntityCollideCallback("Player", "TeleporterAreaRoom1", "TeleporterAreaRoom1", false, 0);
+}
+
+void TeleporterAreaRoom2(string &in asParent, string &in asChild, int alState)
+{
+	TeleportPlayer("PlayerStartPos_2");
+}
+
+void TeleporterAreaRoom1(string &in asParent, string &in asChild, int alState)
+{
+	TeleportPlayer("PlayerStartPos_3");
+}

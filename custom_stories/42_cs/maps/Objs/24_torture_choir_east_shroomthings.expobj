@@ -1,0 +1,406 @@
+<Level>
+    <MapData FogActive="true" FogColor="0.05 0.015 0 1" FogCulling="true" FogEnd="30" FogFalloffExp="0.3" FogStart="3" GlobalDecalMaxTris="300" Name="" SkyBoxActive="true" SkyBoxColor="0.05 0.015 0 1" SkyBoxTexture="../../../../../../">
+        <MapContents>
+            <FileIndex_StaticObjects NumOfFiles="81">
+                <File Id="0" Path="static_objects/dungeonbase/wall/door_way.dae" />
+                <File Id="1" Path="static_objects/dungeonbase/wall/door_frame.dae" />
+                <File Id="2" Path="static_objects/dungeonbase/wall/default.dae" />
+                <File Id="3" Path="static_objects/dungeonbase/wall/default_extension.dae" />
+                <File Id="4" Path="static_objects/dungeonbase/pillar/gigantic02.dae" />
+                <File Id="5" Path="static_objects/dungeonbase/bridge/chasm_bridge.dae" />
+                <File Id="6" Path="static_objects/dungeonbase/floor/chasm_edge.dae" />
+                <File Id="7" Path="static_objects/dungeonbase/floor/chasm_edge_broken.dae" />
+                <File Id="8" Path="static_objects/dungeonbase/floor/chasm_edge_convex.dae" />
+                <File Id="9" Path="static_objects/dungeonbase/floor/chasm_edge_short.dae" />
+                <File Id="10" Path="static_objects/dungeonbase/wall/door_frame_large_entrance.dae" />
+                <File Id="11" Path="static_objects/dungeonbase/wall/corner_concave.dae" />
+                <File Id="12" Path="static_objects/dungeonbase/wall/corner_concave_extension.dae" />
+                <File Id="13" Path="static_objects/dungeonbase/wall/corner_convex_round_short.dae" />
+                <File Id="14" Path="static_objects/dungeonbase/wall/corner_convex_round_short_extension.dae" />
+                <File Id="15" Path="static_objects/dungeonbase/wall/default_short.dae" />
+                <File Id="16" Path="static_objects/dungeonbase/wall/default_extension_short.dae" />
+                <File Id="17" Path="static_objects/dungeonbase/ceiling/concave.dae" />
+                <File Id="18" Path="static_objects/dungeonbase/special/torture_podium_square_4way.dae" />
+                <File Id="19" Path="static_objects/dungeonbase/wall/default_extension_arch.dae" />
+                <File Id="20" Path="static_objects/dungeonbase/special/welder_sewer_stone02.dae" />
+                <File Id="21" Path="static_objects/dungeonbase/ceiling/corner_convex_short.dae" />
+                <File Id="22" Path="static_objects/dungeonbase/ceiling/corner_concave_short.dae" />
+                <File Id="23" Path="static_objects/dungeonbase/ceiling/concave_short.dae" />
+                <File Id="24" Path="static_objects/dungeonbase/wall/welder_stone.dae" />
+                <File Id="25" Path="static_objects/dungeonbase/pillar/gigantic_broken_bottom.dae" />
+                <File Id="26" Path="static_objects/dungeonbase/pillar/gigantic_broken_middle.dae" />
+                <File Id="27" Path="static_objects/dungeonbase/pillar/gigantic_broken_top.dae" />
+                <File Id="28" Path="static_objects/machine/pipes/thick_four_cross01.dae" />
+                <File Id="29" Path="static_objects/machine/pipes/thick_straight_long.dae" />
+                <File Id="30" Path="static_objects/machine/pipes/thick_bend.dae" />
+                <File Id="31" Path="static_objects/machine/pipes/thick_straight_short.dae" />
+                <File Id="32" Path="static_objects/outside/foliage/zimmarman_grass02_brown_2sided.dae" />
+                <File Id="33" Path="static_objects/debris/rock/stone_large01_brown.dae" />
+                <File Id="34" Path="static_objects/debris/rock/stone_small01_brown.dae" />
+                <File Id="35" Path="static_objects/dungeonbase/pillar/stone_round_large.dae" />
+                <File Id="36" Path="static_objects/debris/rock/stone_med02_brown.dae" />
+                <File Id="37" Path="static_objects/debris/rock/stone_med01_brown.dae" />
+                <File Id="38" Path="static_objects/dungeonbase/wall/welder_wood.dae" />
+                <File Id="39" Path="static_objects/debris/rock/stone_large02_brown.dae" />
+                <File Id="40" Path="static_objects/decals/dirt_floor01.dae" />
+                <File Id="41" Path="static_objects/dungeonbase/special/hub_decoration.dae" />
+                <File Id="42" Path="static_objects/dungeonbase/wall/default_broken.dae" />
+                <File Id="43" Path="static_objects/dungeonbase/wall/default_broken02.dae" />
+                <File Id="44" Path="static_objects/decals/pebbles03.dae" />
+                <File Id="45" Path="static_objects/decals/damaged_gigantic_stones01.dae" />
+                <File Id="46" Path="static_objects/decals/damaged_gigantic_stones02.dae" />
+                <File Id="47" Path="static_objects/debris/dungeonbase_floor_rock/floor_rock01.dae" />
+                <File Id="48" Path="static_objects/debris/dungeonbase_floor_rock/floor_rock02.dae" />
+                <File Id="49" Path="static_objects/decals/pebbles02.dae" />
+                <File Id="50" Path="static_objects/dungeonbase/wall/corridor_extension_2m_window.dae" />
+                <File Id="51" Path="static_objects/dungeonbase/ceiling/concave_broken.dae" />
+                <File Id="52" Path="static_objects/dungeonbase/wall/default_extension_arch_short.dae" />
+                <File Id="53" Path="static_objects/dungeonbase/wall/door_way_round.dae" />
+                <File Id="54" Path="static_objects/castlebase/ceiling/welder_wood_middle.dae" />
+                <File Id="55" Path="static_objects/dungeonbase/ceiling/default.dae" />
+                <File Id="56" Path="static_objects/castlebase/ceiling/welder_wood_edge.dae" />
+                <File Id="57" Path="static_objects/dungeonbase/wall/default02_extension.dae" />
+                <File Id="58" Path="static_objects/dungeonbase/wall/default02_short.dae" />
+                <File Id="59" Path="static_objects/machine/special/control_room_piston_base_floor_pipe.dae" />
+                <File Id="60" Path="static_objects/decals/creepers_side.dae" />
+                <File Id="61" Path="static_objects/decals/creepers_corner.dae" />
+                <File Id="62" Path="static_objects/decals/creepers_hole.dae" />
+                <File Id="63" Path="static_objects/decals/creepers.dae" />
+                <File Id="64" Path="static_objects/dungeonbase/wall/welder_wood_top.dae" />
+                <File Id="65" Path="static_objects/dungeonbase/ceiling/default_round_hole03.dae" />
+                <File Id="66" Path="static_objects/dungeonbase/special/well.dae" />
+                <File Id="67" Path="static_objects/machine/hanging_chain/hanging_chain.dae" />
+                <File Id="68" Path="static_objects/dungeonbase/ceiling/corridor_arched_to_concave.dae" />
+                <File Id="69" Path="static_objects/dungeonbase/wall/corridor_extension_2m.dae" />
+                <File Id="70" Path="static_objects/dungeonbase/wall/default_extension_diagonal.dae" />
+                <File Id="71" Path="static_objects/dungeonbase/wall/default02.dae" />
+                <File Id="72" Path="static_objects/dungeonbase/ceiling/corridor_arched_hole.dae" />
+                <File Id="73" Path="static_objects/dungeonbase/ceiling/default_round_hole02.dae" />
+                <File Id="74" Path="static_objects/dungeonbase/ceiling/default_round_hole_small.dae" />
+                <File Id="75" Path="static_objects/dungeonbase/wall/corner_convex_extension_diagonal.dae" />
+                <File Id="76" Path="static_objects/dungeonbase/wall/default_4x8.dae" />
+                <File Id="77" Path="static_objects/dungeonbase/special/torture_podium_square.dae" />
+                <File Id="78" Path="static_objects/dungeonbase/wall/corner_concave_extension_diagonal.dae" />
+                <File Id="79" Path="static_objects/dungeonbase/floor/chasm_edge_concave_broken.dae" />
+                <File Id="80" Path="static_objects/dungeonbase/special/tree_pillar.dae" />
+            </FileIndex_StaticObjects>
+            <FileIndex_Entities NumOfFiles="48">
+                <File Id="0" Path="entities/door/level_dungeon/level_dungeon.ent" />
+                <File Id="1" Path="entities/prison/iron_maiden/iron_maiden.ent" />
+                <File Id="2" Path="entities/lamp/candlestick_floor/candlestick_floor.ent" />
+                <File Id="3" Path="entities/item/potion_oil/potion_oil.ent" />
+                <File Id="4" Path="entities/item/potion_health/potion_health.ent" />
+                <File Id="5" Path="entities/item/tinderbox/tinderbox.ent" />
+                <File Id="6" Path="entities/prison/brazen_bull/brazen_bull.ent" />
+                <File Id="7" Path="entities/lamp/bonfire/bonfire.ent" />
+                <File Id="8" Path="entities/enemy/servant_brute/servant_brute.ent" />
+                <File Id="9" Path="entities/debris/rock_debris/rock_debris02.ent" />
+                <File Id="10" Path="entities/prison/torture_wheel/torture_wheel.ent" />
+                <File Id="11" Path="entities/prison/prisoner_cage/prisoner_cage.ent" />
+                <File Id="12" Path="entities/ornament/torchholder_empty/torchholder_empty.ent" />
+                <File Id="13" Path="entities/debris/rock/stone_small01_brown.ent" />
+                <File Id="14" Path="entities/debris/rock/stone_small01.ent" />
+                <File Id="15" Path="entities/debris/rock/stone_med01_brown.ent" />
+                <File Id="16" Path="entities/item/poison_gland/poison_gland.ent" />
+                <File Id="17" Path="entities/ornament/choir_pillar_lantern/choir_pillar_lantern.ent" />
+                <File Id="18" Path="entities/equipment/wooden_board/wooden_board03.ent" />
+                <File Id="19" Path="entities/door/prison/prison.ent" />
+                <File Id="20" Path="entities/organic/floor_ivy/floor_ivy.ent" />
+                <File Id="21" Path="entities/lamp/hanging_lantern/hanging_lantern_wall.ent" />
+                <File Id="22" Path="entities/equipment/wooden_board/wooden_board02.ent" />
+                <File Id="23" Path="entities/equipment/rope_pile/rope_stump01.ent" />
+                <File Id="24" Path="entities/equipment/rope_pile/rope_stump02.ent" />
+                <File Id="25" Path="entities/equipment/rope_pile/rope_pile.ent" />
+                <File Id="26" Path="entities/special/poison_fungi_breakable/poison_fungi_breakable.ent" />
+                <File Id="27" Path="entities/organic/sewer_fungi/sewer_fungi2.ent" />
+                <File Id="28" Path="entities/item/orbpiece/orbpiece_scarlet.ent" />
+                <File Id="29" Path="entities/item/orbpiece/orbpiece_emerald.ent" />
+                <File Id="30" Path="entities/item/orbpiece/orbpiece_obsidian.ent" />
+                <File Id="31" Path="entities/prison/shackles/shackles.ent" />
+                <File Id="32" Path="entities/equipment/wooden_board/wooden_board01.ent" />
+                <File Id="33" Path="entities/equipment/chain_pipe/chain_pipe_mount_ceiling.ent" />
+                <File Id="34" Path="entities/equipment/chain_beam/chain_beam.ent" />
+                <File Id="35" Path="entities/organic/bone_pile_human/human_bone.ent" />
+                <File Id="36" Path="entities/equipment/sledge/sledge.ent" />
+                <File Id="37" Path="entities/lamp/torch_static01/torch_static01.ent" />
+                <File Id="38" Path="entities/organic/bone_pile_human/bone_pile_human1.ent" />
+                <File Id="39" Path="entities/organic/human_skull/human_skull.ent" />
+                <File Id="40" Path="entities/organic/human_bone/human_bone.ent" />
+                <File Id="41" Path="entities/equipment/rope_beam/rope_beam01.ent" />
+                <File Id="42" Path="entities/obstacles/sewer_grate/sewer_grate_rusty.ent" />
+                <File Id="43" Path="entities/door/hatch_drainage/hatch_drainage.ent" />
+                <File Id="44" Path="entities/equipment/wooden_board_pile/wooden_board_pile01.ent" />
+                <File Id="45" Path="entities/equipment/rope_beam/rope_beam02.ent" />
+                <File Id="46" Path="entities/technical/block_box/block_box.ent" />
+                <File Id="47" Path="entities/technical/commentary_icon/commentary_icon.ent" />
+            </FileIndex_Entities>
+            <FileIndex_Decals NumOfFiles="8">
+                <File Id="0" Path="textures/decals/blood_smear02.mat" />
+                <File Id="1" Path="textures/decals/blood_stain_small.mat" />
+                <File Id="2" Path="textures/decals/blood_smear01.mat" />
+                <File Id="3" Path="textures/decals/blood_hands01.mat" />
+                <File Id="4" Path="textures/decals/blood_pool01.mat" />
+                <File Id="5" Path="textures/decals/dirt_coal.mat" />
+                <File Id="6" Path="textures/decals/dirt_stain_large.mat" />
+                <File Id="7" Path="textures/decals/filth_rust.mat" />
+            </FileIndex_Decals>
+            <StaticObjects />
+            <Primitives />
+            <Decals />
+            <Entities>
+                <Entity Active="true" FileIndex="20" Group="0" ID="2877" Name="floor_ivy_16" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="29.1421 0.0059545 104.307">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ContainedItem" Value="None" />
+                        <Var Name="DisableBreakable" Value="false" />
+                        <Var Name="IsInsanityVision" Value="false" />
+                        <Var Name="VisionMaxSanity" Value="30" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="2906" Name="sewer_fungi2_15" Rotation="0 0 0" Scale="0.776806 0.782556 0.740403" Tag="" WorldPos="31.3484 0 103.081">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="5490" Name="sewer_fungi2_17" Rotation="0 0 0" Scale="0.785247 0.436 0.826447" Tag="" WorldPos="32.25 0 104.25">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="5492" Name="sewer_fungi2_19" Rotation="0 0 0" Scale="0.982824 0.434663 0.822529" Tag="" WorldPos="32 0 104.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="5491" Name="sewer_fungi2_18" Rotation="0 0 0" Scale="0.658937 0.741429 0.730918" Tag="" WorldPos="32.5 0 104.5">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="2908" Name="sewer_fungi2_16" Rotation="0 0 0" Scale="0.603949 0.618982 0.532847" Tag="" WorldPos="31.7968 0 104.092">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="2900" Name="sewer_fungi2_11" Rotation="0 0 0" Scale="0.785247 0.436 0.826447" Tag="" WorldPos="31.1303 0 104.223">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="ps_mushroom_cloud.ps" Group="0" ID="5579" MaxFadeDistanceEnd="25" MaxFadeDistanceStart="16" MinFadeDistanceEnd="0.5" MinFadeDistanceStart="1.5" Name="ParticleSystem_66" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="32.6053 0.464707 104.519" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="ps_mushroom_cloud.ps" Group="0" ID="5575" MaxFadeDistanceEnd="25" MaxFadeDistanceStart="16" MinFadeDistanceEnd="0.5" MinFadeDistanceStart="1.5" Name="ParticleSystem_63" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="31.7367 0.464707 104.25" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="ps_mushroom_cloud.ps" Group="0" ID="2910" MaxFadeDistanceEnd="20" MaxFadeDistanceStart="10" MinFadeDistanceEnd="0" MinFadeDistanceStart="1" Name="ParticleSystem_2" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="31.0514 0.165338 104.635" />
+                <ParticleSystem Active="true" Color="0.4 0.6 0.4 1" FadeAtDistance="true" File="ps_area_fog.ps" Group="0" ID="5580" MaxFadeDistanceEnd="25" MaxFadeDistanceStart="16" MinFadeDistanceEnd="0.5" MinFadeDistanceStart="1" Name="ParticleSystem_67" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="32.3406 0.892554 104.102" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="ps_mushroom_cloud.ps" Group="0" ID="5577" MaxFadeDistanceEnd="25" MaxFadeDistanceStart="16" MinFadeDistanceEnd="0.5" MinFadeDistanceStart="1.5" Name="ParticleSystem_65" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="31.1508 0.68633 104.549" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="ps_mushroom_cloud.ps" Group="0" ID="5576" MaxFadeDistanceEnd="25" MaxFadeDistanceStart="16" MinFadeDistanceEnd="0.5" MinFadeDistanceStart="1.5" Name="ParticleSystem_64" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="30.933 0.915061 104.013" />
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="ps_mushroom_cloud.ps" Group="0" ID="2909" MaxFadeDistanceEnd="25" MaxFadeDistanceStart="16" MinFadeDistanceEnd="0.5" MinFadeDistanceStart="1" Name="ParticleSystem_1" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="30.528 0.758321 104.131" />
+                <PointLight Active="true" CastShadows="false" DiffuseColor="0 0 0 0" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="5157" Name="PointLight_5" Radius="0.5" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="30.5761 0.822326 104.112" />
+                <Entity Active="true" FileIndex="26" Group="0" ID="2876" Name="poison_fungi_breakable" Rotation="0 0.600079 0" Scale="1 1 1" Tag="" WorldPos="30.361 0 104.239">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="PosionFungiBreak" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="true" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="InteractPoisionFungi" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ContainedItem" Value="None" />
+                        <Var Name="DisableBreakable" Value="false" />
+                        <Var Name="IsInsanityVision" Value="false" />
+                        <Var Name="VisionMaxSanity" Value="30" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="2903" Name="sewer_fungi2_10" Rotation="0 0 0" Scale="0.982824 0.434663 0.822529" Tag="" WorldPos="30.8939 0 104.449">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="2901" Name="sewer_fungi2_12" Rotation="0 0 0" Scale="0.658937 0.741429 0.730918" Tag="" WorldPos="31.3118 0 104.448">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="2902" Name="sewer_fungi2_13" Rotation="0 0 0" Scale="0.672927 0.9987 0.835163" Tag="" WorldPos="31.0187 0 104.746">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="2891" Name="sewer_fungi2_3" Rotation="0 0 0" Scale="0.764592 0.498679 0.449477" Tag="" WorldPos="30.4197 0 104.685">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="2896" Name="sewer_fungi2_8" Rotation="0 0 0" Scale="0.492673 0.960833 0.40011" Tag="" WorldPos="30.5027 0 104.578">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="2897" Name="sewer_fungi2_9" Rotation="0 0 0" Scale="0.591827 0.862832 0.61457" Tag="" WorldPos="30.2197 0 104.516">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="2892" Name="sewer_fungi2_4" Rotation="0 0 0" Scale="0.739232 0.901907 0.936918" Tag="" WorldPos="30.181 0 104.842">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="2893" Name="sewer_fungi2_5" Rotation="0 0 0" Scale="0.980096 0.783691 0.671352" Tag="" WorldPos="30.1735 0 103.573">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="2890" Name="sewer_fungi2_2" Rotation="0 0 0" Scale="0.982824 0.434663 0.822529" Tag="" WorldPos="30.487 0 103.689">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="2895" Name="sewer_fungi2_7" Rotation="0 0 0" Scale="0.653298 0.417066 0.840419" Tag="" WorldPos="30.1999 0 103.894">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="2904" Name="sewer_fungi2_14" Rotation="0 0 0" Scale="0.699423 0.646669 0.821815" Tag="" WorldPos="28.646 0 103.761">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="2894" Name="sewer_fungi2_6" Rotation="0 0 0" Scale="0.758165 0.553575 0.720792" Tag="" WorldPos="27.1063 0 104.374">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="20" Group="0" ID="2898" Name="floor_ivy_17" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="30.3251 0.0111148 102.535">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="false" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ContainedItem" Value="None" />
+                        <Var Name="DisableBreakable" Value="false" />
+                        <Var Name="IsInsanityVision" Value="false" />
+                        <Var Name="VisionMaxSanity" Value="30" />
+                    </UserVariables>
+                </Entity>
+                <ParticleSystem Active="true" Color="1 1 1 1" FadeAtDistance="true" File="ps_mushroom_cloud.ps" Group="0" ID="2911" MaxFadeDistanceEnd="20" MaxFadeDistanceStart="12" MinFadeDistanceEnd="0" MinFadeDistanceStart="1" Name="ParticleSystem_3" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="30.6634 0.165338 103.499" />
+                <Entity Active="true" FileIndex="38" Group="0" ID="3537" Name="bone_pile_human_bone_pile_human1_3" Rotation="0 0 0" Scale="1 1 1" Tag="" WorldPos="28.6914 -4.76837e-007 103.25">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="5493" Name="sewer_fungi2_20" Rotation="0 0 0" Scale="0.603949 0.618982 0.532847" Tag="" WorldPos="32.5 0 105.25">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Entity Active="true" FileIndex="27" Group="0" ID="5494" Name="sewer_fungi2_21" Rotation="3.14159 1.5708 3.14159" Scale="0.603949 0.618982 0.532847" Tag="" WorldPos="33 0 105">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="true" />
+                    </UserVariables>
+                </Entity>
+                <Area Active="true" AreaType="Script" Group="0" ID="4853" Mesh="" Name="AreaBreakFungi" Rotation="0 0 0" Scale="0.1 0.1 0.1" Tag="" WorldPos="30.4459 0.69183 104.095">
+                    <UserVariables>
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="true" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ItemInteraction" Value="false" />
+                        <Var Name="MaxFocusDistance" Value="-1" />
+                    </UserVariables>
+                </Area>
+                <Area Active="true" AreaType="Script" Group="0" ID="4855" Mesh="" Name="AreaBreakFungiParticles" Rotation="0 0 0" Scale="0.1 0.1 0.1" Tag="" WorldPos="30.4274 0.516729 104.192">
+                    <UserVariables>
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="true" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ItemInteraction" Value="false" />
+                        <Var Name="MaxFocusDistance" Value="-1" />
+                    </UserVariables>
+                </Area>
+                <Area Active="true" AreaType="Script" Group="0" ID="5472" Mesh="" Name="AreaPlant_14" Rotation="0 0 0" Scale="2 1 2" Tag="" WorldPos="30 0.5 103.5">
+                    <UserVariables>
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="true" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ItemInteraction" Value="false" />
+                        <Var Name="MaxFocusDistance" Value="-1" />
+                    </UserVariables>
+                </Area>
+                <Area Active="true" AreaType="Script" Group="0" ID="5495" Mesh="" Name="AreaPlant_24" Rotation="0 0 0" Scale="3 1 1" Tag="" WorldPos="31 0 104.25">
+                    <UserVariables>
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="true" />
+                        <Var Name="PlayerInteractCallback" Value="descFungus" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="true" />
+                        <Var Name="ItemInteraction" Value="false" />
+                        <Var Name="MaxFocusDistance" Value="-1" />
+                    </UserVariables>
+                </Area>
+                <Entity Active="false" FileIndex="16" Group="0" ID="4901" Name="poison_gland" Rotation="-2.7715 0.110648 2.88483" Scale="1.3 1.3 1.3" Tag="" WorldPos="30.3582 0.254969 104.325">
+                    <UserVariables>
+                        <Var Name="CastShadows" Value="true" />
+                        <Var Name="StaticPhysics" Value="true" />
+                        <Var Name="IsAffectedByDecal" Value="false" />
+                        <Var Name="CallbackFunc" Value="PickPoisonGland" />
+                        <Var Name="ConnectedProps" Value="" />
+                        <Var Name="ConnectionStateChangeCallback" Value="" />
+                        <Var Name="FullGameSave" Value="false" />
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="false" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="CustomSubItemTypeName" Value="" />
+                    </UserVariables>
+                </Entity>
+                <PointLight Active="true" CastShadows="false" DiffuseColor="0.696 0.931 0.886 0.686" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="5578" Name="PointLight_11" Radius="2" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="30.9727 0.980038 104.478" />
+                <PointLight Active="true" CastShadows="false" DiffuseColor="0.596 0.831 0.786 0.786" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0 0 0 1" FlickerOffFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffMaxLength="0" FlickerOffMinLength="0" FlickerOffPS="" FlickerOffRadius="0" FlickerOffSound="" FlickerOnFadeMaxLength="0" FlickerOnFadeMinLength="0" FlickerOnMaxLength="0" FlickerOnMinLength="0" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0" GoboAnimMode="None" Group="0" ID="3446" Name="PointLight_3" Radius="4.5" Rotation="0 0 0" Scale="1 1 1" ShadowResolution="High" ShadowsAffectDynamic="true" ShadowsAffectStatic="true" Tag="" WorldPos="30.5 1.25 103.75" />
+            </Entities>
+            <Misc />
+            <StaticObjectCombos />
+        </MapContents>
+    </MapData>
+</Level>

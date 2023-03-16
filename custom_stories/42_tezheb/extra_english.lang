@@ -1,0 +1,13 @@
+<LANGUAGE>
+	<RESOURCES />
+	<CATEGORY Name="CustomStoryMain">
+		<Entry Name="Description">This story takes back somewhere around the mid 2000s in a ruined castle figure out the history of the castle in question...</Entry>
+	</CATEGORY>
+	<CATEGORY Name="Levels">
+		<Entry Name="levelo">Outside</Entry>
+		<Entry Name="levelb">Hidden Underground Area</Entry>
+	</CATEGORY>
+	<CATEGORY Name="CustomCatLevels">
+		<Entry Name="CustomEntryLevel">I shouldn't go back outside i should explore instead.</Entry>
+	</CATEGORY>
+</LANGUAGE>

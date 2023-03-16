@@ -1,0 +1,10 @@
+void OnEnter()
+{
+	FadeOut(2.0f);
+	AddTimer("EndDemo",2.1f, "TimerEndDemo");
+}
+
+void TimerEndDemo(string &in asTimer)
+{
+	StartDemoEnd();	
+}

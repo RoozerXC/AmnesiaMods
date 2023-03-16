@@ -1,0 +1,163 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig GridSnap="false" GridSnapSeparation="0.250000" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0.000000 0.000000 20.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.916291" GridHeight="0.000000" GridPlane="2" Preset="0" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="20.000000 0.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.916291" GridHeight="0.000000" GridPlane="0" Preset="1" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.000000 20.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.916291" GridHeight="0.000000" GridPlane="1" Preset="2" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="2.550088 1.804024 -0.593711" CameraTarget="-0.111803 0.627765 -0.488257" CameraZoom="2.843146" GridHeight="0.000000" GridPlane="1" Preset="3" RenderMode="0" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <UserDefinedVariables EntitySubType="" EntityType="Enemy_Grunt">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="SightRange" Value="20" />
+        <Var Name="DarknessSightRange" Value="5" />
+        <Var Name="HearVolume" Value="0.55" />
+        <Var Name="FOV" Value="120" />
+        <Var Name="FOVXMul" Value="1" />
+        <Var Name="ActivationDistance" Value="40" />
+        <Var Name="MaxRegenHealth" Value="100"/>
+	<Var Name="RegenHealthSpeed" Value="5"/>
+        <Var Name="DangerMusic" Value="dan_grunt.ogg" />
+        <Var Name="DangerMusicPrio" Value="0" />
+        <Var Name="SearchMusic" Value="search_grunt.ogg" />
+        <Var Name="SearchMusicPrio" Value="0" />
+        <Var Name="AttackMusic" Value="att_grunt.ogg" />
+        <Var Name="AttackMusicPrio" Value="0" />
+        <Var Name="PlayerSearchMaxAngle" Value="45" />
+        <Var Name="PlayerSearchMinDistMul" Value="0.5" />
+        <Var Name="PlayerSearchMaxDistMul" Value="2" />
+        <Var Name="PlayerSearchTime" Value="10" />
+        <Var Name="PlayerPatrolMaxAngle" Value="110" />
+        <Var Name="PlayerPatrolMinDist" Value="8" />
+        <Var Name="PlayerPatrolMaxDist" Value="18" />
+        <Var Name="Body_Size" Value="1.2 1.85 1.2" />
+        <Var Name="Body_Mass" Value="5" />
+        <Var Name="Body_AccurateClimbing" Value="true" />
+        <Var Name="Body_MaxNoSlideSlopeAngle" Value="45" />
+        <Var Name="Body_MaxPushMass" Value="400" />
+        <Var Name="Body_PushForce" Value="20000" />
+        <Var Name="Body_CharacterMaxPushMass" Value="200" />
+        <Var Name="Body_CharacterPushForce" Value="5000" />
+        <Var Name="Body_MaxStepSize" Value="0.5" />
+        <Var Name="Body_StepClimbSpeed" Value="6.0" />
+        <Var Name="Body_OffsetRot" Value="0 180 0" />
+        <Var Name="Body_OffsetTrans" Value="0 -0.02 0" />
+        <Var Name="Walk_ForwardSpeed" Value="1.3" />
+        <Var Name="Walk_BackwardSpeed" Value="0.4" />
+        <Var Name="Walk_ForwardAcc" Value="2.0" />
+        <Var Name="Walk_ForwardDeacc" Value="18.0" />
+        <Var Name="Run_ForwardSpeed" Value="10" />
+        <Var Name="Run_BackwardSpeed" Value="2.0" />
+        <Var Name="Run_ForwardAcc" Value="5.0" />
+        <Var Name="Run_ForwardDeacc" Value="8.0" />
+        <Var Name="TurnSpeedMul" Value="2" />
+        <Var Name="TurnMaxSpeed" Value="10" />
+        <Var Name="TurnMinBreakAngle" Value="10" />
+        <Var Name="TurnBreakMul" Value="2" />
+        <Var Name="MoveSpeedAnimMul" Value="1.2" />
+        <Var Name="StoppedToWalkSpeed" Value="0.15" />
+        <Var Name="WalkToStoppedSpeed" Value="0.1" />
+        <Var Name="WalkToRunSpeed" Value="3.2" />
+        <Var Name="RunToWalkSpeed" Value="2.8" />
+        <Var Name="WaterStepSpeedWalk" Value="3.0" />
+	<Var Name="WaterStepSpeedRun" Value="5.0" />
+	<Var Name="WaterStepSpeedMisc" Value="3.0" />
+	<Var Name="HitPS_Sword" Value="hit/blood.ps" />
+        <Var Name="HitSound_Sword" Value="grunt/hit_generic" />
+        <Var Name="HitPS_Club" Value="hit/blood.ps" />
+        <Var Name="HitSound_Club" Value="grunt/hit_generic" />
+        <Var Name="HitPS_Bullet" Value="hit/blood.ps" />
+        <Var Name="HitSound_Bullet" Value="grunt/hit_generic" />
+        <Var Name="HitPS_Dud" Value="" />
+        <Var Name="HitSound_Dud" Value="" />
+        <Var Name="AmbientSound_Idle" Value="hater/amb_idle" />
+        <Var Name="AmbientMinTime_Idle" Value="1" />
+        <Var Name="AmbientMaxTime_Idle" Value="3" />
+        <Var Name="AmbientSound_Alert" Value="hater/amb_alert" />
+        <Var Name="AmbientMinTime_Alert" Value="1" />
+        <Var Name="AmbientMaxTime_Alert" Value="3" />
+        <Var Name="AmbientSound_Hunt" Value="hater/amb_hunt" />
+        <Var Name="AmbientMinTime_Hunt" Value="1" />
+        <Var Name="AmbientMaxTime_Hunt" Value="3" />
+        <Var Name="NormalDamageSize" Value="1 1.6 1.75" />
+        <Var Name="NormalDamageOffset" Value="0 0 1.2" />
+        <Var Name="NormalAttackDistance" Value="1.9" />
+        <Var Name="NormalAttackHitSound" Value="grunt/attack_claw_hit" />
+        <Var Name="NormalAttackDamage" Value="10 20" />
+        <Var Name="NormalAttackForce" Value="90 60" />
+        <Var Name="NormalAttackStrength" Value="200" />
+        <Var Name="NormalDamageType" Value="Claws"/>
+        <Var Name="BreakDoorAttackDamage" Value="990 990" />
+        <Var Name="BreakDoorAttackForce" Value="900 500" />
+        <Var Name="BreakDoorAttackStrength" Value="600" />
+        <Var Name="BreakDoorAttackHitSound" Value="grunt/attack_claw_hit" />
+        <Var Name="BreakDoorDamageType" Value="BloodSplat"/>
+        <Var Name="NoticeSound" Value="hater/notice" />
+        <Var Name="EnabledSound" Value="hater/enabled" />
+        <Var Name="GroggyDamageCount" Value="1" />
+        <Var Name="AlertToHuntDistance" Value="9"/>
+        <Var Name="AlertToInstantHuntDistance" Value="2.5"/>
+        <Var Name="HuntPauseMinTime" Value="2.0"/>
+	<Var Name="HuntPauseMaxTime" Value="4.5" />
+	<Var Name="IncreaseAlertSpeedDistance" Value="6" />
+	<Var Name="IncreasedAlertSpeedMul" Value="1.25" />
+	<Var Name="AlertRunTowardsToHuntLimit" Value="30" />
+	<Var Name="AlertRunTowardsCheckDistance" Value="6" />
+	<Var Name="IdleExtraTimeMin" Value="2" />
+	<Var Name="IdleExtraTimeMax" Value="6" />
+	<Var Name="IdleExtraNum" Value="3" />
+    </UserDefinedVariables>
+    <ModelData Name="">
+        <Entities />
+        <Mesh Filename="H:/Lux/redist/entities/enemy/servant_grunt/servant_grunt.dae">
+            <SubMesh Active="true" GroupID="0" ID="0" Name="servant_grunt" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="0" Tag="" Type="12" WorldPos="0.000000 0.000000 0.000000" />
+        </Mesh>
+        <Shapes />
+        <Bodies />
+        <Joints />
+        <Animations>
+            <Animation File="servant_grunt/animations/idle.dae_anim" Name="Idle" SpecialEventTime="0.000000" Speed="1.000000" />
+            <Animation File="servant_grunt/animations/run.dae_anim" Name="Run" SpecialEventTime="0.000000" Speed="0.3000" >
+				<Event Time="0.2" Type="PlaySound" Value="grunt/leather_run" />
+            </Animation>
+            <Animation File="servant_grunt/animations/walk.dae_anim" Name="Walk" SpecialEventTime="0.000000" Speed="1.000000" >
+                <Event Time="0.5" Type="Step" Value="" />
+                <Event Time="0.5" Type="PlaySound" Value="grunt/leather_walk" />
+                <Event Time="1.5" Type="Step" Value="" />
+            </Animation>
+            <Animation File="servant_grunt/animations/attack_short1.dae_anim" Name="SwingClaws01" SpecialEventTime="0.500000" Speed="1.100000">
+                <Event Time="0.4" Type="PlaySound" Value="grunt/attack_claw" />
+            </Animation>
+            <Animation File="servant_grunt/animations/attack_short2.dae_anim" Name="SwingClaws02" SpecialEventTime="0.500000" Speed="1.100000">
+                <Event Time="0.4" Type="PlaySound" Value="grunt/attack_claw" />
+            </Animation>
+            <Animation File="servant_grunt/animations/attack_run.dae_anim" Name="SwingLaunch" SpecialEventTime="0.450000" Speed="1.000000">
+            	<Event Time="0.3" Type="Step" Value="" />
+                <Event Time="0.2" Type="PlaySound" Value="grunt/attack_launch" />
+                <Event Time="1.0" Type="Step" Value="" />
+            </Animation>
+            <Animation File="servant_grunt/animations/break_door.dae_anim" Name="BreakDoor" SpecialEventTime="0.500000" Speed="1.000000">
+                <Event Time="0.5" Type="PlaySound" Value="grunt/attack_launch" />
+            </Animation>
+            <Animation File="servant_grunt/animations/flinch.dae_anim" Name="Flinch" SpecialEventTime="0.000000" Speed="0.750000" >
+                <Event Time="0.1" Type="PlaySound" Value="grunt/amb_idle_scratch" />
+            </Animation>
+            <Animation File="servant_grunt/animations/idle_extra1.dae_anim" Name="IdleExtra1" SpecialEventTime="0.000000" Speed="1.000000" >
+                <Event Time="0.4" Type="PlaySound" Value="grunt/amb_idle_scratch" />
+            </Animation>
+            <Animation File="servant_grunt/animations/idle_extra2.dae_anim" Name="IdleExtra2" SpecialEventTime="0.000000" Speed="1.000000" >
+                <Event Time="0.2" Type="PlaySound" Value="grunt/amb_idle_whimp" />
+            </Animation>
+            <Animation File="servant_grunt/animations/idle_extra3.dae_anim" Name="IdleExtra3" SpecialEventTime="0.000000" Speed="1.000000" >
+                <Event Time="0.1" Type="PlaySound" Value="grunt/amb_idle_whimp" />
+            </Animation>
+            <Animation File="servant_grunt/animations/notice1.dae_anim" Name="Notice1" SpecialEventTime="0.000000" Speed="1.000000" >
+                <Event Time="0.01" Type="PlaySound" Value="grunt/notice" />
+            </Animation>
+            <Animation File="servant_grunt/animations/notice2.dae_anim" Name="Notice2" SpecialEventTime="0.000000" Speed="1.000000" >
+                <Event Time="0.01" Type="PlaySound" Value="grunt/notice_long" />
+            </Animation>
+        </Animations>
+    </ModelData>
+</Entity>

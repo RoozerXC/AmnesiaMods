@@ -1,0 +1,12 @@
+void OnStart()
+{
+
+	if(ScriptDebugOn())
+	{
+		GiveItem("lantern", "lantern", "Lantern", "lantern.tga", 1);
+	}
+
+	SetPlayerFallDamageDisabled(true);
+	SetSanityDrainDisabled(true);
+	PlayMusic("venom02.wav", true, 0.5f, 5, 0, true);
+}

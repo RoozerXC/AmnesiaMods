@@ -1,0 +1,12 @@
+void OnStart()
+{
+	PlayMusic("dungeon.ogg", false, 1, 0, 1, true);
+}
+void OnEnter()
+{
+	
+}
+void OnLeave()
+{
+	
+}

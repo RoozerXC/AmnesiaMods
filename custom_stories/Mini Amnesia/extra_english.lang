@@ -1,0 +1,17 @@
+<LANGUAGE>
+  <RESOURCES />
+  <CATEGORY Name="CustomStoryMain">
+    <Entry Name="Description">Where have you been? Get out of the excessed ways of the entire world then reach to your house.</Entry>
+  </CATEGORY>
+  <CATEGORY Name="Journal">
+    <Entry Name="Note_info_Name">
+    </Entry>
+    <Entry Name="Note_info_Text">I'm sick and tired of the days before... but where have you been? Get out... and go with him before.</Entry>
+  </CATEGORY>
+  <CATEGORY Name="Signs">
+    <Entry Name="Ending">Go Outside The Castle</Entry>
+  </CATEGORY>
+  <CATEGORY Name="Ending">
+    <Entry Name="MainCredits">Thanks for playing![br]Made by Roozy[br]</Entry>
+  </CATEGORY>
+</LANGUAGE>

@@ -1,0 +1,8 @@
+void OnStart()
+{
+        PlayMusic("castle_escape.ogg", false, 1, 0, 1, true);
+}
+void Exit(string &in asEntity)
+{
+	StartCredits("mandus.ogg", false, "Ending", "MainCredits", 9001);
+}

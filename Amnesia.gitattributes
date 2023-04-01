@@ -1,0 +1,21 @@
+# Asset files
+*.glsl       linguist-language=GLSL
+*.cfg        text diff=xml
+*.skin       text diff=xml
+*.dae        text diff=xml
+*.ent        text diff=xml
+*.mat        text diff=xml
+*.map        text diff=xml
+*.hps        linguist-language=AngelScript
+*.ps         text diff=xml
+*.snt        text diff=xml
+*.comment    text diff=xml
+*.flash      text diff=xml
+*.sav        text diff=xml
+*.save       text diff=xml
+*.nodes      text diff=xml
+
+# Cache files (usually ignored)
+*.msh        binary
+*.anm        binary
+*.map_cache  binary

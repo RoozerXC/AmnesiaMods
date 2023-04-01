@@ -1,12 +1,15 @@
-# Asset files
+# Linguist language-encoded asset files
 *.glsl       linguist-language=GLSL
+*.dae        linguist-language=COLLADA
+*.dae_anim   linguist-language=COLLADA
+*.hps        linguist-language=AngelScript
+
+# Asset files
 *.cfg        text diff=xml
 *.skin       text diff=xml
-*.dae        text diff=xml
 *.ent        text diff=xml
 *.mat        text diff=xml
 *.map        text diff=xml
-*.hps        linguist-language=AngelScript
 *.ps         text diff=xml
 *.snt        text diff=xml
 *.comment    text diff=xml

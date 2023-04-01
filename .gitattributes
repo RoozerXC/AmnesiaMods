@@ -5,18 +5,18 @@
 *.hps        linguist-language=AngelScript
 
 # Asset files
-*.cfg        text diff=xml
-*.skin       text diff=xml
-*.ent        text diff=xml
-*.mat        text diff=xml
-*.map        text diff=xml
-*.ps         text diff=xml
-*.snt        text diff=xml
-*.comment    text diff=xml
-*.flash      text diff=xml
-*.sav        text diff=xml
-*.save       text diff=xml
-*.nodes      text diff=xml
+*.cfg        linguist-language=XML
+*.skin       linguist-language=XML
+*.ent        linguist-language=XML
+*.mat        linguist-language=XML
+*.map        linguist-language=XML
+*.ps         linguist-language=XML
+*.snt        linguist-language=XML
+*.comment    linguist-language=XML
+*.flash      linguist-language=XML
+*.sav        linguist-language=XML
+*.save       linguist-language=XML
+*.nodes      linguist-language=XML
 
 # Cache files (usually ignored)
 *.msh        binary

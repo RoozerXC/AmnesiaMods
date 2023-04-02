@@ -6,6 +6,7 @@
 
 # Asset files
 *.cfg        linguist-language=XML
+*.lang       linguist-language=XML
 *.skin       linguist-language=XML
 *.ent        linguist-language=XML
 *.mat        linguist-language=XML

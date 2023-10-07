@@ -47,12 +47,14 @@ For full conversion mods:
 # Credits
 I forgot to mention a bunch of individuals and companies that made a bunch of assets that I've (obviously) stolen from their works just for lels and giggles, so here they are
 
+- Bethesda Softworks
 - Blizzard Entertainment
 - chemicataclysm
 - The Chinese Room
 - Epic Games
 - Frictional Games
 - Hazel Whorley
+- id Software
 - LivajQ (cannon mod)
 - Logan Felber
 - jaimewormsssss

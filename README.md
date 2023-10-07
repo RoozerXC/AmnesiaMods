@@ -47,7 +47,22 @@ For full conversion mods:
 # Credits
 I forgot to mention a bunch of individuals and companies that made a bunch of assets that I've (obviously) stolen from their works just for lels and giggles, so here they are
 
-Blizzard Entertainment, The Chinese Room, Epic Games, Frictional Games, Hazel Whorley, LivajQ, Logan Felber, Konami, Myuu, OddStuff, Raven Software, Red Line Games, xAmn, ZAPX
+- Blizzard Entertainment
+- chemicataclysm
+- The Chinese Room
+- Epic Games
+- Frictional Games
+- Hazel Whorley
+- LivajQ (cannon mod)
+- Logan Felber
+- jaimewormsssss
+- Konami
+- Myuu
+- OddStuff
+- Raven Software
+- Red Line Games
+- xAmn
+- ZAPX (Te Zheb)
 
 # License information
 Literally everything in here is licensed under WTFPL. For more details, please see `LICENSE` ;)

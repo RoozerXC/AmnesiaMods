@@ -19,7 +19,7 @@ Just a collection of all the mods that I've made for Amnesia: The Dark Descent o
 - Abberant
 - RoozyDB's madness
 
-### 2021 : Year of the Fallen I
+### 2021
 - 42_CS (earlier version of 42_FC)
 - 42_FC (expanded version of 42_CS)
 - Droppin Plates
@@ -29,7 +29,7 @@ Just a collection of all the mods that I've made for Amnesia: The Dark Descent o
 - Te Zheb (2 versions)
 - thinger
 
-### 2022 : Year of the Fallen II
+### 2022
 - [Madness Remix](https://github.com/RoozerXC/MadnessRemix)
 
 # How to install them
@@ -43,6 +43,11 @@ For full conversion mods:
 1. Place all folders from `full_conversions` into your own Amnesia install folder
 2. Go to one of the folders from the list above
 3. Click on the `bat` (Windows) or `sh` (Linux) file to launch the mod(s)
+
+# Credits
+I forgot to mention a bunch of individuals and companies that made a bunch of assets that I've (obviously) stolen from their works just for lels and giggles, so here they are
+
+Blizzard Entertainment, The Chinese Room, Epic Games, Frictional Games, Hazel Whorley, LivajQ, Logan Felber, Konami, Myuu, OddStuff, Raven Software, Red Line Games, xAmn, ZAPX
 
 # License information
 Literally everything in here is licensed under WTFPL. For more details, please see `LICENSE` ;)

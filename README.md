@@ -52,6 +52,7 @@ I forgot to mention a bunch of individuals and companies that made a bunch of as
 - chemicataclysm
 - The Chinese Room
 - Epic Games
+- Free3D
 - Frictional Games
 - Hazel Whorley
 - id Software
@@ -63,6 +64,7 @@ I forgot to mention a bunch of individuals and companies that made a bunch of as
 - OddStuff
 - Raven Software
 - Red Line Games
+- Stayd3D
 - xAmn
 - ZAPX (Te Zheb)
 

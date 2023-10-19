@@ -56,6 +56,7 @@ I forgot to mention a bunch of individuals and companies that made a bunch of as
 - Frictional Games
 - Hazel Whorley
 - id Software
+- Lester79 / Vaelius
 - LivajQ (cannon mod)
 - Logan Felber
 - jaimewormsssss
@@ -65,6 +66,7 @@ I forgot to mention a bunch of individuals and companies that made a bunch of as
 - Raven Software
 - Red Line Games
 - Stayd3D
+- Wrecx
 - xAmn
 - ZAPX (Te Zheb)
 

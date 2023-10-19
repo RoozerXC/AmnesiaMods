@@ -49,6 +49,7 @@ I forgot to mention a bunch of individuals and companies that made a bunch of as
 
 - Bethesda Softworks
 - Blizzard Entertainment
+- cc / machosalad / magictoast (Madness LMAO)
 - chemicataclysm
 - The Chinese Room
 - Epic Games
